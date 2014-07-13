@@ -81,7 +81,7 @@ app.listen(24702)
 console.log("Listening on " + 24702)
 
 //Start the scraper
-scraper.init(query);
+//scraper.init(query);
 
 //Get the most recent untagged JSON
 function getUntagged(res) {
