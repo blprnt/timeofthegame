@@ -45,8 +45,36 @@ app.get('/skewtool', function (req, res) {
 })
 
 app.get('/report/:id/:coords', function (req, res) {
+  var path = require('path'),
+          appDir = path.dirname(require.main.filename);
+
+
   var l = getUntagged(res);
   console.log("GOT UPDATE:" + req.params.id + ":   " + req.params.coords );
+  var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
+  var out;
+  for (var i = 0; i < files.length; i++) {
+  
+    var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
+    console.log(fj.id);
+    if (fj.id == req.params.id) {
+        fj.corners = req.params.coords;
+
+      
+        saveDir = appDir+ '/public/out/' + query;
+
+        var outputFilename = saveDir + '/data/' + fj.id + ".json";
+        fs.writeFile(outputFilename, JSON.stringify(fj, null, 4), function(err) {
+          if(err) {
+            console.log(err);
+          } else {
+            console.log("******************COORDINATE JSON saved to " + outputFilename);
+          }
+        }); 
+
+    }
+    
+  }
 })
 
 app.listen(24702)
@@ -66,21 +94,29 @@ function getUntagged(res) {
   var out;
   for (var i = 0; i < files.length; i++) {
     var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
-    if (!fj.corners) out = fj;
-    break;
+
+    if (!fj.corners) {
+      out = fj;
+      console.log("********** DELIVER " + fj.corners);
+      break;
+    }
   }
   res.render('skewtool',
   { title : 'SkewTool', defImage:out }
   )
 }
 
+
 //Get the full JSON from the directory
 function collectJSON(res) {
-  var files = fs.readdirSync(__dirname + '/out/' + query + '/data');
+  var path = require('path'),
+  appDir = path.dirname(require.main.filename);
+  console.log("APP DIR " + appDir)
+  var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
   var outs = [];
   for (var i = 0; i < files.length; i++) {
-    var fj = JSON.parse(fs.readFileSync(__dirname + '/out/' + query + '/data/' + files[i], "utf8"));
-    if (fj.timeofgame && fj.location) outs.push(fj)
+    var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
+    if (fj.corners) outs.push(fj)
   }
   console.log("SENDING " + outs.length + " RECORDS.");
   res.render('index',
