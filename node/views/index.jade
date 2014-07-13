@@ -5,10 +5,8 @@ extend layout
 block content
 
   script(type='text/javascript').
-      var defInput =!{JSON.stringify(defInput)}
-      var defCorpus =!{JSON.stringify(defCorpus)}
-      var deepLink = "test"  
-
+      var defTogJSON =!{JSON.stringify(defTogJSON)}
+    
   .mainblock
 
     
@@ -23,4 +21,7 @@ block content
     script(type='text/javascript', src="http://code.jquery.com/jquery-1.9.1.min.js")
     script.
 
+      console.log("GOT JSON." + defTogJSON)
+
   
+    
