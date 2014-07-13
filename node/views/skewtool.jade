@@ -26,6 +26,8 @@ block content
         $('#badButton').click(function() {
         console.log('BAD');
           submitSkew(false);
+          $('#result').show();
+          $('#msg').html("YOUR CODE IS: " + defImage.id);
         })
 
         $('#next').click(function() {
