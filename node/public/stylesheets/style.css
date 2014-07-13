@@ -112,6 +112,10 @@ body {
   background-color: #222;
   color: #ccc;
 }
+.canvii {
+  position: fixed;
+  top: 50px;
+}
 .tweetButton {
   position: fixed;
   top: 50%;

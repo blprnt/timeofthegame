@@ -40,9 +40,13 @@ app.get('/', function (req, res) {
 })
 
 app.get('/skewtool', function (req, res) {
-  res.render('skewtool',
-  { title : 'SkewTool' }
-  )
+  var l = getUntagged(res);
+  
+})
+
+app.get('/report/:id/:coords', function (req, res) {
+  var l = getUntagged(res);
+  console.log("GOT UPDATE:" + req.params.id + ":   " + req.params.coords );
 })
 
 app.listen(24702)
@@ -50,6 +54,25 @@ console.log("Listening on " + 24702)
 
 //Start the scraper
 //scraper.init(query);
+
+//Get the most recent untagged JSON
+function getUntagged(res) {
+
+  var path = require('path'),
+  appDir = path.dirname(require.main.filename);
+  console.log("APP DIR " + appDir)
+
+  var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
+  var out;
+  for (var i = 0; i < files.length; i++) {
+    var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
+    if (!fj.corners) out = fj;
+    break;
+  }
+  res.render('skewtool',
+  { title : 'SkewTool', defImage:out }
+  )
+}
 
 //Get the full JSON from the directory
 function collectJSON(res) {
