@@ -28,11 +28,12 @@ block content
       })
 
       console.log("GOT JSON." + JSON.stringify(defTogJSON))
-      var data = defTogJSON;
+      var allData = defTogJSON;
       var bmd;
       var currentImage;
       var invMat;
       var corners_out;
+      var data;
       
       /*
       var data = [
@@ -60,8 +61,19 @@ block content
                 [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 + target_height - 150], 
                 [(output.width - target_width)*0.5, (output.height - target_height)*0.5 + target_height -150]
               ];
+
+        setRandomData(100);
         
         render(data);
+      }
+
+      function setRandomData(num) {
+        data = [];
+        var fraction = num / allData.length;
+        console.log("fraction" + fraction);
+        for (var i = 0;i < allData.length; i++) {
+          if (Math.random() < fraction) data.push(allData[i]);
+        }
       }
       
       /*
