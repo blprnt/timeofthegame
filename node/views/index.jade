@@ -55,10 +55,10 @@ block content
         var target_height= 90;
         
         corners_out = [
-                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 ], 
-                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 ], 
-                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 + target_height], 
-                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 + target_height]
+                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 - 150 ], 
+                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 - 150], 
+                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 + target_height - 150], 
+                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 + target_height -150]
               ];
         
         render(data);
