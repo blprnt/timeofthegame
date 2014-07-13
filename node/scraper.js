@@ -46,7 +46,7 @@ var init = function() {
 }
 
 var startScrape = function() {
-  console.log("Starting scraper.");
+  console.log("Starting scraper!!!.");
   var stream = T.stream('statuses/filter', { track: searchQuery })
 
   stream.on('tweet', function (status) {
@@ -56,15 +56,27 @@ var startScrape = function() {
         var url = media[0].media_url;
         //We don't already have it, download it
         if (imageUrlMap[url] == undefined) {
-          console.log("NEW IMAGE:" + url);
+          console.log("NEW IMAGE!!!:" + url);
           download(url, saveDir + "/images/" + status.id + '.jpg', function(){
           
-          var testTweet = "29m Vancouver #timeofthegame";
+          console.log("GETTING MINUTE")
+          var testTweet = "Watching the game 29m Vancouver #timeofthegame 120m";
+          var myRe = new RegExp("([0-9]{1,3})[mM]+", "g");
+          var myArray = myRe.exec(testTweet);
+          console.log(myArray);
+
           
           });
           //Save the JSON
+          var out = {};
+          out.status = status;
+          out.timeofgame = tog;
+          out.location = location;
+          out.imageURL = url;
+          out.localURL = saveDir + "/images/" + status.id + '.jpg';
+
           var outputFilename = saveDir + '/data/' + status.id + ".json";
-          fs.writeFile(outputFilename, JSON.stringify(status, null, 4), function(err) {
+          fs.writeFile(outputFilename, JSON.stringify(out, null, 4), function(err) {
             if(err) {
               console.log(err);
             } else {
