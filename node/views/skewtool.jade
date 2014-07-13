@@ -15,8 +15,21 @@ block content
 
       $('document').ready(function() {
 
+        $('#result').hide();
+
         $('#testButton').click(function() {
-          submitSkew();
+          submitSkew(true);
+          $('#result').show();
+          $('#msg').html("YOUR CODE IS: " + defImage.id);
+        })
+
+        $('#badButton').click(function() {
+        console.log('BAD');
+          submitSkew(false);
+        })
+
+        $('#next').click(function() {
+          location.reload();
         })
 
         init();
@@ -26,10 +39,18 @@ block content
 
       })
 
-      function submitSkew() {
+      function submitSkew(good) {
         var out = [[corners_in[0].x, corners_in[0].y],[corners_in[1].x, corners_in[1].y],[corners_in[2].x, corners_in[2].y],[corners_in[3].x, corners_in[3].y]];
 
+        if (!good) out = [0];
+
+        /*
         $.get( "http://timeofthegame.o-c-r.org/report/" + defImage.id + "/" + out.toString(), function( data ) {
+          //alert( "Load was performed." + data );
+        });
+        //*/
+
+        $.get( "http://localhost:24702/report/" + defImage.id + "/" + out.toString(), function( data ) {
           //alert( "Load was performed." + data );
         });
 
@@ -44,6 +65,19 @@ block content
 
 
   .footer
-    | <div id="testButton">
-    |   Click here
+    | <p>
+    | Please drag the handles on the orange rectangle below to trace the inside edges of the screen showing the World Cup.
+    | </p>
+    | <button id="testButton">
+    |   Done! I found the TV and traced its outline.
+    | </button>
+    | <button id="badButton">
+    |   There's no TV here!
+    | </button>
+    | <div id="result">
+    | <div id="msg">Your code is 134325533</div>
+    | <button id="next">
+    |   Next ->
+    | </button>
     | </div>
+

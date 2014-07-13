@@ -41,9 +41,8 @@
       b_left_out = new qlib.LineSegment( b_top_out.p1,  b_bottom_out.p1);
       
       handles = [new qlib.Handle(b_top.p1),new qlib.Handle(b_top.p2),
-            new qlib.Handle(b_bottom.p1),new qlib.Handle(b_bottom.p2),
-            new qlib.Handle(b_top_out.p1),new qlib.Handle(b_top_out.p2),
-            new qlib.Handle(b_bottom_out.p1),new qlib.Handle(b_bottom_out.p2)];
+            new qlib.Handle(b_bottom.p1),new qlib.Handle(b_bottom.p2)
+            ];
       
       
       handleHolder = new createjs.Container()
@@ -228,6 +227,7 @@
       b_bottom.draw(g);
       b_left.draw(g);
       
+      g.beginStroke("#0000FF");
       b_top_out.draw(g);
       b_right_out.draw(g);
       b_bottom_out.draw(g);

@@ -58,7 +58,14 @@ app.get('/report/:id/:coords', function (req, res) {
     var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
     console.log(fj.id);
     if (fj.id == req.params.id) {
-        fj.corners = req.params.coords;
+
+        if (req.params.coords == 0) {
+          fj.dud = true;
+          console.log("FLAGGED DUD.")
+        }
+        else {
+          fj.corners = req.params.coords;
+        }
 
       
         saveDir = appDir+ '/public/out/' + query;
@@ -96,7 +103,7 @@ function getUntagged(res) {
     try {
       var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
 
-      if (!fj.corners) {
+      if (!fj.corners && !fj.dud) {
         out = fj;
         console.log("********** DELIVER " + fj.corners);
         break;
