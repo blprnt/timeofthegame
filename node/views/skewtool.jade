@@ -29,7 +29,7 @@ block content
       function submitSkew() {
         var out = [[corners_in[0].x, corners_in[0].y],[corners_in[1].x, corners_in[1].y],[corners_in[2].x, corners_in[2].y],[corners_in[3].x, corners_in[3].y]];
 
-        $.get( "http://localhost:24702/report/" + defImage.id + "/" + out.toString(), function( data ) {
+        $.get( "http://timeofthegame.o-c-r.org/report/" + defImage.id + "/" + out.toString(), function( data ) {
           //alert( "Load was performed." + data );
         });
 
