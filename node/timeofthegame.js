@@ -14,7 +14,7 @@ var express = require('express'),
     fs = require('fs')
 
 var app = express();
-var query = 'sandwich';
+var query = 'thetimeoftheday';
 
 var scraper = require('scraper.js');
 
