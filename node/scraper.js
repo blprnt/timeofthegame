@@ -58,7 +58,9 @@ var startScrape = function() {
         if (imageUrlMap[url] == undefined) {
           console.log("NEW IMAGE:" + url);
           download(url, saveDir + "/images/" + status.id + '.jpg', function(){
-             //console.log('done');
+          
+          var testTweet = "29m Vancouver #timeofthegame";
+          
           });
           //Save the JSON
           var outputFilename = saveDir + '/data/' + status.id + ".json";
