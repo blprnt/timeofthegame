@@ -93,12 +93,17 @@ function getUntagged(res) {
   var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
   var out;
   for (var i = 0; i < files.length; i++) {
-    var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
+    try {
+      var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
 
-    if (!fj.corners) {
-      out = fj;
-      console.log("********** DELIVER " + fj.corners);
-      break;
+      if (!fj.corners) {
+        out = fj;
+        console.log("********** DELIVER " + fj.corners);
+        break;
+      }
+    }
+    catch (err) {
+
     }
   }
   res.render('skewtool',
@@ -115,8 +120,13 @@ function collectJSON(res) {
   var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
   var outs = [];
   for (var i = 0; i < files.length; i++) {
-    var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
-    if (fj.corners) outs.push(fj)
+    try {
+      var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
+      if (fj.corners) outs.push(fj)
+    }
+    catch (err) {
+
+    }
   }
   console.log("SENDING " + outs.length + " RECORDS.");
   res.render('index',

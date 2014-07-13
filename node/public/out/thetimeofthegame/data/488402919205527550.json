@@ -4,5 +4,6 @@
     "timeofgame": "54",
     "location": "San Francisco",
     "imageURL": "http://pbs.twimg.com/media/Bscn3d0CMAEFM5p.jpg",
-    "localURL": "/images/488402919205527550.jpg"
+    "localURL": "/images/488402919205527550.jpg",
+    "corners": "267,177,643,154,654,373,275,387"
 }
