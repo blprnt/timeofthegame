@@ -1,0 +1,109 @@
+{
+    "created_at": "Thu Jul 10 19:00:34 +0000 2014",
+    "id": 487310425990909950,
+    "id_str": "487310425990909952",
+    "text": "You can't tell from the photo, but @terrykim3x8 is the one who took this group selfie with his super long arms. H... http://t.co/0pOWud57FT",
+    "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 2357790894,
+        "id_str": "2357790894",
+        "name": "Amanda Sierra",
+        "screen_name": "AmandaSirr",
+        "location": "Chetumal",
+        "url": null,
+        "description": "Le voy al cruz azul :)",
+        "protected": false,
+        "verified": false,
+        "followers_count": 32,
+        "friends_count": 168,
+        "listed_count": 1,
+        "favourites_count": 0,
+        "statuses_count": 6500,
+        "created_at": "Sun Feb 23 10:15:32 +0000 2014",
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": false,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/474559992087855104/GSxi7BJT.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/474559992087855104/GSxi7BJT.jpeg",
+        "profile_background_tile": true,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/474559795161083904/SG8Ke_OK_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/474559795161083904/SG8Ke_OK_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2357790894/1401978868",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": [],
+        "media": [
+            {
+                "id": 487310425751846900,
+                "id_str": "487310425751846912",
+                "indices": [
+                    117,
+                    139
+                ],
+                "media_url": "http://pbs.twimg.com/media/BsNGQBZIgAAeapI.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/BsNGQBZIgAAeapI.jpg",
+                "url": "http://t.co/0pOWud57FT",
+                "display_url": "pic.twitter.com/0pOWud57FT",
+                "expanded_url": "http://twitter.com/AmandaSirr/status/487310425990909952/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 640,
+                        "h": 640,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 600,
+                        "h": 600,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 340,
+                        "h": 340,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    }
+                }
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}
