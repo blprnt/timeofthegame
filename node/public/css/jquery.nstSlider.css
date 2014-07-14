@@ -36,17 +36,18 @@
 .rightLabel {
   display:inline;
   position:relative;
-  text-align:right;
+  text-align:left;
   top:-25px;
-  left:930px;
+  left:0px;
 }
 
 .leftLabel {
   display:inline;
   position:fixed;
   position:relative;
+  text-align:right;
   top:-25px;
-  left:5px;
+  left:-15px;
 }
 
 .nstSlider .bar {
