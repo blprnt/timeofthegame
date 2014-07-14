@@ -99,20 +99,24 @@ function getUntagged(res) {
 
   var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
   var out;
+  var candidates = []
   for (var i = 0; i < files.length; i++) {
     try {
       var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
 
       if (!fj.corners && !fj.dud) {
-        out = fj;
-        console.log("********** DELIVER " + fj.corners);
-        break;
+        candidates.push(fj)
+        //out = fj;
+        //console.log("********** DELIVER " + fj.corners);
+        //break;
       }
     }
     catch (err) {
 
     }
   }
+
+  out = candidates[Math.floor(Math.random() * candidates.length)];
   res.render('skewtool',
   { title : 'SkewTool', defImage:out }
   )
