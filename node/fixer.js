@@ -89,7 +89,7 @@ try {
 
               saveDir = appDir+ '/public/out/' + query;
 
-		        var outputFilename = saveDir + '/fixed/' + nfj.id + ".json";
+		        var outputFilename = saveDir + '/data/' + nfj.id + ".json";
 		        fs.writeFile(outputFilename, JSON.stringify(nfj, null, 4), function(err) {
 		          if(err) {
 		            console.log(err);
