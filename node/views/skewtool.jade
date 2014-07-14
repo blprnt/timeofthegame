@@ -15,16 +15,18 @@ block content
 
       $('document').ready(function() {
 
+
         $('#result').hide();
 
         $('#testButton').click(function() {
+          console.log('GOOD')
           submitSkew(true);
           $('#result').show();
           $('#msg').html("YOUR CODE IS: " + defImage.id);
         })
 
         $('#badButton').click(function() {
-        console.log('BAD');
+          console.log('BAD');
           submitSkew(false);
           $('#result').show();
           $('#msg').html("YOUR CODE IS: " + defImage.id);
@@ -68,7 +70,7 @@ block content
     | <canvas id="uiCanvas" width="1600" height="800" style="position:absolute;z-index:2;top:30;left:0;"></canvas>
 
 
-  .footer
+  div.buttons
     | <p>
     | Please drag the handles on the orange rectangle below to trace the inside edges of the screen showing the World Cup.
     | </p>
@@ -84,4 +86,6 @@ block content
     |   Next ->
     | </button>
     | </div>
+
+  .footer
 
