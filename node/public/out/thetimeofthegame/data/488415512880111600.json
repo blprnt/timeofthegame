@@ -4,5 +4,6 @@
     "timeofgame": "51",
     "location": "Palo Alto",
     "imageURL": "http://pbs.twimg.com/media/BsczUhzCcAEcXxp.jpg",
-    "localURL": "/images/488415512880111600.jpg"
+    "localURL": "/images/488415512880111600.jpg",
+    "corners": "382,173,665,139,660,324,382,325"
 }
