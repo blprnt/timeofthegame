@@ -56,6 +56,8 @@ block content
       var data;
       var w;
       var h;
+
+      var cityList = {};
       
         
       function init(){
@@ -70,7 +72,6 @@ block content
         
         output = document.getElementById('output');
 
-        
         
         var target_width = 160;
         var target_height= 90;
@@ -90,10 +91,22 @@ block content
       function setRandomData(num,minRange,maxRange) {
         console.log("SET RANDOM" + minRange + ":" + maxRange)
         candidates = [];
+        cityList = {};
 
         data = [];
         for (var i = 0;i < allData.length; i++) {
-          if (allData[i].timeofgame >= minRange && allData[i].timeofgame <= maxRange) candidates.push(allData[i]);
+          if (allData[i].timeofgame >= minRange && allData[i].timeofgame <= maxRange) {
+            candidates.push(allData[i]);
+            console.log(allData[i].location);
+            if (cityList[allData[i].location]) {
+              cityList[allData[i].location] = allData[i].location;
+            }
+          }
+        }
+
+        //trace cities
+        for(var n in cityList) {
+          console.log(n);
         }
 
         var fraction = num / candidates.length;
