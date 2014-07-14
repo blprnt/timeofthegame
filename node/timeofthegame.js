@@ -116,7 +116,8 @@ function getUntagged(res) {
     }
   }
 
-  out = candidates[Math.floor(Math.random() * candidates.length)];
+  var ind = Math.floor(Math.random() * candidates.length);
+  out = candidates[ind];
   res.render('skewtool',
   { title : 'SkewTool', defImage:out }
   )
