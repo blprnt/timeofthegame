@@ -1,0 +1,75 @@
+.is_clickable {
+  cursor: hand;
+  cursor: pointer;
+}
+.nstSlider {
+  cursor: hand;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: fixed;
+  left:0px;
+  top:93%;
+  width: 1000px;
+  height: 10px;
+  background: rgba(255,255,255,0.3);
+}
+.nstSlider .leftGrip.gripHighlighted {
+  background: #113344;
+}
+.nstSlider .rightGrip.gripHighlighted {
+  background: #113344;
+}
+.nstSlider .rightGrip,
+.nstSlider .leftGrip {
+  position: absolute;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  left:0px;
+  top:0px;
+  background: #ffffff;
+}
+
+.rightLabel {
+  display:inline;
+  position:relative;
+  text-align:right;
+  top:-25px;
+  left:930px;
+}
+
+.leftLabel {
+  display:inline;
+  position:fixed;
+  position:relative;
+  top:-25px;
+  left:5px;
+}
+
+.nstSlider .bar {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  background: rgba(255,255,255,0.3);
+  height: 8px;
+  top: 1px;
+}
+.nstSlider .highlightPanel {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  background: #e87722;
+  height: 20px;
+  top: 0;
+}
