@@ -26,6 +26,24 @@ block content
     script.
 
       $().ready(function() {
+
+        // Returns height of browser viewport
+        w = $( window ).width();
+         
+        // Returns height of HTML document
+        h = $( window ).height();
+
+        var canvas = document.createElement('canvas');
+        canvas.id     = "output";
+        canvas.width  = w;
+        canvas.height = h;
+
+        $('.canvii').append(canvas);
+
+        $('.nstSlider').css({'left': (w - 1000)/2 + "px"});
+
+
+
         init();
       })
 
@@ -42,11 +60,7 @@ block content
         
       function init(){
 
-        // Returns height of browser viewport
-        w = $( window ).width();
-         
-        // Returns height of HTML document
-        h = $( window ).height();
+        
 
         console.log($('#outputr'))
 
@@ -62,10 +76,10 @@ block content
         var target_height= 90;
         
         corners_out = [
-                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 - 150 ], 
-                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 - 150], 
-                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 + target_height - 150], 
-                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 + target_height -150]
+                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 - 10 ], 
+                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 - 10], 
+                [(output.width - target_width)*0.5 +target_width, (output.height - target_height)*0.5 + target_height - 10], 
+                [(output.width - target_width)*0.5, (output.height - target_height)*0.5 + target_height -10]
               ];
 
         setRandomData(100,0,120);
@@ -301,7 +315,7 @@ block content
       
 
   div.canvii
-    | <canvas id="output" width="1000px" height="1000px">
+    
 
   div.nstSlider(data-range_min="0", data-range_max="120",  data-cur_min="0",  data-cur_max="120" )
 
