@@ -45,6 +45,7 @@ app.get('/skewtool', function (req, res) {
 })
 
 app.get('/report/:id/:coords', function (req, res) {
+  console.log("REPORTING:" + req.params.coords)
   var path = require('path'),
           appDir = path.dirname(require.main.filename);
 
@@ -54,7 +55,7 @@ app.get('/report/:id/:coords', function (req, res) {
   var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
   var out;
   for (var i = 0; i < files.length; i++) {
-  
+    try {
     var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
     console.log(fj.id);
     if (fj.id == req.params.id) {
@@ -80,6 +81,9 @@ app.get('/report/:id/:coords', function (req, res) {
         }); 
 
     }
+  } catch(err) {
+    
+  }
     
   }
 })
