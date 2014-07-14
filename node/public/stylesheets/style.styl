@@ -31,7 +31,13 @@ body
 
 .canvii
   position:fixed;
-  top:75px;
+  top:0px;
+
+#output
+  position:fixed;
+  //width:1000px
+  //height:1000px
+  top:0px;
 
 .tweetButton
   position fixed
@@ -46,12 +52,20 @@ body
   &:hover { background-image: url('images/twitterLogoSmall.png') }
 
 .title
+  position:absolute;
   color:#7DC5FF
   font-size:36px
+  top:5px;
+  left:5px;
+  z-index:50;
 
 .subtitle
+  position:absolute;
   color:#CCCCCC
-  margin-left:20px
+  top:42px;
+  left:5px;
+  margin-left:10px
+  z-index:50;
 
 footer
   color #CCCCCC

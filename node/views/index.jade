@@ -16,11 +16,13 @@ block content
     
     .subtitle
       p
-        | Argentina vs. Germany, 7/13/14
+        | a synchronized global view of the World Cup
 
     script(type='text/javascript', src="tvmapping/js/easeljs-0.6.1.min.js")
     script(type='text/javascript', src="tvmapping/js/qlib_min.js")
     script(type='text/javascript', src="http://code.jquery.com/jquery-1.9.1.min.js")
+    script(type='text/javascript', src='js/jquery.nstSlider.min.js')
+    link(rel='stylesheet', href='css/jquery.nstSlider.css')
     script.
 
       $().ready(function() {
@@ -34,23 +36,27 @@ block content
       var invMat;
       var corners_out;
       var data;
+      var w;
+      var h;
       
-      /*
-      var data = [
-        {"status":"My bedroom, London, 11 minutes#thetimeofthegame. http://t.co/XqUHfjn9bC","id":488400941650292740,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmEHaCYAAkipR.jpg","localURL":"images/488400941650292740.jpg","corners":"50,50,300,50,300,300,50,300"},
-        {"status":"@tejucole minute 10. Lapa hood in #Rio #thetimeofthegame http://t.co/h4zDdTMqtc","id":488400974449741800,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmGIZIUAAU_xg.jpg","localURL":"images/488400974449741800.jpg","corners":"43,299,163,317,161,379,44,370"},
-        {"status":"Gainesville, Florida. 14th minute. #thetimeofthegame http://t.co/v8BF8zbSqL","id":488401028669509600,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmJdEIYAAU7wX.jpg","localURL":"images/488401028669509600.jpg","corners":"384,317,708,312,731,495,383,496"},
-        {"status":"Ottawa, Canada: 11th minute, #Neuer says \"nein!\" #thetimeofthegame http://t.co/D5v0EIzhor","id":488401036604760060,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmJlCCcAAREBA.jpg","localURL":"images/488401036604760060.jpg","corners":"36,161,794,207,759,642,12,577"},
-        {"status":"Göttingen, Germany, 12th minute #thetimeofthegame http://t.co/qJJucRBsW0","id":488401038186385400,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmI6dIMAE0HXO.jpg","localURL":"images/488401038186385400.jpg","corners":"250,305,580,291,594,488,242,497"},
-        {"status":"London. 15th min #thetimeofthegame http://t.co/fhVsWgczSN","id":488401040258371600,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmI0XCAAAGmVu.jpg","localURL":"images/488401040258371600.jpg","corners":"329,326,479,321,481,430,331,449"},
-        {"status":"Lagos, Nigeria. 12 minutes #thetimeofthegame http://t.co/CpHmjEIHgc","id":488401060663681000,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmJviIAAAfMT3.jpg","localURL":"images/488401060663681000.jpg","corners":"213,337,531,344,527,498,211,543"},
-        {"status":"Houston, TX #thetimeofthegame http://t.co/uj9Z3Os80c","id":488400938973933600,"timeofgame":"54","location":"San Francisco","imageURL":"http://pbs.twimg.com/media/BscmENZIcAACoFK.jpg","localURL":"images/488400938973933600.jpg","corners":"70,205,373,248,374,398,69,391"}
-        ];
-      */
         
       function init(){
+
+        // Returns height of browser viewport
+        w = $( window ).width();
+         
+        // Returns height of HTML document
+        h = $( window ).height();
+
+        console.log($('#outputr'))
+
+        console.log(w + ":" + h)
+
+        //$('#output').width(w).height(h)
         
         output = document.getElementById('output');
+
+        
         
         var target_width = 160;
         var target_height= 90;
@@ -62,18 +68,26 @@ block content
                 [(output.width - target_width)*0.5, (output.height - target_height)*0.5 + target_height -150]
               ];
 
-        setRandomData(100);
+        setRandomData(100,0,120);
         
-        render(data);
+        
       }
 
-      function setRandomData(num) {
+      function setRandomData(num,minRange,maxRange) {
+        console.log("SET RANDOM" + minRange + ":" + maxRange)
+        candidates = [];
+
         data = [];
-        var fraction = num / allData.length;
-        console.log("fraction" + fraction);
         for (var i = 0;i < allData.length; i++) {
-          if (Math.random() < fraction) data.push(allData[i]);
+          if (allData[i].timeofgame >= minRange && allData[i].timeofgame <= maxRange) candidates.push(allData[i]);
         }
+
+        var fraction = num / candidates.length;
+        console.log("fraction" + fraction);
+        for (var i = 0;i < candidates.length; i++) {
+          if (Math.random() < fraction) data.push(candidates[i]);
+        }
+        render(data);
       }
       
       /*
@@ -284,6 +298,48 @@ block content
         
       }
 
+      
+
   div.canvii
-    | <canvas id="output" width="1000" height="1000"></canvas>
+    | <canvas id="output" width="1000px" height="1000px">
+
+  div.nstSlider(data-range_min="0", data-range_max="120",  data-cur_min="0",  data-cur_max="120" )
+
+    div.leftGrip
+
+    div.rightGrip
+
+    div.bar
+
+    div.leftLabel
+    dib.rightLabel
+
+  script.
+    console.log($('.leftGrip'));
+    function initSlider() {
+
+        $('.nstSlider').nstSlider({
+            "left_grip_selector": ".leftGrip",
+            "right_grip_selector": ".rightGrip",
+            "value_bar_selector": ".bar",
+            "highlight": {
+                "grip_class": "gripHighlighted",
+                "panel_selector": ".highlightPanel"
+            },
+            "value_changed_callback": function(cause, leftValue, rightValue) {
+                $('.leftLabel').text(leftValue + "m");
+                $('.rightLabel').text(rightValue + "m");
+            },
+            "user_mouseup_callback": function(leftValue, rightValue, cause) {
+            console.log(cause + ":" + leftValue + ":" + rightValue);
+                setRandomData(100,leftValue,rightValue);
+            },
+        });
+
+        
+    }
+
+    initSlider();
+
+
 
