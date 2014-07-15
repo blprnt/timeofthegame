@@ -134,6 +134,7 @@ body {
   background-image: url("images/twitterLogoSmall.png");
 }
 .title {
+  font-family: 'Roboto Slab';
   position: absolute;
   color: #7dc5ff;
   font-size: 36px;

@@ -42,6 +42,14 @@ block content
 
         $('.nstSlider').css({'left': (w - 1000)/2 + "px"});
 
+        $('.cities').css({
+          position:'fixed',
+          top:"20px",
+          right:"0px",
+          width:(w - 250) + "px",
+          
+        })
+
 
 
         init();
@@ -56,6 +64,7 @@ block content
       var data;
       var w;
       var h;
+      var perAlpha;
 
       var cityList = {};
       
@@ -91,22 +100,38 @@ block content
       function setRandomData(num,minRange,maxRange) {
         console.log("SET RANDOM" + minRange + ":" + maxRange)
         candidates = [];
-        cityList = {};
+        cityList = [];
 
         data = [];
         for (var i = 0;i < allData.length; i++) {
           if (allData[i].timeofgame >= minRange && allData[i].timeofgame <= maxRange) {
             candidates.push(allData[i]);
-            console.log(allData[i].location);
-            if (cityList[allData[i].location]) {
-              cityList[allData[i].location] = allData[i].location;
+            if (allData[i].location != undefined) {
+            var loc = allData[i].location.toLowerCase().replace('.','');
+            if (!cityList[loc]) {
+              cityList[loc] = 1;
+            } else {
+              console.log("ALREADY HAD IT!");
+              cityList[loc]++;
+            }
             }
           }
         }
 
         //trace cities
+        console.log(cityList);
+
+        $('.cities').empty();
+
         for(var n in cityList) {
-          console.log(n);
+          if (cityList[n] > 1) {
+            console.log(n);
+            $('<p>', {
+              class:'city_tag'
+            }).html(n).appendTo($('.cities')).click(function() {
+              renderCity($(this).html());
+            })
+          }
         }
 
         var fraction = num / candidates.length;
@@ -115,6 +140,24 @@ block content
           if (Math.random() < fraction) data.push(candidates[i]);
         }
         render(data);
+      }
+
+      function renderCity(city) {
+        
+        candidates = [];
+
+        data = [];
+        for (var i = 0;i < allData.length; i++) {
+          if (allData[i].location != undefined) {
+            var loc = allData[i].location.toLowerCase().replace('.','');
+            if (loc == city) {
+              candidates.push(allData[i]);
+            }
+          }
+        }
+
+        render(candidates);
+
       }
       
       /*
@@ -154,6 +197,16 @@ block content
       
       function render(data, index)
       {
+        if (data.length > 30) {
+          perAlpha = 0.25;
+        } else if (data.length > 10) {
+          perAlpha = 0.35;
+        } else if (data.length > 1) {
+          perAlpha = 0.5;
+        } else {
+          perAlpha = 1;
+        }
+
         if ( index == null ) {
           index = 0;
           var context = output.getContext('2d');
@@ -165,7 +218,7 @@ block content
         {
           var img = currentImage = new Image();
           img.src = "out/thetimeofthegame" + data[index].localURL;
-          img.addEventListener("load", function() { renderImage(img,data[index].corners.split(","),0.25); render(data,index+1)}, false);
+          img.addEventListener("load", function() { renderImage(img,data[index].corners.split(","),perAlpha); render(data,index+1)}, false);
         }
       }
       
@@ -339,6 +392,8 @@ block content
       dib.rightLabel
 
     div.bar
+
+  div.cities
 
     
     
