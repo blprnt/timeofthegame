@@ -40,13 +40,16 @@ block content
 
         $('.canvii').append(canvas);
 
-        $('.nstSlider').css({'left': (w - 1000)/2 + "px"});
+        $('.nstSlider').css({
+          'left': 150 + "px",
+          'width': w - 300 + "px"
+        });
 
         $('.cities').css({
           position:'fixed',
           top:"20px",
           right:"0px",
-          width:(w - 250) + "px",
+          width:200 + "px",
           
         })
 
