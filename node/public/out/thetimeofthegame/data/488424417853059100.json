@@ -4,5 +4,6 @@
     "timeofgame": "86",
     "location": "Kelowna",
     "imageURL": "http://pbs.twimg.com/media/Bsc7a3CCQAAhM_2.jpg",
-    "localURL": "/images/488424417853059100.jpg"
+    "localURL": "/images/488424417853059100.jpg",
+    "corners": "-1,232,609,154,691,534,63,672"
 }

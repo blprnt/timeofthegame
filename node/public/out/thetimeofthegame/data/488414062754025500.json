@@ -4,5 +4,6 @@
     "timeofgame": "45",
     "location": "Laramie",
     "imageURL": "http://pbs.twimg.com/media/BscyAIvCEAAbSad.jpg",
-    "localURL": "/images/488414062754025500.jpg"
+    "localURL": "/images/488414062754025500.jpg",
+    "corners": "445,247,649,214,657,345,452,362"
 }

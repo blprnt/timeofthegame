@@ -4,5 +4,6 @@
     "timeofgame": "27",
     "location": "Umeå",
     "imageURL": "http://pbs.twimg.com/media/BscqAusCAAAJf_g.jpg",
-    "localURL": "/images/488405285992947700.jpg"
+    "localURL": "/images/488405285992947700.jpg",
+    "corners": "16,243,522,229,520,490,48,597"
 }

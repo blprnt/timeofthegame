@@ -4,5 +4,6 @@
     "timeofgame": "26",
     "location": "Seoul",
     "imageURL": "http://pbs.twimg.com/media/Bscpo3gCAAA1Xmf.jpg",
-    "localURL": "/images/488404867673645060.jpg"
+    "localURL": "/images/488404867673645060.jpg",
+    "corners": "206,253,614,196,624,495,202,491"
 }

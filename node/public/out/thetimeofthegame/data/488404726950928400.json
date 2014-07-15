@@ -4,5 +4,6 @@
     "timeofgame": "25",
     "location": "Agra",
     "imageURL": "http://pbs.twimg.com/media/BscpghsCcAAK2Ql.jpg",
-    "localURL": "/images/488404726950928400.jpg"
+    "localURL": "/images/488404726950928400.jpg",
+    "corners": "158,329,514,335,523,533,159,544"
 }

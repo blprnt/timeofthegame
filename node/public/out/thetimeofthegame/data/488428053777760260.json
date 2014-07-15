@@ -4,5 +4,6 @@
     "timeofgame": "3",
     "location": "Huntsville",
     "imageURL": "http://pbs.twimg.com/media/Bsc-uO7CIAACNlp.jpg",
-    "localURL": "/images/488428053777760260.jpg"
+    "localURL": "/images/488428053777760260.jpg",
+    "corners": "250,72,523,68,519,223,264,228"
 }

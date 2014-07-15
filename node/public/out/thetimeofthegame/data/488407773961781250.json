@@ -4,5 +4,6 @@
     "timeofgame": "40",
     "location": "Munich",
     "imageURL": "http://pbs.twimg.com/media/BscsQ9CCMAEfWXu.jpg",
-    "localURL": "/images/488407773961781250.jpg"
+    "localURL": "/images/488407773961781250.jpg",
+    "corners": "121,411,429,419,435,587,109,603"
 }

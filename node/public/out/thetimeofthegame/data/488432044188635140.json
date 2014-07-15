@@ -4,5 +4,6 @@
     "timeofgame": "118",
     "location": "Johannesburg",
     "imageURL": "http://pbs.twimg.com/media/BsdCWx_IcAApKML.jpg",
-    "localURL": "/images/488432044188635140.jpg"
+    "localURL": "/images/488432044188635140.jpg",
+    "corners": "318,240,536,240,533,364,317,363"
 }

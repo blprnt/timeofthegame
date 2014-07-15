@@ -4,5 +4,6 @@
     "timeofgame": "0",
     "location": "Oakland",
     "imageURL": "http://pbs.twimg.com/media/BscuRlmCAAEU317.jpg",
-    "localURL": "/images/488409971738947600.jpg"
+    "localURL": "/images/488409971738947600.jpg",
+    "corners": "336,208,531,195,532,319,337,324"
 }

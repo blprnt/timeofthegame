@@ -4,5 +4,6 @@
     "timeofgame": "7",
     "location": "South Africa",
     "imageURL": "http://pbs.twimg.com/media/BsdAPalIcAAIFW-.jpg",
-    "localURL": "/images/488429718354792450.jpg"
+    "localURL": "/images/488429718354792450.jpg",
+    "corners": "243,246,476,280,474,421,251,454"
 }

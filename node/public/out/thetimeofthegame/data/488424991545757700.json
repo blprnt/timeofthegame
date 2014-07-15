@@ -4,5 +4,6 @@
     "timeofgame": "0",
     "location": "Pérez",
     "imageURL": "http://pbs.twimg.com/media/Bsc78RzCQAAf2MV.jpg",
-    "localURL": "/images/488424991545757700.jpg"
+    "localURL": "/images/488424991545757700.jpg",
+    "corners": "286,297,565,238,558,526,283,506"
 }

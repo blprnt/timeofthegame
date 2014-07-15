@@ -1,0 +1,230 @@
+{
+    "created_at": "Sun Jul 13 15:41:50 +0000 2014",
+    "id": 488347579483426800,
+    "id_str": "488347579483426816",
+    "text": "RT @mcrbye: selfie 👽 http://t.co/kBsdW0NpBa",
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1881301248,
+        "id_str": "1881301248",
+        "name": "Aamna",
+        "screen_name": "WeightedFrnk",
+        "location": "",
+        "url": null,
+        "description": "Love My Fans",
+        "protected": false,
+        "followers_count": 1228,
+        "friends_count": 452,
+        "listed_count": 27,
+        "created_at": "Thu Sep 19 00:21:58 +0000 2013",
+        "favourites_count": 11948,
+        "utc_offset": -9000,
+        "time_zone": "Newfoundland",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 22455,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/488282674721992704/mDdvFKFL_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/488282674721992704/mDdvFKFL_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1881301248/1405250844",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Jul 13 12:57:57 +0000 2014",
+        "id": 488306334883123200,
+        "id_str": "488306334883123200",
+        "text": "selfie 👽 http://t.co/kBsdW0NpBa",
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1461626641,
+            "id_str": "1461626641",
+            "name": "isaac",
+            "screen_name": "mcrbye",
+            "location": "☹",
+            "url": "http://ask.fm/sophomorestumph",
+            "description": "maybe [ok][cool] can be our always",
+            "protected": false,
+            "followers_count": 3294,
+            "friends_count": 388,
+            "listed_count": 101,
+            "created_at": "Mon May 27 08:37:27 +0000 2013",
+            "favourites_count": 16409,
+            "utc_offset": 7200,
+            "time_zone": "Amsterdam",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 46947,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "4D4744",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000163786197/Q_OJs3Mq.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000163786197/Q_OJs3Mq.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/488293438253957121/yAYXfDlO_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/488293438253957121/yAYXfDlO_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1461626641/1405253203",
+            "profile_link_color": "524752",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 6,
+        "favorite_count": 10,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [],
+            "media": [
+                {
+                    "id": 488306329564762100,
+                    "id_str": "488306329564762112",
+                    "indices": [
+                        9,
+                        31
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BsbQBQNIUAAWGlC.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BsbQBQNIUAAWGlC.jpg",
+                    "url": "http://t.co/kBsdW0NpBa",
+                    "display_url": "pic.twitter.com/kBsdW0NpBa",
+                    "expanded_url": "http://twitter.com/mcrbye/status/488306334883123200/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 340,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 599,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 682,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "et"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "mcrbye",
+                "name": "isaac",
+                "id": 1461626641,
+                "id_str": "1461626641",
+                "indices": [
+                    3,
+                    10
+                ]
+            }
+        ],
+        "media": [
+            {
+                "id": 488306329564762100,
+                "id_str": "488306329564762112",
+                "indices": [
+                    21,
+                    43
+                ],
+                "media_url": "http://pbs.twimg.com/media/BsbQBQNIUAAWGlC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/BsbQBQNIUAAWGlC.jpg",
+                "url": "http://t.co/kBsdW0NpBa",
+                "display_url": "pic.twitter.com/kBsdW0NpBa",
+                "expanded_url": "http://twitter.com/mcrbye/status/488306334883123200/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 340,
+                        "h": 510,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 599,
+                        "h": 900,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 682,
+                        "h": 1024,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 488306334883123200,
+                "source_status_id_str": "488306334883123200"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "et"
+}

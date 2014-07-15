@@ -4,5 +4,6 @@
     "timeofgame": "28",
     "location": "Lagos",
     "imageURL": "http://pbs.twimg.com/media/BscqLjdIAAAbeda.jpg",
-    "localURL": "/images/488405469921165300.jpg"
+    "localURL": "/images/488405469921165300.jpg",
+    "corners": "107,245,538,249,525,424,128,432"
 }

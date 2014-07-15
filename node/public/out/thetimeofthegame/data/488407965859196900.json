@@ -4,5 +4,6 @@
     "timeofgame": "40",
     "location": "Karachi",
     "imageURL": "http://pbs.twimg.com/media/BscscnFCAAAIQk-.jpg",
-    "localURL": "/images/488407965859196900.jpg"
+    "localURL": "/images/488407965859196900.jpg",
+    "corners": "233,205,524,187,530,361,239,365"
 }

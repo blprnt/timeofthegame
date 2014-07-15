@@ -4,5 +4,6 @@
     "timeofgame": "54",
     "location": "Hamilton",
     "imageURL": "http://pbs.twimg.com/media/Bscqv1TCIAAGEhS.jpg",
-    "localURL": "/images/488406088643924000.jpg"
+    "localURL": "/images/488406088643924000.jpg",
+    "corners": "240,160,588,112,578,362,236,357"
 }

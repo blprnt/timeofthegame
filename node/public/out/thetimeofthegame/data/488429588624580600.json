@@ -4,5 +4,6 @@
     "timeofgame": "96",
     "location": "Eagan",
     "imageURL": "http://pbs.twimg.com/media/BsdAH0aCEAEL7ST.jpg",
-    "localURL": "/images/488429588624580600.jpg"
+    "localURL": "/images/488429588624580600.jpg",
+    "corners": "267,169,630,177,612,389,260,369"
 }

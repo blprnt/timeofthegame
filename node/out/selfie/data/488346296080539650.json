@@ -1,0 +1,252 @@
+{
+    "created_at": "Sun Jul 13 15:36:44 +0000 2014",
+    "id": 488346296080539650,
+    "id_str": "488346296080539648",
+    "text": "RT @Maserati_kush: “@DJZeeti: twitpic a selfie showing cleavage” http://t.co/PaT8QXoVZm",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 275072147,
+        "id_str": "275072147",
+        "name": "SA'",
+        "screen_name": "OfficialSA",
+        "location": "God",
+        "url": null,
+        "description": "Either way | IG; _Dopeblvck",
+        "protected": false,
+        "verified": false,
+        "followers_count": 254,
+        "friends_count": 75,
+        "listed_count": 1,
+        "favourites_count": 66,
+        "statuses_count": 53039,
+        "created_at": "Thu Mar 31 15:37:50 +0000 2011",
+        "utc_offset": -7200,
+        "time_zone": "Greenland",
+        "geo_enabled": false,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/453567394808492033/DSdqz4dm.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/453567394808492033/DSdqz4dm.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1414D1",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/480362664174952448/8QOjR5nw_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/480362664174952448/8QOjR5nw_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/275072147/1396972058",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Mon Jul 07 03:42:59 +0000 2014",
+        "id": 485992346673508350,
+        "id_str": "485992346673508352",
+        "text": "“@DJZeeti: twitpic a selfie showing cleavage” http://t.co/PaT8QXoVZm",
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": false,
+        "in_reply_to_status_id": 484013355296751600,
+        "in_reply_to_status_id_str": "484013355296751616",
+        "in_reply_to_user_id": 22147031,
+        "in_reply_to_user_id_str": "22147031",
+        "in_reply_to_screen_name": "DJZeeti",
+        "user": {
+            "id": 295809904,
+            "id_str": "295809904",
+            "name": "FEMALE ASSASIN ",
+            "screen_name": "Maserati_kush",
+            "location": "",
+            "url": null,
+            "description": "No worries for the next bitch moves ✋",
+            "protected": false,
+            "verified": false,
+            "followers_count": 1293,
+            "friends_count": 407,
+            "listed_count": 5,
+            "favourites_count": 311,
+            "statuses_count": 6094,
+            "created_at": "Mon May 09 18:06:42 +0000 2011",
+            "utc_offset": -18000,
+            "time_zone": "Quito",
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "D448CB",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif",
+            "profile_background_tile": false,
+            "profile_link_color": "B3009E",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "7AC3EE",
+            "profile_text_color": "3D1957",
+            "profile_use_background_image": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/486198859807621120/u49cSvhg_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/486198859807621120/u49cSvhg_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/295809904/1402696908",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 41,
+        "favorite_count": 103,
+        "entities": {
+            "hashtags": [],
+            "trends": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "DJZeeti",
+                    "name": "KDZT",
+                    "id": 22147031,
+                    "id_str": "22147031",
+                    "indices": [
+                        1,
+                        9
+                    ]
+                }
+            ],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 485992346472161300,
+                    "id_str": "485992346472161280",
+                    "indices": [
+                        46,
+                        68
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Br6XdtcIIAAMyab.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Br6XdtcIIAAMyab.jpg",
+                    "url": "http://t.co/PaT8QXoVZm",
+                    "display_url": "pic.twitter.com/PaT8QXoVZm",
+                    "expanded_url": "http://twitter.com/Maserati_kush/status/485992346673508352/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 340,
+                            "h": 321,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 566,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 966,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "Maserati_kush",
+                "name": "FEMALE ASSASIN ",
+                "id": 295809904,
+                "id_str": "295809904",
+                "indices": [
+                    3,
+                    17
+                ]
+            },
+            {
+                "screen_name": "DJZeeti",
+                "name": "KDZT",
+                "id": 22147031,
+                "id_str": "22147031",
+                "indices": [
+                    20,
+                    28
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 485992346472161300,
+                "id_str": "485992346472161280",
+                "indices": [
+                    65,
+                    87
+                ],
+                "media_url": "http://pbs.twimg.com/media/Br6XdtcIIAAMyab.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Br6XdtcIIAAMyab.jpg",
+                "url": "http://t.co/PaT8QXoVZm",
+                "display_url": "pic.twitter.com/PaT8QXoVZm",
+                "expanded_url": "http://twitter.com/Maserati_kush/status/485992346673508352/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 340,
+                        "h": 321,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 600,
+                        "h": 566,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 1024,
+                        "h": 966,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    }
+                },
+                "source_status_id": 485992346673508350,
+                "source_status_id_str": "485992346673508352"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

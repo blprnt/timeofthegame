@@ -4,5 +4,6 @@
     "timeofgame": "50",
     "location": "Missoula",
     "imageURL": "http://pbs.twimg.com/media/Bscz1qCCMAATwgJ.jpg",
-    "localURL": "/images/488416081682247700.jpg"
+    "localURL": "/images/488416081682247700.jpg",
+    "corners": "376,203,817,140,826,477,368,470"
 }

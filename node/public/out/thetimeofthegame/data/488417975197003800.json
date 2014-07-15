@@ -4,5 +4,6 @@
     "timeofgame": "46",
     "location": "Gothenburg",
     "imageURL": "http://pbs.twimg.com/media/Bsc1jzjCAAA82E8.jpg",
-    "localURL": "/images/488417975197003800.jpg"
+    "localURL": "/images/488417975197003800.jpg",
+    "corners": "570,330,802,339,800,519,555,481"
 }

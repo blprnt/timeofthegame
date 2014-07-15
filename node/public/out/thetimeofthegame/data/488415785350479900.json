@@ -4,5 +4,6 @@
     "timeofgame": "48",
     "location": "Mountain View",
     "imageURL": "http://pbs.twimg.com/media/BsczkYaCQAAiHVp.jpg",
-    "localURL": "/images/488415785350479900.jpg"
+    "localURL": "/images/488415785350479900.jpg",
+    "corners": "224,279,629,292,618,528,215,507"
 }

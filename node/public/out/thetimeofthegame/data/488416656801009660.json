@@ -4,5 +4,6 @@
     "timeofgame": "56",
     "location": "Prescott",
     "imageURL": "http://pbs.twimg.com/media/Bsc0XIeCEAAciFv.jpg",
-    "localURL": "/images/488416656801009660.jpg"
+    "localURL": "/images/488416656801009660.jpg",
+    "corners": "215,331,470,341,474,498,221,515"
 }

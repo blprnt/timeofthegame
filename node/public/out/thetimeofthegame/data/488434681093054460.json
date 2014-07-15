@@ -4,5 +4,6 @@
     "timeofgame": "8",
     "location": "Zambia",
     "imageURL": "http://pbs.twimg.com/media/BsdEwEMIAAAeY0I.jpg",
-    "localURL": "/images/488434681093054460.jpg"
+    "localURL": "/images/488434681093054460.jpg",
+    "corners": "308,178,475,157,471,291,309,288"
 }

@@ -4,5 +4,6 @@
     "timeofgame": "25",
     "location": "The Netherlands",
     "imageURL": "http://pbs.twimg.com/media/Bscod8sIAAArgUb.jpg",
-    "localURL": "/images/488403993811771400.jpg"
+    "localURL": "/images/488403993811771400.jpg",
+    "corners": "0,251,78,231,92,294,13,322"
 }

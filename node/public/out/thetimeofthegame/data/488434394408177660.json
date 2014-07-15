@@ -4,5 +4,6 @@
     "timeofgame": "1",
     "location": "Belgium.",
     "imageURL": "http://pbs.twimg.com/media/BsdEfZeIIAIQdoC.jpg",
-    "localURL": "/images/488434394408177660.jpg"
+    "localURL": "/images/488434394408177660.jpg",
+    "corners": "267,360,514,348,515,489,275,520"
 }

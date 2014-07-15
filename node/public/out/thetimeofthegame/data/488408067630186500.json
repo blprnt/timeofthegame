@@ -4,5 +4,6 @@
     "timeofgame": "41",
     "location": "Barcelona",
     "imageURL": "http://pbs.twimg.com/media/BscsjFPCEAEMN2K.jpg",
-    "localURL": "/images/488408067630186500.jpg"
+    "localURL": "/images/488408067630186500.jpg",
+    "corners": "211,207,608,214,603,444,197,429"
 }

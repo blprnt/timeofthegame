@@ -4,5 +4,6 @@
     "timeofgame": "40",
     "location": "Cork",
     "imageURL": "http://pbs.twimg.com/media/Bscs0F7IQAASBiZ.jpg",
-    "localURL": "/images/488408358207361000.jpg"
+    "localURL": "/images/488408358207361000.jpg",
+    "corners": "198,221,576,210,572,422,214,453"
 }

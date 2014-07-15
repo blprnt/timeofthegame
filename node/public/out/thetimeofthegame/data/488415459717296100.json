@@ -4,5 +4,6 @@
     "timeofgame": "49",
     "location": "Modesto",
     "imageURL": "http://pbs.twimg.com/media/BsczRbFCQAAk5fa.jpg",
-    "localURL": "/images/488415459717296100.jpg"
+    "localURL": "/images/488415459717296100.jpg",
+    "corners": "274,320,478,325,481,438,272,436"
 }

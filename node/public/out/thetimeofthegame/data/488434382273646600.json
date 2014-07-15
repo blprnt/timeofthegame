@@ -4,5 +4,6 @@
     "timeofgame": "112",
     "location": "calgary",
     "imageURL": "http://pbs.twimg.com/media/BsdEe4yCIAA1qFE.jpg",
-    "localURL": "/images/488434382273646600.jpg"
+    "localURL": "/images/488434382273646600.jpg",
+    "corners": "203,271,601,279,595,494,205,500"
 }

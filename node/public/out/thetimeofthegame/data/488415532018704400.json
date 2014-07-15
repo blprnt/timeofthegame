@@ -4,5 +4,6 @@
     "timeofgame": "51",
     "location": "Corner Brook",
     "imageURL": "http://pbs.twimg.com/media/BsczUjICMAA9o5I.jpg",
-    "localURL": "/images/488415532018704400.jpg"
+    "localURL": "/images/488415532018704400.jpg",
+    "corners": "208,374,525,367,526,555,206,548"
 }

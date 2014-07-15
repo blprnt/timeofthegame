@@ -4,5 +4,6 @@
     "timeofgame": "54",
     "location": "Harlem",
     "imageURL": "http://pbs.twimg.com/media/Bscqy_QCMAA87j1.jpg",
-    "localURL": "/images/488406141429239800.jpg"
+    "localURL": "/images/488406141429239800.jpg",
+    "corners": "200,266,591,275,590,497,198,494"
 }

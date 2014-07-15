@@ -4,5 +4,6 @@
     "timeofgame": "9",
     "location": "Agde",
     "imageURL": "http://pbs.twimg.com/media/Bsc-c2DCMAACXqq.jpg",
-    "localURL": "/images/488427750982946800.jpg"
+    "localURL": "/images/488427750982946800.jpg",
+    "corners": "224,285,400,278,402,381,227,386"
 }

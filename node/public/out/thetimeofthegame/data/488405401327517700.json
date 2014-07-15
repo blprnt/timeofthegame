@@ -4,5 +4,6 @@
     "timeofgame": "28",
     "location": "Vancouver",
     "imageURL": "http://pbs.twimg.com/media/BscqH9FCMAEtG7F.jpg",
-    "localURL": "/images/488405401327517700.jpg"
+    "localURL": "/images/488405401327517700.jpg",
+    "corners": "68,46,446,86,443,323,94,354"
 }

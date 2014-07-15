@@ -4,5 +4,6 @@
     "timeofgame": "46",
     "location": "Peterborough",
     "imageURL": "http://pbs.twimg.com/media/BscyLWjCUAIOH6Z.jpg",
-    "localURL": "/images/488414267754819600.jpg"
+    "localURL": "/images/488414267754819600.jpg",
+    "corners": "405,249,667,253,663,404,403,400"
 }

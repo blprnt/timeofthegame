@@ -4,5 +4,6 @@
     "timeofgame": "112",
     "location": "Germany",
     "imageURL": "http://pbs.twimg.com/media/BsdEvSqCUAAM-qB.jpg",
-    "localURL": "/images/488434665817395200.jpg"
+    "localURL": "/images/488434665817395200.jpg",
+    "dud": true
 }

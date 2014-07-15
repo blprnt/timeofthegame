@@ -4,5 +4,6 @@
     "timeofgame": "97",
     "location": "Brooklyn",
     "imageURL": "http://pbs.twimg.com/media/Bsc_wnuCYAA0OaX.jpg",
-    "localURL": "/images/488429199485464600.jpg"
+    "localURL": "/images/488429199485464600.jpg",
+    "corners": "410,378,620,364,623,505,402,501"
 }

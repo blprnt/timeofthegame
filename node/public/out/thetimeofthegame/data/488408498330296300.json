@@ -4,5 +4,6 @@
     "timeofgame": "16",
     "location": "Islamabad",
     "imageURL": "http://pbs.twimg.com/media/BscnBe5CMAASX7-.jpg",
-    "localURL": "/images/488408498330296300.jpg"
+    "localURL": "/images/488408498330296300.jpg",
+    "corners": "153,380,412,392,401,583,141,573"
 }

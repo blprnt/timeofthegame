@@ -4,5 +4,6 @@
     "timeofgame": "37",
     "location": "Oxford",
     "imageURL": "http://pbs.twimg.com/media/Bscro2vIQAAcP1z.jpg",
-    "localURL": "/images/488407318208729100.jpg"
+    "localURL": "/images/488407318208729100.jpg",
+    "corners": "254,98,450,181,442,302,240,247"
 }

@@ -4,5 +4,6 @@
     "timeofgame": "60",
     "location": "Brooklyn",
     "imageURL": "http://pbs.twimg.com/media/Bsc1WwgIMAA8dQI.jpg",
-    "localURL": "/images/488427698059243500.jpg"
+    "localURL": "/images/488427698059243500.jpg",
+    "dud": true
 }

@@ -4,5 +4,6 @@
     "timeofgame": "20",
     "location": "Stockholm",
     "imageURL": "http://pbs.twimg.com/media/BscomKiCAAAmS6-.jpg",
-    "localURL": "/images/488403723941842940.jpg"
+    "localURL": "/images/488403723941842940.jpg",
+    "corners": "146,304,725,283,729,644,136,629"
 }

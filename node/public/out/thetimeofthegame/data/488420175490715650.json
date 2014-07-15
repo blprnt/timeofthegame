@@ -4,5 +4,6 @@
     "timeofgame": "0",
     "location": "San Jose",
     "imageURL": "http://pbs.twimg.com/media/Bsc3j6tCIAA8ANY.jpg",
-    "localURL": "/images/488420175490715650.jpg"
+    "localURL": "/images/488420175490715650.jpg",
+    "corners": "32,208,758,172,716,722,22,571"
 }

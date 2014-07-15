@@ -4,5 +4,6 @@
     "timeofgame": "90",
     "location": "Lancaster UK",
     "imageURL": "http://pbs.twimg.com/media/Bsc9EJYIUAANiAa.jpg",
-    "localURL": "/images/488426242413453300.jpg"
+    "localURL": "/images/488426242413453300.jpg",
+    "corners": "32,153,729,217,674,550,55,627"
 }

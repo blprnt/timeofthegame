@@ -4,5 +4,6 @@
     "timeofgame": "48",
     "location": "São Paulo",
     "imageURL": "http://pbs.twimg.com/media/BscyrSvIUAAFr50.jpg",
-    "localURL": "/images/488414805095886850.jpg"
+    "localURL": "/images/488414805095886850.jpg",
+    "corners": "319,259,547,259,543,391,318,386"
 }

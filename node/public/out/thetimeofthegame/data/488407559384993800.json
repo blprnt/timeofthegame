@@ -4,5 +4,6 @@
     "timeofgame": "36",
     "location": "Durham",
     "imageURL": "http://pbs.twimg.com/media/BscsFlzCYAIjMnn.jpg",
-    "localURL": "/images/488407559384993800.jpg"
+    "localURL": "/images/488407559384993800.jpg",
+    "corners": "341,172,617,166,613,330,341,326"
 }

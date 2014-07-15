@@ -4,5 +4,6 @@
     "timeofgame": "39",
     "location": "USA",
     "imageURL": "http://pbs.twimg.com/media/BscsQ_OIYAE_rEL.jpg",
-    "localURL": "/images/488407755854983200.jpg"
+    "localURL": "/images/488407755854983200.jpg",
+    "corners": "245,299,523,296,522,460,240,455"
 }

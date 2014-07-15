@@ -4,5 +4,6 @@
     "timeofgame": "102",
     "location": "lyon",
     "imageURL": "http://pbs.twimg.com/media/BsdB5kzIIAAfiu9.jpg",
-    "localURL": "/images/488431546031153150.jpg"
+    "localURL": "/images/488431546031153150.jpg",
+    "corners": "413,305,560,310,553,405,407,395"
 }

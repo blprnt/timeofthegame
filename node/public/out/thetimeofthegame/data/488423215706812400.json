@@ -4,5 +4,6 @@
     "timeofgame": "75",
     "location": "Kauai",
     "imageURL": "http://pbs.twimg.com/media/Bsc6UwUCcAA2UqX.jpg",
-    "localURL": "/images/488423215706812400.jpg"
+    "localURL": "/images/488423215706812400.jpg",
+    "corners": "189,72,603,67,597,303,199,305"
 }

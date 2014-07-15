@@ -4,5 +4,6 @@
     "timeofgame": "50",
     "location": "Paris",
     "imageURL": "http://pbs.twimg.com/media/BsczMeSIYAAziFI.jpg",
-    "localURL": "/images/488415374183239700.jpg"
+    "localURL": "/images/488415374183239700.jpg",
+    "corners": "165,391,194,393,191,413,165,413"
 }

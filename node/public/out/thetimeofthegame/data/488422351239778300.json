@@ -4,5 +4,6 @@
     "timeofgame": "78",
     "location": "Kabul",
     "imageURL": "http://pbs.twimg.com/media/Bsc5QlqIMAEM-Yr.jpg",
-    "localURL": "/images/488422351239778300.jpg"
+    "localURL": "/images/488422351239778300.jpg",
+    "dud": true
 }

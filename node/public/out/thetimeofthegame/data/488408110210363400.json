@@ -4,5 +4,6 @@
     "timeofgame": "38",
     "location": "Jerusalem",
     "imageURL": "http://pbs.twimg.com/media/BscsiZyCIAAlTHn.jpg",
-    "localURL": "/images/488408110210363400.jpg"
+    "localURL": "/images/488408110210363400.jpg",
+    "corners": "305,321,477,314,481,413,308,419"
 }

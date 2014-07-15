@@ -4,5 +4,6 @@
     "timeofgame": "41",
     "location": "boca",
     "imageURL": "http://pbs.twimg.com/media/BscuctFCUAI9o05.jpg",
-    "localURL": "/images/488410156917862400.jpg"
+    "localURL": "/images/488410156917862400.jpg",
+    "corners": "96,599,224,490,259,599,162,727"
 }

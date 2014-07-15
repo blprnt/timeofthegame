@@ -1,0 +1,231 @@
+{
+    "created_at": "Sun Jul 13 15:42:51 +0000 2014",
+    "id": 488347836149280800,
+    "id_str": "488347836149280772",
+    "text": "RT @SteveStfler: Selfie vs someone taking a pic of you http://t.co/I44xfBiWCc",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 67604085,
+        "id_str": "67604085",
+        "name": "Sarnab das",
+        "screen_name": "sarnabdas13",
+        "location": "Calcutta,India",
+        "url": null,
+        "description": "21, Metallurgical Engineer, ManUtd, Dhoni, KKR, Fifa/FUT & Fantasy Football addict",
+        "protected": false,
+        "verified": false,
+        "followers_count": 174,
+        "friends_count": 800,
+        "listed_count": 0,
+        "favourites_count": 16,
+        "statuses_count": 2155,
+        "created_at": "Fri Aug 21 13:18:11 +0000 2009",
+        "utc_offset": 19800,
+        "time_zone": "New Delhi",
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000145875361/94ezgGAw.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000145875361/94ezgGAw.jpeg",
+        "profile_background_tile": false,
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/422365985329262592/9Rqoik9i_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/422365985329262592/9Rqoik9i_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/67604085/1386685331",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Jul 13 15:40:03 +0000 2014",
+        "id": 488347127924654100,
+        "id_str": "488347127924654080",
+        "text": "Selfie vs someone taking a pic of you http://t.co/I44xfBiWCc",
+        "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 102325442,
+            "id_str": "102325442",
+            "name": "Steve Stifler",
+            "screen_name": "SteveStfler",
+            "location": "",
+            "url": null,
+            "description": "Steve Stifler is here Bitches! (Parody Account)",
+            "protected": false,
+            "verified": false,
+            "followers_count": 1660122,
+            "friends_count": 292,
+            "listed_count": 2239,
+            "favourites_count": 3551,
+            "statuses_count": 49033,
+            "created_at": "Wed Jan 06 09:35:30 +0000 2010",
+            "utc_offset": 19800,
+            "time_zone": "Chennai",
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "1A1B1F",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000132617453/6i0RYzl-.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000132617453/6i0RYzl-.jpeg",
+            "profile_background_tile": false,
+            "profile_link_color": "EB0E0E",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "252429",
+            "profile_text_color": "666666",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000253726125/ffb31a7a5f87bf8b35e5ffbff964527d_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000253726125/ffb31a7a5f87bf8b35e5ffbff964527d_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/102325442/1378266118",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 123,
+        "favorite_count": 109,
+        "entities": {
+            "hashtags": [],
+            "trends": [],
+            "urls": [],
+            "user_mentions": [],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 488347127631052800,
+                    "id_str": "488347127631052801",
+                    "indices": [
+                        38,
+                        60
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Bsb1IA2IAAE0W-M.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Bsb1IA2IAAE0W-M.jpg",
+                    "url": "http://t.co/I44xfBiWCc",
+                    "display_url": "pic.twitter.com/I44xfBiWCc",
+                    "expanded_url": "http://twitter.com/SteveStfler/status/488347127924654080/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 599,
+                            "h": 337,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 339,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 599,
+                            "h": 337,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": true,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "SteveStfler",
+                "name": "Steve Stifler",
+                "id": 102325442,
+                "id_str": "102325442",
+                "indices": [
+                    3,
+                    15
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 488347127631052800,
+                "id_str": "488347127631052801",
+                "indices": [
+                    55,
+                    77
+                ],
+                "media_url": "http://pbs.twimg.com/media/Bsb1IA2IAAE0W-M.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Bsb1IA2IAAE0W-M.jpg",
+                "url": "http://t.co/I44xfBiWCc",
+                "display_url": "pic.twitter.com/I44xfBiWCc",
+                "expanded_url": "http://twitter.com/SteveStfler/status/488347127924654080/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 599,
+                        "h": 337,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 339,
+                        "h": 191,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 599,
+                        "h": 337,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 488347127924654100,
+                "source_status_id_str": "488347127924654080"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

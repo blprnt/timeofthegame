@@ -4,5 +4,6 @@
     "timeofgame": "102",
     "location": "Spain.",
     "imageURL": "http://pbs.twimg.com/media/BsdA3hvCMAALeb0.jpg",
-    "localURL": "/images/488430408850481150.jpg"
+    "localURL": "/images/488430408850481150.jpg",
+    "corners": "255,268,509,263,507,459,261,423"
 }

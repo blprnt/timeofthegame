@@ -4,5 +4,6 @@
     "timeofgame": "29",
     "location": "Winnipeg",
     "imageURL": "http://pbs.twimg.com/media/BscqGPlCQAAIxsE.jpg",
-    "localURL": "/images/488405372776874000.jpg"
+    "localURL": "/images/488405372776874000.jpg",
+    "corners": "189,106,680,100,678,374,196,389"
 }

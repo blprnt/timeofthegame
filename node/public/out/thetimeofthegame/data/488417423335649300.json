@@ -4,5 +4,6 @@
     "timeofgame": "56",
     "location": "Dorchester",
     "imageURL": "http://pbs.twimg.com/media/Bsc1DtjCAAAVXNj.jpg",
-    "localURL": "/images/488417423335649300.jpg"
+    "localURL": "/images/488417423335649300.jpg",
+    "corners": "411,299,486,306,486,367,410,362"
 }

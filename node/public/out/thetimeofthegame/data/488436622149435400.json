@@ -4,5 +4,6 @@
     "timeofgame": "119",
     "location": "Austin",
     "imageURL": "http://pbs.twimg.com/media/BsdGg_sCMAEv39W.jpg",
-    "localURL": "/images/488436622149435400.jpg"
+    "localURL": "/images/488436622149435400.jpg",
+    "corners": "341,359,387,369,374,406,330,399"
 }

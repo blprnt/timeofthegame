@@ -4,5 +4,6 @@
     "timeofgame": "65",
     "location": "Edmonton",
     "imageURL": "http://pbs.twimg.com/media/Bsc2XRnCcAEX63A.jpg",
-    "localURL": "/images/488418859406221300.jpg"
+    "localURL": "/images/488418859406221300.jpg",
+    "corners": "75,231,745,223,771,606,64,616"
 }

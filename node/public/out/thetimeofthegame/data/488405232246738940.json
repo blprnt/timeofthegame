@@ -4,5 +4,6 @@
     "timeofgame": "27",
     "location": "Wellington",
     "imageURL": "http://pbs.twimg.com/media/Bscp8WMCAAEE8rp.jpg",
-    "localURL": "/images/488405232246738940.jpg"
+    "localURL": "/images/488405232246738940.jpg",
+    "corners": "251,244,574,241,567,417,263,425"
 }

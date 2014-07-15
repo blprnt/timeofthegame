@@ -4,5 +4,6 @@
     "timeofgame": "70",
     "location": "St. Louis",
     "imageURL": "http://pbs.twimg.com/media/Bsc3gFwCIAARx1u.jpg",
-    "localURL": "/images/488420109770178560.jpg"
+    "localURL": "/images/488420109770178560.jpg",
+    "corners": "160,229,396,260,400,406,168,419"
 }

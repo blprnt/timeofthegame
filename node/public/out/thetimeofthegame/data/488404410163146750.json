@@ -4,5 +4,6 @@
     "timeofgame": "25",
     "location": "Yokohama",
     "imageURL": "http://pbs.twimg.com/media/BscpOOCCMAEnnUh.jpg",
-    "localURL": "/images/488404410163146750.jpg"
+    "localURL": "/images/488404410163146750.jpg",
+    "corners": "268,362,503,336,515,499,276,503"
 }

@@ -4,5 +4,6 @@
     "timeofgame": "47",
     "location": "Cape Town",
     "imageURL": "http://pbs.twimg.com/media/BscyNyVIUAA2RBK.jpg",
-    "localURL": "/images/488414303314513900.jpg"
+    "localURL": "/images/488414303314513900.jpg",
+    "corners": "368,379,727,317,766,542,373,562"
 }

@@ -4,5 +4,6 @@
     "timeofgame": "54",
     "location": "Peshawar",
     "imageURL": "http://pbs.twimg.com/media/Bsc2IEGCAAEMqXG.jpg",
-    "localURL": "/images/488418634016903200.jpg"
+    "localURL": "/images/488418634016903200.jpg",
+    "corners": "40,106,797,105,801,570,57,633"
 }

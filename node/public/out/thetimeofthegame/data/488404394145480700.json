@@ -4,5 +4,6 @@
     "timeofgame": "25",
     "location": "Cardiff",
     "imageURL": "http://pbs.twimg.com/media/BscpMK5CMAEwH5f.jpg",
-    "localURL": "/images/488404394145480700.jpg"
+    "localURL": "/images/488404394145480700.jpg",
+    "corners": "59,128,436,132,424,343,88,427"
 }

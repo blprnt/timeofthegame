@@ -4,5 +4,6 @@
     "timeofgame": "7",
     "location": "Jamaica",
     "imageURL": "http://pbs.twimg.com/media/BsczAwhCQAAI5sm.jpg",
-    "localURL": "/images/488415173934608400.jpg"
+    "localURL": "/images/488415173934608400.jpg",
+    "corners": "366,267,609,310,604,459,353,432"
 }

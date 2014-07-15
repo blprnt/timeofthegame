@@ -4,5 +4,6 @@
     "timeofgame": "70",
     "location": "Berkeley",
     "imageURL": "http://pbs.twimg.com/media/Bsc4GfJCEAEuMwU.jpg",
-    "localURL": "/images/488420769118961660.jpg"
+    "localURL": "/images/488420769118961660.jpg",
+    "corners": "95,277,458,236,452,404,134,452"
 }

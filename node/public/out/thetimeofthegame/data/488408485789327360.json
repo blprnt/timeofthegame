@@ -4,5 +4,6 @@
     "timeofgame": "19",
     "location": "Guatemala",
     "imageURL": "http://pbs.twimg.com/media/Bscnab_CYAA_dsc.jpg",
-    "localURL": "/images/488408485789327360.jpg"
+    "localURL": "/images/488408485789327360.jpg",
+    "corners": "122,222,457,174,461,373,128,384"
 }

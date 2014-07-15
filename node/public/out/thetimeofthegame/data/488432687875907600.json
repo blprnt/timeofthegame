@@ -4,5 +4,6 @@
     "timeofgame": "105",
     "location": "Somerville",
     "imageURL": "http://pbs.twimg.com/media/BsdC8PHIcAEuBh6.png",
-    "localURL": "/images/488432687875907600.jpg"
+    "localURL": "/images/488432687875907600.jpg",
+    "corners": "319,276,513,278,511,388,323,387"
 }

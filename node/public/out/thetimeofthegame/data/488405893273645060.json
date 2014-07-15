@@ -4,5 +4,6 @@
     "timeofgame": "34",
     "location": "Chile",
     "imageURL": "http://pbs.twimg.com/media/Bscqki1IAAAc6rQ.jpg",
-    "localURL": "/images/488405893273645060.jpg"
+    "localURL": "/images/488405893273645060.jpg",
+    "corners": "330,287,422,278,422,337,336,347"
 }

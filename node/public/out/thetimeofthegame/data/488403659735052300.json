@@ -4,5 +4,6 @@
     "timeofgame": "24",
     "location": "Columbus",
     "imageURL": "http://pbs.twimg.com/media/BscoidOCYAAeFvM.jpg",
-    "localURL": "/images/488403659735052300.jpg"
+    "localURL": "/images/488403659735052300.jpg",
+    "corners": "103,66,555,162,571,394,116,399"
 }

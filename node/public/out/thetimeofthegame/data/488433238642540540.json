@@ -4,5 +4,6 @@
     "timeofgame": "110",
     "location": "Amsterdam",
     "imageURL": "http://pbs.twimg.com/media/BsdDcUdIIAApoNS.jpg",
-    "localURL": "/images/488433238642540540.jpg"
+    "localURL": "/images/488433238642540540.jpg",
+    "dud": true
 }

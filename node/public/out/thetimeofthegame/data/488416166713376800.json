@@ -4,5 +4,6 @@
     "timeofgame": "14",
     "location": "Auckland",
     "imageURL": "http://pbs.twimg.com/media/Bscz6dECYAEM0Sm.jpg",
-    "localURL": "/images/488416166713376800.jpg"
+    "localURL": "/images/488416166713376800.jpg",
+    "corners": "108,316,418,332,411,504,105,489"
 }

@@ -4,5 +4,6 @@
     "timeofgame": "54",
     "location": "Melbourne",
     "imageURL": "http://pbs.twimg.com/media/BscobvnCEAA8GsV.jpg",
-    "localURL": "/images/488403543045320700.jpg"
+    "localURL": "/images/488403543045320700.jpg",
+    "corners": "30,290,601,293,598,622,34,608"
 }

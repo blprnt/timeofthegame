@@ -4,5 +4,6 @@
     "timeofgame": "60",
     "location": "Queens",
     "imageURL": "http://pbs.twimg.com/media/Bsc3ZndIEAA4acY.jpg",
-    "localURL": "/images/488419998160150500.jpg"
+    "localURL": "/images/488419998160150500.jpg",
+    "corners": "207,191,339,187,344,270,217,281"
 }

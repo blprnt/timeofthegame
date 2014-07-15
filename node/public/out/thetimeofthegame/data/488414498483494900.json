@@ -4,5 +4,6 @@
     "timeofgame": "09",
     "location": "Los Angeles",
     "imageURL": "http://pbs.twimg.com/media/BscyZVjCQAAgNxT.jpg",
-    "localURL": "/images/488414498483494900.jpg"
+    "localURL": "/images/488414498483494900.jpg",
+    "corners": "385,262,515,297,513,426,378,422"
 }

@@ -4,5 +4,6 @@
     "timeofgame": "106",
     "location": "Fort Worth",
     "imageURL": "http://pbs.twimg.com/media/BsdC4cLCUAE5f9f.jpg",
-    "localURL": "/images/488432623866626050.jpg"
+    "localURL": "/images/488432623866626050.jpg",
+    "corners": "267,339,578,286,600,480,282,519"
 }

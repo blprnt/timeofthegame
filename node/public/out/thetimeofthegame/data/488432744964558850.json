@@ -4,5 +4,6 @@
     "timeofgame": "105",
     "location": "Örebro",
     "imageURL": "http://pbs.twimg.com/media/BsdC_jOIQAEHh1X.jpg",
-    "localURL": "/images/488432744964558850.jpg"
+    "localURL": "/images/488432744964558850.jpg",
+    "corners": "112,214,680,261,683,562,110,607"
 }

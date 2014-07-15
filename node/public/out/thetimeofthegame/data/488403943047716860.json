@@ -4,5 +4,6 @@
     "timeofgame": "24",
     "location": "Toronto",
     "imageURL": "http://pbs.twimg.com/media/BscoyAmCQAEM4te.jpg",
-    "localURL": "/images/488403943047716860.jpg"
+    "localURL": "/images/488403943047716860.jpg",
+    "corners": "247,254,594,256,592,449,246,452"
 }

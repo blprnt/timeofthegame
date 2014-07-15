@@ -4,5 +4,6 @@
     "timeofgame": "46",
     "location": "Washington",
     "imageURL": "http://pbs.twimg.com/media/BscySJKCYAA-VSM.jpg",
-    "localURL": "/images/488414372960546800.jpg"
+    "localURL": "/images/488414372960546800.jpg",
+    "corners": "45,186,801,214,808,646,40,658"
 }

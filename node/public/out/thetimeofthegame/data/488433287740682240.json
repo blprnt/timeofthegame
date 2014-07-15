@@ -4,5 +4,6 @@
     "timeofgame": "108",
     "location": "Canberra",
     "imageURL": "http://pbs.twimg.com/media/BsdDfLMCUAMe9uT.jpg",
-    "localURL": "/images/488433287740682240.jpg"
+    "localURL": "/images/488433287740682240.jpg",
+    "corners": "322,305,703,306,723,524,326,541"
 }

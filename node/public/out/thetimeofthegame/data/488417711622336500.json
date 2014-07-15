@@ -4,5 +4,6 @@
     "timeofgame": "60",
     "location": "Jeddah",
     "imageURL": "http://pbs.twimg.com/media/Bsc1Uh4CYAEaJm4.jpg",
-    "localURL": "/images/488417711622336500.jpg"
+    "localURL": "/images/488417711622336500.jpg",
+    "corners": "179,182,646,174,630,439,188,435"
 }

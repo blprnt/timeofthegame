@@ -4,5 +4,6 @@
     "timeofgame": "35",
     "location": "Nairobi",
     "imageURL": "http://pbs.twimg.com/media/BscrUqNCYAEQ9st.jpg",
-    "localURL": "/images/488406768918495200.jpg"
+    "localURL": "/images/488406768918495200.jpg",
+    "corners": "259,362,679,354,673,622,253,613"
 }

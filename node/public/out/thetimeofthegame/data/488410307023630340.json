@@ -4,5 +4,6 @@
     "timeofgame": "46",
     "location": "Dubai",
     "imageURL": "http://pbs.twimg.com/media/BsculhzIQAEs9PU.jpg",
-    "localURL": "/images/488410307023630340.jpg"
+    "localURL": "/images/488410307023630340.jpg",
+    "corners": "229,1,546,191,562,392,226,242"
 }

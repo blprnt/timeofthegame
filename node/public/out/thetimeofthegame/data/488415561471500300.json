@@ -4,5 +4,6 @@
     "timeofgame": "50",
     "location": "Het Bildt",
     "imageURL": "http://pbs.twimg.com/media/BsczXXPIQAAZbRj.jpg",
-    "localURL": "/images/488415561471500300.jpg"
+    "localURL": "/images/488415561471500300.jpg",
+    "corners": "220,391,587,386,588,604,220,592"
 }

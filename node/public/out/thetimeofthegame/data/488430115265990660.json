@@ -4,5 +4,6 @@
     "timeofgame": "100",
     "location": "Helena",
     "imageURL": "http://pbs.twimg.com/media/BsdAmUUCMAADawB.jpg",
-    "localURL": "/images/488430115265990660.jpg"
+    "localURL": "/images/488430115265990660.jpg",
+    "corners": "231,252,521,255,517,415,234,417"
 }

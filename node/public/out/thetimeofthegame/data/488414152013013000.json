@@ -4,5 +4,6 @@
     "timeofgame": "45",
     "location": "Boston",
     "imageURL": "http://pbs.twimg.com/media/BscyFTICIAA9viS.jpg",
-    "localURL": "/images/488414152013013000.jpg"
+    "localURL": "/images/488414152013013000.jpg",
+    "corners": "234,164,547,168,537,351,234,340"
 }

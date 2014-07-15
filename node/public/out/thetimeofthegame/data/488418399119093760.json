@@ -4,5 +4,6 @@
     "timeofgame": "4",
     "location": "Rochester",
     "imageURL": "http://pbs.twimg.com/media/Bsc18B-IgAArzjx.jpg",
-    "localURL": "/images/488418399119093760.jpg"
+    "localURL": "/images/488418399119093760.jpg",
+    "corners": "279,142,748,149,749,414,280,410"
 }

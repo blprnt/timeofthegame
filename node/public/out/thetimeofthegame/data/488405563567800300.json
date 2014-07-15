@@ -4,5 +4,6 @@
     "timeofgame": "30",
     "location": "Porto",
     "imageURL": "http://pbs.twimg.com/media/BscqQJ3CAAEnZOq.jpg",
-    "localURL": "/images/488405563567800300.jpg"
+    "localURL": "/images/488405563567800300.jpg",
+    "corners": "420,339,696,329,695,489,424,482"
 }

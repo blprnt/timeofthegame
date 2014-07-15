@@ -4,5 +4,6 @@
     "timeofgame": "38",
     "location": "Mumbai",
     "imageURL": "http://pbs.twimg.com/media/BscsEudCMAArkvk.jpg",
-    "localURL": "/images/488407551315177500.jpg"
+    "localURL": "/images/488407551315177500.jpg",
+    "corners": "337,340,461,343,455,431,335,430"
 }
