@@ -35,7 +35,10 @@ app.use(express.static(__dirname + '/public'))
 
 //Start the server
 app.get('/', function (req, res) {
-  var j = collectJSON(res);
+  //var j = collectJSON(res);
+  res.render('index',
+  { title : 'Home' }
+  )
   
 })
 
@@ -57,7 +60,7 @@ app.get('/report/:id/:coords', function (req, res) {
   for (var i = 0; i < files.length; i++) {
     try {
     var fj = JSON.parse(fs.readFileSync(appDir + '/public/out/' + query + '/data/' + files[i], "utf8"));
-    console.log(fj.id);
+    //console.log(fj.id);
     if (fj.id == req.params.id) {
 
         if (req.params.coords == 0) {
@@ -84,8 +87,21 @@ app.get('/report/:id/:coords', function (req, res) {
   } catch(err) {
     
   }
-    
   }
+
+  //Save out JSON
+  var j = collectJSON(res);
+  var saveDir = appDir+ '/public/out/' + query;
+  var outputFilename = saveDir + '/data/' + 'main' + ".json";
+  fs.writeFile(outputFilename, JSON.stringify(j, null, 4), function(err) {
+    if(err) {
+      console.log(err);
+    } else {
+      console.log("******************MAIN JSON saved to " + outputFilename);
+    }
+  }); 
+
+  
 })
 
 app.listen(24702)
@@ -132,7 +148,7 @@ function getUntagged(res) {
 function collectJSON(res) {
   var path = require('path'),
   appDir = path.dirname(require.main.filename);
-  console.log("APP DIR " + appDir)
+  //console.log("APP DIR " + appDir)
   var files = fs.readdirSync(appDir + '/public/out/' + query + '/data');
   var outs = [];
   for (var i = 0; i < files.length; i++) {
@@ -144,11 +160,13 @@ function collectJSON(res) {
 
     }
   }
+  /*
   console.log("SENDING " + outs.length + " RECORDS.");
   res.render('index',
   { title : 'Home', defTogJSON:outs }
   )
-  //return({images:outs})
+  */
+  return({images:outs})
 }
 
 

@@ -5,7 +5,7 @@ extend layout
 block content
 
   script(type='text/javascript').
-      var defTogJSON =!{JSON.stringify(defTogJSON)}
+      //var defTogJSON =!{JSON.stringify(defTogJSON)}
     
   .mainblock
 
@@ -26,6 +26,9 @@ block content
     script.
 
       $().ready(function() {
+
+
+        var defTogJSON;
 
         // Returns height of browser viewport
         w = $( window ).width();
@@ -53,13 +56,19 @@ block content
           
         })
 
+        //LOAD JSON
+        console.log("LOAD JSON");
+        $.getJSON('http://localhost:24702/out/thetimeofthegame/data/main.json', function(data) {
+          console.log(data);
+          allData = data.images;
+          init();
+        })
 
-
-        init();
+        
       })
 
-      console.log("GOT JSON." + defTogJSON.length)
-      var allData = defTogJSON;
+      //console.log("GOT JSON." + defTogJSON.length)
+      //var allData = defTogJSON;
       var bmd;
       var currentImage;
       var invMat;
@@ -79,8 +88,6 @@ block content
         console.log($('#outputr'))
 
         console.log(w + ":" + h)
-
-        //$('#output').width(w).height(h)
         
         output = document.getElementById('output');
 
@@ -106,6 +113,8 @@ block content
         cityList = [];
 
         data = [];
+
+        console.log(allData);
         for (var i = 0;i < allData.length; i++) {
           if (allData[i].timeofgame >= minRange && allData[i].timeofgame <= maxRange) {
             candidates.push(allData[i]);
@@ -114,7 +123,7 @@ block content
             if (!cityList[loc]) {
               cityList[loc] = 1;
             } else {
-              console.log("ALREADY HAD IT!");
+              //console.log("ALREADY HAD IT!");
               cityList[loc]++;
             }
             }

@@ -4,5 +4,6 @@
     "timeofgame": "3",
     "location": "Wilmington",
     "imageURL": "http://pbs.twimg.com/media/BsdA9gxCAAE8guV.jpg",
-    "localURL": "/images/488430510318694400.jpg"
+    "localURL": "/images/488430510318694400.jpg",
+    "corners": "205,354,636,341,643,597,212,596"
 }
