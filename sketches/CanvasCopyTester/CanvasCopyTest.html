@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas" width="500" height="500"></canvas>
+  <script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+
+
+      /*
+      var imageObj = new Image();
+
+      imageObj.onload = function() {
+        // draw cropped image
+        
+        var sourceX = 150;
+        var sourceY = 0;
+        var sourceWidth = 150;
+        var sourceHeight = 150;
+        var destWidth = sourceWidth;
+        var destHeight = sourceHeight;
+        var destX = canvas.width / 2 - destWidth / 2;
+        var destY = canvas.height / 2 - destHeight / 2;
+
+        context.drawImage(imageObj, sourceX, sourceY, sourceWidth, sourceHeight, destX, destY, destWidth, destHeight);
+        */
+
+      // draw the background rect
+      context.beginPath();
+      context.rect(0, 0, canvas.width, canvas.height);
+      context.fillStyle = '#666';
+      context.fill();
+      context.closePath();
+
+
+      var rad = 50;
+      var spacing = 10;
+      for (var x = 0; x < canvas.width; x += rad + spacing) {
+        for (var y = 0; y < canvas.height; y += rad + spacing) {
+          context.beginPath();
+
+
+          context.rect(x - rad/2, y - rad/2, rad , rad);
+          var newFillR = mathMap(x, 0, canvas.width, 0, 255);
+          var newFillG = mathMap(y, 0, canvas.height, 255, 0);
+          var fillStyleString = RGB2Color(newFillR, newFillG, 255);
+            //console.log("x: " + x + " y : " + y + " fillStyleString: " + fillStyleString);
+            context.fillStyle = fillStyleString;
+            context.fill();
+            context.strokeStyle = 'black';
+            context.stroke();
+            context.closePath();
+            context.beginPath();
+            context.textAlign = 'center';
+            context.fillStyle = 'black';
+            context.fillText(x +', ' + y, x, y + 10);
+            context.fillText((Math.random() * 10) .toPrecision(3), x, y - 10);
+            context.closePath();
+          }
+        }
+
+
+        // copy the canvas
+        // see http://blog.everythingfla.com/2014/09/html5-canvas-copy-region.html
+        // Context,drawImage(canvas,sourceX,sourceY,sourceWidth,sourceHight,destX,destY,destWidth, destHeight);
+        //context.drawImage(canvas, 0, 0, 200,200, 250, 250, 200, 200);
+        var overlapPixels = 20;
+        var divisionWidth = 100; // width of each panel
+        var imgHeight = canvas.height;
+        // figure out bounds
+        var center = canvas.width/2;
+        var leftEdgePositionX = center - divisionWidth/2 - divisionWidth;
+        var leftEdgeSourceX = center - divisionWidth/2 + overlapPixels - divisionWidth;
+        var rightEdgePositionX = center + divisionWidth/2;
+        var rightEdgeSourceX = center + divisionWidth/2 - overlapPixels;
+        // draw left side
+        context.drawImage(canvas, leftEdgeSourceX, 0, divisionWidth, imgHeight, leftEdgePositionX, 30, divisionWidth, imgHeight);
+        // draw right side
+        context.drawImage(canvas, rightEdgeSourceX, 0, divisionWidth, imgHeight, rightEdgePositionX, 30, divisionWidth, imgHeight);
+
+        // temp lines
+        context.beginPath();
+        context.strokeStyle = 'white';
+        //context.moveTo(leftEdgeSourceX, 10);
+        //context.lineTo(leftEdgePositionX, context.height - 10);
+        // left marks
+        //context.rect(leftEdgeSourceX, 10, .5, 40);
+        context.rect(leftEdgeSourceX, 10, .5, 40);
+        context.rect(leftEdgeSourceX + divisionWidth, 10, .5, 40);
+
+        // right marks
+        //context.rect(rightEdgePositionX, 10, .5, 40);
+        context.rect(rightEdgeSourceX, 10, .5, 40);
+        context.rect(rightEdgeSourceX + divisionWidth, 10, .5, 40);
+
+
+        // base center lines
+        context.rect(center, 30, .5, imgHeight - 60);
+        context.rect(center - divisionWidth/2, 45, .5, imgHeight - 90);
+        context.rect(center + divisionWidth/2, 45, .5, imgHeight - 90);
+        context.stroke();
+        context.closePath();
+
+        // draw edges/blackout sides
+        var rightEdgeBlackoutX = center + divisionWidth/2 + divisionWidth;
+        var rightEdgeWidth = canvas.width - rightEdgeBlackoutX;
+        var leftEdgeBlackoutX = 0;
+        var leftEdgeWidth = center - divisionWidth/2 - divisionWidth;
+        context.beginPath();
+        context.fillStyle = '#333';
+        context.rect(leftEdgeBlackoutX, 0, leftEdgeWidth, canvas.height);
+        context.rect(rightEdgeBlackoutX, 0, rightEdgeWidth, canvas.height);
+        context.fill();
+        context.closePath();
+
+
+        //
+        // simple map function
+        function mathMap(num, low, high, newLow, newHigh) {
+          if (newHigh - newLow == 0)
+            return 0;
+          return ((num - low) / (high - low)) * (newHigh - newLow) + newLow;
+  }// end mathMap
+
+  // from http://krazydad.com/tutorials/makecolors.php
+  function RGB2Color(r,g,b)  {
+    return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+  } // end RGB2Color
+  function byte2Hex(n) {
+    var nybHexString = "0123456789ABCDEF";
+    return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+  } // end byte2Hex
+
+</script>
+</body>
+</html>      
