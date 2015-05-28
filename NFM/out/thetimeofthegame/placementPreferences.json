@@ -3,5 +3,9 @@
     "usable_height": 109,
     "vertical_shift": -200,
     "listFaderRightPos": 100,
-    "comment01":"the right edge of the ListFader divs"
+    "comment01":"the right edge of the ListFader divs",
+    "panel_overlap": 215,
+    "comment02":"the distance for overlap between panels",
+    "panel_width": 550,
+    "comment03":"the width of each of the panels - pre-overlap"
 }

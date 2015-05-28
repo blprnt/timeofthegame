@@ -13,6 +13,50 @@ function imageModifyVerticalShift(amt) {
 	setCornersOut();
 }// imageModifyVerticalShift
 
+
+// change the panel width
+function modifyPanelWidth(amt, canvasWidth) {
+	panelWidth += amt;
+	//if (panelWidth > (canvas.width + 2 * panelOverlap ) / 3 - 1) panelWidth = Math.round((canvas.width + 2 * panelOverlap) / 3 - 1);
+	if (panelWidth > (canvasWidth + 2 * panelOverlap ) / 3 - 1) panelWidth = Math.round((canvasWidth+ 2 * panelOverlap) / 3 - 1);
+	if (panelWidth < panelOverlap) panelWidth = panelOverlap;
+} // end modifyPanelWidth
+
+//change the overlap
+function modifyPanelOverlap(amt) {
+	panelOverlap += amt;
+	if (panelOverlap > panelWidth - 1) panelOverlap = panelWidth - 1;
+	if (panelOverlap < 0) panelOverlap = 0;
+} // end modifyPanelOverlap
+
+
+
+// toggle the splitting, grid, and overlay
+function toggleSplitting() {
+	splittingOn = !splittingOn;
+	console.log("switting splittingOn to: " + splittingOn);
+} // end toggleSplitting
+
+
+// toggle whether or not the mask overlay is shown
+// note that the overlay will only be shown when splitting is on
+function toggleMaskOverlay() {
+	maskOverlayOn = !maskOverlayOn;
+	console.log("switting maskOverlayOn to: " + maskOverlayOn);
+}// end toggleMaskOverlay
+
+//
+// whether or not to draw the overlay grid
+function toggleGrid() {
+	gridOn = !gridOn;
+	console.log("switting gridOn to: " + gridOn);
+} // end toggleGrid
+
+
+
+
+
+
 // zoom in and out of the image
 function imageModifyZoom(amt) {
 	// assume the current zoom is based on target_height
@@ -99,22 +143,22 @@ function shuffle(array) {
 
 // from http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
 function toTitleCase(str) {
-    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+	return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 } // toTitleCase
 
 //
 // see http://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
 function measureText(divIn) {
-    var lDiv = divIn;
+	var lDiv = divIn;
 
-    var lResult = {
-        width: lDiv.clientWidth,
-        height: lDiv.clientHeight
-    };
+	var lResult = {
+		width: lDiv.clientWidth,
+		height: lDiv.clientHeight
+	};
 
-    document.body.removeChild(lDiv);
-    lDiv = null;
+	document.body.removeChild(lDiv);
+	lDiv = null;
 
-    return lResult;
+	return lResult;
 } // end measureText
 

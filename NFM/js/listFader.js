@@ -123,7 +123,7 @@ function ListFader(faderDivIn, animationTimeIn, screenWidthIn, screenHeightIn, t
 
 			// find the width of the text
 			var thisDivWidth = listItemDiv.width();
-			console.log("thisDivWidth: " + thisDivWidth);
+			//console.log("thisDivWidth: " + thisDivWidth);
 			newListItem.setDivWidth(thisDivWidth);
 
 			var divHeight = (listItemDiv.css("height"));

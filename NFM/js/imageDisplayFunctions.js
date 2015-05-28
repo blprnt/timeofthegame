@@ -76,8 +76,16 @@ function toggleImageDescription(show) {
 // actually draw clock text to the clock div
 function setClockDivText() {
 	$('.clock').empty();
-	var textForClockTimer = gameMinuteTracker;
+	var textForClockTimer = "";
+	if (gameMinuteTracker < 100)  textForClockTimer += '&nbsp;';
+	if (gameMinuteTracker < 10) textForClockTimer += '&nbsp;';
+	textForClockTimer += gameMinuteTracker;
+	textForClockTimer += ":"
+	if (secondTracker < 10)  textForClockTimer += '0';
+	textForClockTimer += secondTracker;
+	// add in the second
 	$('.clock').html(textForClockTimer);
+	$('.clock').lettering();
 }// end setClockDivText
 
 
@@ -181,7 +189,7 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 			displayTime = Math.max(imageDisplayTimeInSeconds, allottedTime - delay);
 			// convert displayTime to seconds
 			displayTime /= 1000;
-			console.log("image name: " + candidates[index].localURL + " with minute: " + candidates[index].timeofgame + " maps to: " + delay + " displayTime: "+ displayTime);
+			//console.log("image name: " + candidates[index].localURL + " with minute: " + candidates[index].timeofgame + " maps to: " + delay + " displayTime: "+ displayTime);
 		}
 		var conception = getCurrentTime() ; 
 		var corners = candidates[index].corners.split(",");
@@ -192,6 +200,128 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 	return newPhotos;
 }// end generateImageArray
 
+
+
+
+//
+//
+function renderGrid(contextIn) {
+	var canWidth = contextIn.canvas.width;
+	var canHeight = contextIn.canvas.height;
+	//console.log("width: " + canWidth + " height: " + canHeight);
+	contextIn.save();
+	// main center lines
+	contextIn.beginPath();
+	contextIn.moveTo(0, canHeight/2);
+	contextIn.lineTo(canWidth, canHeight/2);
+	contextIn.lineWidth = 4;
+	contextIn.strokeStyle= '#ff0';
+	contextIn.stroke();
+	contextIn.closePath();
+	contextIn.beginPath();
+	contextIn.moveTo(canWidth/2, 0);
+	contextIn.lineTo(canWidth/2, canHeight);
+	contextIn.lineWidth = 4;
+	contextIn.strokeStyle= '#ff0';
+	contextIn.stroke();
+	contextIn.closePath();
+	var thinStroke = .5;
+	var thickStroke = 1;
+	// grid // vertical
+	for (var x = 0; x < canWidth/2 ; x+= 25) {
+		// right side
+		contextIn.beginPath();
+		contextIn.strokeStyle='#00f';
+		contextIn.lineWidth = thinStroke;
+		if (x % 100 == 0) {
+			contextIn.strokeStyle='#0a0';
+			contextIn.lineWidth = thickStroke;
+		}
+		contextIn.moveTo(canWidth/2 + x, 0);
+		contextIn.lineTo(canWidth/2 + x, canHeight);
+		contextIn.stroke();
+		contextIn.closePath();
+
+		// left side
+		contextIn.beginPath();
+		contextIn.strokeStyle='#00f';
+		contextIn.lineWidth = thinStroke;
+		if (x % 100 == 0) {
+			contextIn.strokeStyle='#0a0';
+			contextIn.lineWidth = thickStroke;
+		}
+		contextIn.moveTo(canWidth/2 - x, 0);
+		contextIn.lineTo(canWidth/2 - x, canHeight);
+		contextIn.stroke();
+		contextIn.closePath();
+	}
+	// grid // horizontals
+	for (var y = 0; y < canHeight/2; y+= 25) {
+		// bottom side
+		contextIn.beginPath();
+		contextIn.strokeStyle='#00f';
+		contextIn.lineWidth = thinStroke;
+		if (y% 100 == 0) {
+			contextIn.strokeStyle='#0a0';
+			contextIn.lineWidth = thickStroke;
+		}
+		contextIn.moveTo(0, canHeight/2 + y);
+		contextIn.lineTo(canWidth, canHeight/2 + y);
+		contextIn.stroke();
+		contextIn.closePath();
+
+		// top side
+		contextIn.beginPath();
+		contextIn.strokeStyle='#00f';
+		contextIn.lineWidth = thinStroke;
+		if (y % 100 == 0) {
+			contextIn.strokeStyle='#0a0';
+			contextIn.lineWidth = thickStroke;
+		}
+		contextIn.moveTo(0, canHeight/2 - y);
+		contextIn.lineTo(canWidth, canHeight/2 - y);
+		contextIn.stroke();
+		contextIn.closePath();
+	}
+
+	// diagonals
+	for (var x = 0; x < canWidth/2+ canHeight/2; x += 100) {
+		contextIn.beginPath();
+		contextIn.strokeStyle='#a0a';
+		contextIn.lineWidth = thinStroke;
+		contextIn.moveTo(canWidth/2 + x + canHeight/2, 0);
+		contextIn.lineTo(x + canWidth/2 - canHeight/2, canHeight);
+		contextIn.stroke();
+		contextIn.closePath();	
+		if (x > 0) {
+			contextIn.beginPath();
+			contextIn.strokeStyle='#a0a';
+			contextIn.lineWidth = thinStroke;
+			contextIn.moveTo(canWidth/2 - x + canHeight/2, 0);
+			contextIn.lineTo(-x + canWidth/2 - canHeight/2, canHeight);
+			contextIn.stroke();
+			contextIn.closePath();	
+		}		
+	}
+
+	// text coords
+	var offsetX = 10;
+	var offsetY = 20;
+	contextIn.fillStyle = 'white';
+	contextIn.font = "10px Verdana";
+	contextIn.globalAlpha = 1;
+	for (var x = 0; x < canWidth/2; x += 100) {
+		for (var y = 0; y < canHeight/2; y+=100) {
+			contextIn.fillText(Math.round(x) +", " + Math.round(y), canWidth / 2 + x + offsetX, canHeight / 2 + y + offsetY);
+			if (x != 0 || y != 0) {
+				if (x != 0) contextIn.fillText("-" + Math.round(x) +", " + Math.round(y), canWidth / 2 - x + offsetX, canHeight / 2 + y + offsetY);
+				if (y != 0) contextIn.fillText((x > 0 ? "-" : "") + Math.round(x) +", " + Math.round(y), canWidth / 2 - x + offsetX, canHeight / 2 - y + offsetY);
+				if (x != 0 && y != 0) contextIn.fillText(Math.round(x) +", " + Math.round(y), canWidth / 2 + x + offsetX, canHeight / 2 - y + offsetY);
+			}
+		}
+	}
+	contextIn.restore();
+} // end renderGrid
 
 
 

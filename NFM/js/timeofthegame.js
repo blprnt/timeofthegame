@@ -29,6 +29,11 @@ var maximumPhotosToHaveTotal = 0; // 8; // any photos over this amt will be kill
 var gameTimerInterval = null;
 var globalRenderInterval = null;
 
+//
+var secondTimer = null; // the actual intervaled timer object
+var secondTracker = 0; // the second time
+
+
 
 // DISPLAY VARS
 // DISPLAY VARS
@@ -47,6 +52,12 @@ var vertical_shift = 0;
 
 var corners_out; // the corners for displaying the image
 
+// variables for the panel appearance
+// how big each panel is, pre-overlap
+var panelWidth = 1920;
+// overlap between panels
+var panelOverlap = 288; 
+
 
 // placement vars
 // clock positioning
@@ -57,6 +68,9 @@ var clockTopPos = 30;
 var listFaderRightPos = 70;
 var listFaderTopPos = 30;
 var listFader = null; // the actual fader object
+
+
+
 
 // time for the images
 var imageWarmupTimeInSeconds = 0;
@@ -72,6 +86,12 @@ var animationTime = 0;
 
 // debug stuff
 var debug = false;
+
+// 
+var gridOn = true;  // will draw the grid on top of everything before it is split.  for alignment
+var splittingOn = true; // will toggle whether or not the image is split up
+var maskOverlayOn = true; // will toggle whether or not the mask is applied to the split image.  only when splitting is on
+
 
 
 
@@ -103,7 +123,7 @@ var lastFocusCityCount = 2; // how long the lastFocusCity array will be
 
 // modes - city vs regular
 var inCityMode = false;
-var cityThresholdCount = 5; // when the count for a minute doesnt meet this then city mode is entered
+var cityThresholdCount = 0; // when the count for a minute doesnt meet this then city mode is entered.  set in preferences
 
 
 
@@ -163,6 +183,20 @@ $().ready(function() {
 		listFaderRightPos = data.listFaderRightPos;
 		if (listFaderRightPos == undefined)
 			listFaderRightPos = 100;
+		// variables for shifting
+		panelWidth = data.panel_width;
+		if (panelWidth == undefined) 
+			panelWidth = 1920;
+		panelOverlap = data.panel_overlap;
+		if(panelOverlap == undefined) 
+			panelOverlap = 288;
+		// if the panelWidth > canvas.width.. then do something
+		if (panelWidth * 3 - 2 * panelOverlap > canvas.width) {
+			var oldPanelWidth = panelWidth;
+			console.log("panel width calcs result greater than overall width.  reducing")
+			panelWidth = Math.round((canvas.width + 2 * panelOverlap) / 3 - 1);
+			console.log(" reducing the panel width from: " + oldPanelWidth + " to: " + panelWidth + " with an overlap of: " + panelOverlap);
+		}
 	})
 
 	// preferences for timing and all that
@@ -193,18 +227,19 @@ $().ready(function() {
 		imageFadeOutTimeInSeconds = data.imageFadeOutTimeInSeconds;
 		if (animationTime == undefined)
 			animationTime = 3;
+		cityThresholdCount = data.cityThresholdCount;
+		if (cityThresholdCount == undefined) 
+			cityThresholdCount = 20;
 		console.log("done loading preferences");
 
-		// use them to start the overall timer
-		// start up the game timer
-		// note that gameMinuteMS determines the overall speed of the game minute
-		gameTimerInterval = setInterval(function() {
-			gameTimer()
-		}, gameMinuteMS);
+		// set min and max range
+		minRange = gameMinuteTracker;
+		maxRange = gameMinuteTracker;
+
+
 
 		// make the fader object now that the animation time is set
-		listFader = new ListFader($('.ListFader'), animationTime, w, h, listFaderTopPos, listFaderRightPos);
-
+		listFader = new ListFader($('.ListFader'), animationTime, w, h, listFaderTopPos, listFaderRightPos);		
 	})	
 
 	//LOAD JSON for the actual data
@@ -236,6 +271,15 @@ $().ready(function() {
 		console.log(validCityOptions);
 		if (lastFocusCityCount > validCityOptions.length - 2)  lastFocusCityCount = validCityOptions.length - 1;
 		//console.log("lastFocusCityCount set to: " + lastFocusCityCount);
+
+		// start the timer now that the data is loaded
+		// use them to start the overall timer
+		// start up the game timer
+		// note that gameMinuteMS determines the overall speed of the game minute
+		gameTimer(false);
+		gameTimerInterval = setInterval(function() {
+			gameTimer(true)
+		}, gameMinuteMS);		
 	})
 	//
 
@@ -243,9 +287,11 @@ $().ready(function() {
 
 
 	// start up the second timer
+	/*
 	var timerStuff = setInterval(function() {
 		secondTimer()
 	}, 1000);
+*/
 
 	// initialize clock text
 	// set the clock
@@ -277,15 +323,23 @@ $().ready(function() {
 		} else if (thisString == 'p') {
 			console.log("toggling imageDescription to show");
 			toggleImageDescription(true);
+		}		
+		// splitting, mask, and grid
+		else if (thisString === 's') {
+			toggleSplitting();
+		} else if (thisString === 'm') {
+			toggleMaskOverlay();
+		} else if (thisString === 'g') {
+			toggleGrid();
 		}
 
 		// if debug is on then do other user commands
 		if (debug) {
-			if (thisString === 's') {
+			if (thisString === 'z') {
 				// save out the settings for the vertical placement and zoom level??
 				//console.log("saving out the settings for placement");
-				var placementPreferencesJSON = makePlacementJSON();
-				console.log(placementPreferencesJSON);
+				//var placementPreferencesJSON = makePlacementJSON();
+				//console.log(placementPreferencesJSON);
 				//localStorage.setItem('placementPreferences', placementPreferencesJSON);
 				// for now simply display the value and assume that they wil be changed in the static .json file
 			} else if (thisString === 'e') {
@@ -306,6 +360,24 @@ $().ready(function() {
 				clearInterval(gameTimerInterval);
 				clearInterval(globalRenderInterval);
 			}
+
+
+
+			// play with the overlap and width 
+			else if(e.keyCode === 190) {
+				// period - bigger width
+				modifyPanelWidth(isShift ? shiftMultiplier : 1, canvas.width);
+			} else if (e.keyCode === 188) {
+				// comma - smaller width
+				modifyPanelWidth(-1 * (isShift ? shiftMultiplier : 1), canvas.width );
+			} else if (e.keyCode === 221) {
+				// right bracket - more overlap
+				modifyPanelOverlap(1 * (isShift ? shiftMultiplier : 1) );
+			} else if (e.keyCode === 219) {
+				// left bracket - less overlap
+				modifyPanelOverlap(-1 * (isShift ? shiftMultiplier : 1) );
+			}
+
 
 			// arrows
 			else if (e.keyCode === 37) {
@@ -380,18 +452,21 @@ function setCornersOut() {
 // real timer
 // this is the thing that will actually fire off the images
 // maybe set a max rate?
-var lastActualSecond = -1;
-var lastActualMinute = -1;
-function secondTimer() {
-	var date = new Date();
-	var thisSecond = date.getSeconds();
-	var thisMinute = date.getMinutes();
-	if (thisSecond != lastActualSecond) {
+//var lastActualSecond = -1;
+//var lastActualMinute = -1;
+function secondTimerInterval() {
+	//var date = new Date();
+	//var thisSecond = date.getSeconds();
+	//var thisMinute = date.getMinutes();
+	//if (thisSecond != lastActualSecond) {
 		//console.log("Actual time MINUTE: " + thisMinute + " SECOND: " + thisSecond);
-		lastActualSecond = thisSecond;
-		lastActualMinute = thisMinute;
-	}
-}// end secondTimer
+		//lastActualSecond = thisSecond;
+		//lastActualMinute = thisMinute;
+	//}
+	secondTracker++;
+	// set the html
+	setClockDivText();
+}// end secondTimerInterval
 
 //
 
@@ -400,13 +475,25 @@ function secondTimer() {
   // from 0 to 120
 // when a new minute triggers this will make the queue of images to play and their respective times
 //  times will be actual times in real date time by second
-function gameTimer() {
-	gameMinuteTracker++;
+function gameTimer(doIncrement) {
+	if (doIncrement) gameMinuteTracker++; // set to false for very first run, otherwise true for interval
 	if (gameMinuteTracker > 120)
 		gameMinuteTracker = 0;
+
+	// reset the  second time
+	// stop the second timer interval
+	// restart the second timer interval
+	if (secondTimer != null) {
+		clearInterval(secondTimer);
+	}
+	secondTracker = 0;
+	secondTimer = setInterval(function() {
+		secondTimerInterval()
+	}, 1000);
+
+
+
 	// do something here based on the minute
-
-
 	setTimeRange(gameMinuteTracker, gameMinuteTracker);
 
 	// get the number of items that will be categorized intothis minute
@@ -450,7 +537,7 @@ function gameTimer() {
 		lastFocusCity = newFocusCity;
 		lastFocusCities.push(newFocusCity);
 		console.log(" lastFocusCities: " + lastFocusCities);
-		console.log("DOING A CITY " + newFocusCity);
+		console.log(" making a city " + newFocusCity);
 
 		// if rendering a city:
 
@@ -475,6 +562,7 @@ function gameTimer() {
 
 //
 function setTimeRange(minRangeIn, maxRangeIn) {
+	console.log("in setTimeRange for min/max: " + minRangeIn + ", " + maxRangeIn);
 	minRange = minRangeIn;
 	maxRange = maxRangeIn;
 }// end setTimeRange
@@ -495,7 +583,8 @@ function mathMap(num, low, high, newLow, newHigh) {
 //
 //
 
-// wipe the background.. aka make the images fade out
+// wipe the background.. 
+// this is essentially the draw loop
 function globalRender() {
 	var currentTime = getCurrentTime();
 	var date = new Date();
@@ -575,6 +664,10 @@ function globalRender() {
 		y += 30;
 		context.fillText("baseRatio:    " + targetRatio, x, y);
 		y += 30;
+		context.fillText("panelWidth: " + panelWidth, x, y);
+		y += 30;
+		context.fillText("panelOverlap: " + panelOverlap, x, y);
+		y += 30;
 		context.fillText("Game Minute Tracker: " + gameMinuteTracker, x, y);
 		y += 30;
 		//context.fillText("currentImages.length: " + currentImages.length, x, y);
@@ -582,9 +675,12 @@ function globalRender() {
 		y += 30;
 		var count = 0;
 		for (var i = 0; i < currentPhotos.length; i++) if (currentPhotos[i].getAlpha() > 0) count++;
-		context.fillText("currentPhotos.length active: " + count, x, y);
+			context.fillText("currentPhotos.length active: " + count, x, y);
 		y += 30;
 		context.fillText("listFader.listItems.length: " + listFader.getListItemsLength(), x, y);
+
+
+
 		// do the city options
 
 		context.restore();
@@ -592,6 +688,13 @@ function globalRender() {
 
 	// update the listFader
 	if (listFader != null) listFader.update(currentTime);
+
+
+
+	// now that everything's been drawn, do the grid drawing and splitting/masking if toggled on
+	if (gridOn) {
+		renderGrid(context);
+	}
 }// end function globalRender
 
 
