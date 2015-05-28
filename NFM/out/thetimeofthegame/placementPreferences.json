@@ -6,6 +6,6 @@
     "comment01":"the right edge of the ListFader divs",
     "panel_overlap": 215,
     "comment02":"the distance for overlap between panels",
-    "panel_width": 550,
+    "panel_width": 553,
     "comment03":"the width of each of the panels - pre-overlap"
 }
