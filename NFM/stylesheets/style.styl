@@ -1,0 +1,84 @@
+/*
+ * Import nib
+ */
+@import 'nib'
+
+/*
+ * Grab a custom font from Google
+ */
+@import url('http://fonts.googleapis.com/css?family=Montserrat')
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab')
+
+/*
+ * Nib provides a CSS reset
+ */
+global-reset()
+
+/*
+ * Store the main color and
+ * background color as variables
+ */
+main-color = #333333
+background-color = #222222
+
+a
+  color #AAAAAA
+
+body
+  font-family 'Roboto Slab'
+  background-color background-color
+  color #CCCCCC
+
+.canvii
+  position:fixed;
+  top:0px;
+
+#output
+  position:fixed;
+  //width:1000px
+  //height:1000px
+  top:0px;
+
+.tweetButton
+  position fixed
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -15px;
+  width 30px
+  height 30px
+  background-image: url('images/twitterLogoFadeSmall.png')
+
+  &:hover { background-image: url('images/twitterLogoSmall.png') }
+
+.title
+  font-family 'Roboto Slab'
+  position:absolute;
+  color:#7DC5FF
+  font-size:36px
+  top:5px;
+  left:5px;
+  z-index:50;
+
+.subtitle
+  position:absolute;
+  color:#CCCCCC
+  top:42px;
+  left:5px;
+  margin-left:10px
+  z-index:50;
+
+.buttons
+  position:absolute;
+  z-index:100
+
+footer
+  color #CCCCCC
+  position fixed
+  left 0px
+  bottom 0px
+  width 500px
+  margin 10px auto
+  padding-top 5px
+  padding-left 5px
+  font-size 13px
