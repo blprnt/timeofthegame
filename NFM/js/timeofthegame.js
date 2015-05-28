@@ -599,6 +599,19 @@ function globalRender() {
 	// clear the background
 	context.clearRect(0, 0, output.width, output.height);
 
+
+
+	// if the grid is on then draw a background so that  things don't overlap
+	if (gridOn) {
+		context.beginPath();
+		context.rect(0, 0, output.width, output.height);
+		context.fillStyle = $('body').css("background-color");
+		context.fill();
+		context.closePath();
+	}
+
+
+
 	// cycle through all images and render them with appropriate alpha
 	// NOTE: the images are not necessarily in order because of the random timing
 	// so to find which label to display find the one with a +alpha value and longest kill time
@@ -642,6 +655,32 @@ function globalRender() {
 
 	context.restore();
 
+	
+
+	// update the listFader
+	if (listFader != null) listFader.update(currentTime);
+
+
+	// now that everything's been drawn, do the grid drawing and splitting/masking if toggled on
+	if (gridOn) {
+		renderGrid(context);
+	}
+
+	// and finally do the splitting
+	if (splittingOn) {
+		performImageSplit(context, panelWidth, panelOverlap);
+
+
+		// if the mask is on, try to add that too
+		if(maskOverlayOn) {
+
+		}
+	}
+	
+
+
+
+
 	// DO THE DEBUG RENDERING of TEXT/PLACEMENT ETC.
 	if (debug) {
 		context.save();
@@ -684,18 +723,8 @@ function globalRender() {
 		// do the city options
 
 		context.restore();
-	}
 
-	// update the listFader
-	if (listFader != null) listFader.update(currentTime);
-
-
-
-	// now that everything's been drawn, do the grid drawing and splitting/masking if toggled on
-	if (gridOn) {
-		renderGrid(context);
-	}
-}// end function globalRender
+}}// end function globalRender
 
 
 

@@ -202,9 +202,9 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 
 
 
+//
+//
 
-//
-//
 function renderGrid(contextIn) {
 	var canWidth = contextIn.canvas.width;
 	var canHeight = contextIn.canvas.height;
@@ -325,4 +325,30 @@ function renderGrid(contextIn) {
 
 
 
+// do the splitting stuff here
+function performImageSplit(contextIn, panelWidthIn, overlapWidthIn) {
+	// copy the canvas
+        // see http://blog.everythingfla.com/2014/09/html5-canvas-copy-region.html
+        // Context,drawImage(canvas,sourceX,sourceY,sourceWidth,sourceHight,destX,destY,destWidth, destHeight);
+        //contextIn.drawImage(canvas, 0, 0, 200,200, 250, 250, 200, 200);
+        contextIn.save();
+        
+        var imgHeight = contextIn.canvas.height;
+        // figure out bounds
+        var center = contextIn.canvas.width/2;
+        var leftEdgePositionX = center - panelWidthIn/2 - panelWidthIn;
+        var leftEdgeSourceX = center - panelWidthIn/2 + overlapWidthIn - panelWidthIn;
+        var rightEdgePositionX = center + panelWidthIn/2;
+        var rightEdgeSourceX = center + panelWidthIn/2 - overlapWidthIn;
+        
+        // draw left side
+        contextIn.drawImage(contextIn.canvas, leftEdgeSourceX, 0, panelWidthIn, imgHeight, leftEdgePositionX, 0, panelWidthIn, imgHeight);
+        // draw right side
+       contextIn.drawImage(contextIn.canvas, rightEdgeSourceX, 0, panelWidthIn, imgHeight, rightEdgePositionX, 0, panelWidthIn, imgHeight);
+       contextIn.restore();
+} // end performImageSplit
 
+
+
+
+// do the mask stuff here
