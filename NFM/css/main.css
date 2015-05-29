@@ -15,6 +15,24 @@
  	margin:0px;
  }
 
+
+ .gradientLeft {
+ 	/* positions of the left and right gradients set in js */
+ 	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
+ 	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
+ 	background:linear-gradient(to right, transparent,#222);
+	position:absolute;
+ 	z-index:100;
+ }
+
+ .gradientRight {
+ 	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
+ 	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
+ 	background:linear-gradient(to left, transparent,#222);
+ 	position:absolute;
+ 	z-index:100;
+ }
+
  .mainblock {
  	padding:0px;
  	border:0px;

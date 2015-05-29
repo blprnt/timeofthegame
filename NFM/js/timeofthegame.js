@@ -58,6 +58,8 @@ var panelWidth = 1920;
 // overlap between panels
 var panelOverlap = 288; 
 
+// how wide is the gradient.  this makes new gradientLeft and gradientRight divs
+var gradientWidth = 288;
 
 // placement vars
 // clock positioning
@@ -68,6 +70,8 @@ var clockTopPos = 30;
 var listFaderRightPos = 70;
 var listFaderTopPos = 30;
 var listFader = null; // the actual fader object
+
+
 
 
 
@@ -90,7 +94,7 @@ var debug = false;
 // 
 var gridOn = true;  // will draw the grid on top of everything before it is split.  for alignment
 var splittingOn = true; // will toggle whether or not the image is split up
-var maskOverlayOn = true; // will toggle whether or not the mask is applied to the split image.  only when splitting is on
+
 
 
 
@@ -197,6 +201,8 @@ $().ready(function() {
 			panelWidth = Math.round((canvas.width + 2 * panelOverlap) / 3 - 1);
 			console.log(" reducing the panel width from: " + oldPanelWidth + " to: " + panelWidth + " with an overlap of: " + panelOverlap);
 		}
+		gradientWidth = data.gradient_width;
+		if (gradientWidth == undefined) gradientWidth = 288;
 	})
 
 	// preferences for timing and all that
@@ -328,7 +334,7 @@ $().ready(function() {
 		else if (thisString === 's') {
 			toggleSplitting();
 		} else if (thisString === 'm') {
-			toggleMaskOverlay();
+			toggleGradientMasks();
 		} else if (thisString === 'g') {
 			toggleGrid();
 		}
@@ -435,7 +441,60 @@ function init() {
 	setCornersOut();
 
 	setRandomData(30);
+
+	// setup the gradient divs
+	toggleGradientMasks();
 }// end init
+
+
+// this will look for the gradient divs.  if they exist then remove them, else make them
+function toggleGradientMasks() {
+	if (!$('body').hasClass('gradientLeft')) {
+		var overallWidth = $(window).width();
+		var overallHeight = $(window).height();
+		console.log("adding gradients");
+
+		// left
+		var leftPanel1 = document.createElement('div');
+		leftPanel1.className = 'gradientLeft';
+		leftPanel1.style.width = gradientWidth + 'px';
+		leftPanel1.style.height = overallHeight + 'px';
+		leftPanel1.style.top = '0px';
+		leftPanel1.style.right = (2 * overallWidth / 3) + 'px'; // because it's the right side, use 2x
+		document.body.appendChild(leftPanel1);
+
+		// right 
+		var rightPanel1 = document.createElement('div');
+		rightPanel1.className = 'gradientRight';
+		rightPanel1.style.width = gradientWidth + 'px';
+		rightPanel1.style.height = overallHeight + 'px';
+		rightPanel1.style.top = '0px';
+		rightPanel1.style.left = (2 * overallWidth / 3) + 'px'; // because it's the left side, use 2x
+		document.body.appendChild(rightPanel1);
+
+		// center gradients
+		var centerLeft = document.createElement('div');
+		centerLeft.className = 'gradientRight';
+		centerLeft.style.width = gradientWidth + 'px';
+		centerLeft.style.height = overallHeight + 'px';
+		centerLeft.style.top = '0px';
+		centerLeft.style.left = (overallWidth / 3) + 'px'; // because it's the left side, use 2x
+		document.body.appendChild(centerLeft);
+
+		var centerRight = document.createElement('div');
+		centerRight.className = 'gradientLeft';
+		centerRight.style.width = gradientWidth + 'px';
+		centerRight.style.height = overallHeight + 'px';
+		centerRight.style.top = '0px';
+		centerRight.style.right = (overallWidth / 3) + 'px'; // because it's the left side, use 2x
+		document.body.appendChild(centerRight);
+	} else {
+		console.log("removing gradients");
+		$('gradientLeft').remote();
+		$('gradientRight').remote();
+	}
+
+} // end toggleGradientMasks
 
 
 //
@@ -669,12 +728,6 @@ function globalRender() {
 	// and finally do the splitting
 	if (splittingOn) {
 		performImageSplit(context, panelWidth, panelOverlap);
-
-
-		// if the mask is on, try to add that too
-		if(maskOverlayOn) {
-
-		}
 	}
 	
 

@@ -7,5 +7,7 @@
     "panel_overlap": 288,
     "comment02":"the distance for overlap between panels",
     "panel_width": 1920,
-    "comment03":"the width of each of the panels - pre-overlap"
+    "comment03":"the width of each of the panels - pre-overlap",
+    "gradient_width":288,
+    "comment04":"the width of the gradient divs"
 }

@@ -38,19 +38,13 @@ function toggleSplitting() {
 } // end toggleSplitting
 
 
-// toggle whether or not the mask overlay is shown
-// note that the overlay will only be shown when splitting is on
-function toggleMaskOverlay() {
-	maskOverlayOn = !maskOverlayOn;
-	console.log("switting maskOverlayOn to: " + maskOverlayOn);
-}// end toggleMaskOverlay
-
 //
 // whether or not to draw the overlay grid
 function toggleGrid() {
 	gridOn = !gridOn;
 	console.log("switting gridOn to: " + gridOn);
 } // end toggleGrid
+
 
 
 
