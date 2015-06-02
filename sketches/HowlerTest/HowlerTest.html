@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-color:#333;
+      color:#aac;
+    }
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="howler.min.js"></script>
+
+  <script>
+
+
+
+    var x = 0;
+    var y = 0;
+    var playPause = "pause";
+    var newVolume = 0;
+    var w = 1;
+    var h = 1;
+    var soundAmerican;
+    var soundLengthAmerican = 60 * 59; // manual
+    var soundFortune;
+    var soundLengthFortune = 60 * 3 + 48;
+    var soundLucky;
+    var soundLengthLucky = 60 * 2 + 56;
+
+    $(document).ready(function() {
+      w = $(document).width();
+      h = $(document).height();    
+      soundAmerican = new Howl({
+        urls: ['american.mp3'],
+      }).play();
+      soundFortune = new Howl({
+        urls:['fortune.mp3'],
+      }).play();
+      
+      soundLucky = new Howl({
+        urls:['lucky.mp3'],
+      }).play();
+
+
+
+
+      $( document ).mousemove(function( event ) {
+        x = event.clientX;
+        y = event.clientY;
+
+
+        newVolume = y / h;
+        $(".volume").html("volume: " + Math.round(100 * newVolume));  
+
+        soundAmerican.volume(getVolume(y, h, .5 * h));
+        soundFortune.volume(getVolume(y, 0, .5 * h));
+        soundLucky.volume(getVolume(y, .5 * h, .5 * h));        
+      });
+
+      $(document).click(function() {
+        soundAmerican.pos(soundLengthAmerican * x / w);
+        //soundAmerican.volume(getVolume(y, h, .5 * h));
+        soundFortune.pos(soundLengthFortune * x / w);
+        //soundFortune.volume(getVolume(y, 0, .5 * h));
+        soundLucky.pos(soundLengthLucky * x / w);
+        //soundLucky.volume(getVolume(y, .5 * h, .5 * h));
+
+        soundAmerican.volume(getVolume(y, h, .5 * h));
+        soundFortune.volume(getVolume(y, 0, .5 * h));
+        soundLucky.volume(getVolume(y, .5 * h, .5 * h));       
+      });    
+
+
+
+      function getVolume(yIn, target, range)  {
+        var vol = 1;
+        if (Math.abs(yIn - target) > range) vol = 0;
+        else {
+          vol = 1 - Math.abs(yIn - target) / range;
+        }
+        //console.log("vol as: " + vol + " for target: " + target + " and yIn: " + yIn + " and range" + range);;
+        return vol;
+     } // end getVolume
+   });
+
+
+
+</script>
+
+</head>
+<body>
+  <br>
+  <br>
+  <div class="volume">volume: 0</div>
+  <br>
+  <br>
+  <div class="playpause">play/pause: pause</div>
+</body>
+</html>      

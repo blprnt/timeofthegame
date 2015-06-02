@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-color:#333;
+      color:#aac;
+    }
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+
+
+    var x = 0;
+    var y = 0;
+    var playPause = "play";
+    var newVolume = 0;
+    var w = 1;
+    var h = 1;
+
+    $(document).ready(function() {
+      w = $(document).width();
+      h = $(document).height();    
+    });
+
+    $( document ).mousemove(function( event ) {
+      x = event.clientX;
+      y = event.clientY;
+
+      
+      if (y < h/2) {
+        if (x > w/2) playPause = "pause";
+        else playPause = "play";
+        $(".playpause").html("play/pause: " + playPause);
+      } else {
+       newVolume = Math.round(100 * x / w);
+       $(".volume").html("volume: " + newVolume);  
+     }
+   });
+
+    $(document).click(function() {
+      //alert("clicked mouse: " + x +", " + y + " page w/h: " + w + ", " + h);
+    });
+  </script>
+
+</head>
+<body>
+  <br>
+  <br>
+  <div class="volume">volume: 0</div>
+  <br>
+  <br>
+  <div class="playpause">play/pause: pause</div>
+</body>
+</html>      
