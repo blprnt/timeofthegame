@@ -1,0 +1,109 @@
+{
+    "created_at": "Sun Jul 13 15:41:59 +0000 2014",
+    "id": 488347614530658300,
+    "id_str": "488347614530658304",
+    "text": "Selfie diye buna derim ben, nasıl da tatlısın ya👍👍 http://t.co/2iGikJ7q9E",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 323527040,
+        "id_str": "323527040",
+        "name": "BUSRALEX♡",
+        "screen_name": "busraaozterzi",
+        "location": "ANKARA",
+        "url": null,
+        "description": "XXIV.I.XIII",
+        "protected": false,
+        "followers_count": 372,
+        "friends_count": 191,
+        "listed_count": 0,
+        "created_at": "Sat Jun 25 00:07:56 +0000 2011",
+        "favourites_count": 1161,
+        "utc_offset": -18000,
+        "time_zone": "Quito",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 5722,
+        "lang": "tr",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "0D0D02",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/480767715049603072/hP-KOgA7.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/480767715049603072/hP-KOgA7.jpeg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/487591116259479552/U86xBM-6_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/487591116259479552/U86xBM-6_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/323527040/1404697749",
+        "profile_link_color": "28911A",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [],
+        "media": [
+            {
+                "id": 488347610915545100,
+                "id_str": "488347610915545088",
+                "indices": [
+                    51,
+                    73
+                ],
+                "media_url": "http://pbs.twimg.com/media/Bsb1kJOIIAArwUa.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Bsb1kJOIIAArwUa.jpg",
+                "url": "http://t.co/2iGikJ7q9E",
+                "display_url": "pic.twitter.com/2iGikJ7q9E",
+                "expanded_url": "http://twitter.com/busraaozterzi/status/488347614530658304/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 339,
+                        "h": 333,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 530,
+                        "h": 520,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 530,
+                        "h": 520,
+                        "resize": "fit"
+                    }
+                }
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "tr"
+}

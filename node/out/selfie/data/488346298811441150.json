@@ -1,0 +1,252 @@
+{
+    "created_at": "Sun Jul 13 15:36:45 +0000 2014",
+    "id": 488346298811441150,
+    "id_str": "488346298811441152",
+    "text": "RT @anaipelayo: My selfie with @justinbieber yesterday http://t.co/0YrSsUXsbx",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 99621481,
+        "id_str": "99621481",
+        "name": "Ju",
+        "screen_name": "_fuckbiebs",
+        "location": "",
+        "url": null,
+        "description": "I will never say never!",
+        "protected": false,
+        "verified": false,
+        "followers_count": 1393,
+        "friends_count": 1123,
+        "listed_count": 5,
+        "favourites_count": 3332,
+        "statuses_count": 35068,
+        "created_at": "Sun Dec 27 02:36:17 +0000 2009",
+        "utc_offset": -7200,
+        "time_zone": "Greenland",
+        "geo_enabled": false,
+        "lang": "pt",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/432975667177603072/QCqezME3.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/432975667177603072/QCqezME3.png",
+        "profile_background_tile": false,
+        "profile_link_color": "0D0C0D",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "0A0A0A",
+        "profile_text_color": "C20AFF",
+        "profile_use_background_image": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/487077850608959488/5shmd6PF_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/487077850608959488/5shmd6PF_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/99621481/1404408122",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Jul 13 15:18:22 +0000 2014",
+        "id": 488341675052240900,
+        "id_str": "488341675052240896",
+        "text": "My selfie with @justinbieber yesterday http://t.co/0YrSsUXsbx",
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1246894578,
+            "id_str": "1246894578",
+            "name": "I MET HIM ❤️❤️❤️",
+            "screen_name": "anaipelayo",
+            "location": "",
+            "url": null,
+            "description": "Justin Bieber is my one and only idol. Lets change the world. Followed by justin. 3/15/14 Dreams Do Come True. Los Angeles|Met Alfredo Flores 6/28/14/IM A LEFTY",
+            "protected": false,
+            "verified": false,
+            "followers_count": 1432,
+            "friends_count": 2000,
+            "listed_count": 4,
+            "favourites_count": 5154,
+            "statuses_count": 7943,
+            "created_at": "Wed Mar 06 20:00:20 +0000 2013",
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/488223254364966913/CxDumqc-_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/488223254364966913/CxDumqc-_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1246894578/1405236435",
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "trends": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "justinbieber",
+                    "name": "Justin Bieber",
+                    "id": 27260086,
+                    "id_str": "27260086",
+                    "indices": [
+                        15,
+                        28
+                    ]
+                }
+            ],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 488341674884472800,
+                    "id_str": "488341674884472832",
+                    "indices": [
+                        39,
+                        61
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BsbwKnyCIAAW0Oz.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BsbwKnyCIAAW0Oz.jpg",
+                    "url": "http://t.co/0YrSsUXsbx",
+                    "display_url": "pic.twitter.com/0YrSsUXsbx",
+                    "expanded_url": "http://twitter.com/anaipelayo/status/488341675052240896/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 600,
+                            "h": 800,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 453,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "anaipelayo",
+                "name": "I MET HIM ❤️❤️❤️",
+                "id": 1246894578,
+                "id_str": "1246894578",
+                "indices": [
+                    3,
+                    14
+                ]
+            },
+            {
+                "screen_name": "justinbieber",
+                "name": "Justin Bieber",
+                "id": 27260086,
+                "id_str": "27260086",
+                "indices": [
+                    31,
+                    44
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 488341674884472800,
+                "id_str": "488341674884472832",
+                "indices": [
+                    55,
+                    77
+                ],
+                "media_url": "http://pbs.twimg.com/media/BsbwKnyCIAAW0Oz.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/BsbwKnyCIAAW0Oz.jpg",
+                "url": "http://t.co/0YrSsUXsbx",
+                "display_url": "pic.twitter.com/0YrSsUXsbx",
+                "expanded_url": "http://twitter.com/anaipelayo/status/488341675052240896/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "medium": {
+                        "w": 600,
+                        "h": 800,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 340,
+                        "h": 453,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 768,
+                        "h": 1024,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 488341675052240900,
+                "source_status_id_str": "488341675052240896"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

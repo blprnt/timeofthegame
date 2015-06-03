@@ -1,0 +1,164 @@
+{
+    "created_at": "Sun Jul 13 15:36:46 +0000 2014",
+    "id": 488346302665613300,
+    "id_str": "488346302665613313",
+    "text": "“@JohnHefley: Selfie:\nInsta: e_malamis\nSnapchat: emily4655\nCity/state: MD\nTime for everyone to creep!😝” http://t.co/Z2SgiCBirx",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": 488175128295919600,
+    "in_reply_to_status_id_str": "488175128295919616",
+    "in_reply_to_user_id": 134280203,
+    "in_reply_to_user_id_str": "134280203",
+    "in_reply_to_screen_name": "JohnHefley",
+    "user": {
+        "id": 15175741,
+        "id_str": "15175741",
+        "name": "//ęmîłÿ//✌️",
+        "screen_name": "e_malamis",
+        "location": "",
+        "url": null,
+        "description": "Instagram; e_malamis .. Kik; malamis1 .. Snapchat; emily4655 .. Ask; e_malmis ✨ \nYes, im a girl and i like girls❤️",
+        "protected": false,
+        "verified": false,
+        "followers_count": 363,
+        "friends_count": 331,
+        "listed_count": 0,
+        "favourites_count": 454,
+        "statuses_count": 2034,
+        "created_at": "Fri Jun 20 02:26:55 +0000 2008",
+        "utc_offset": -18000,
+        "time_zone": "Quito",
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "FF0000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_link_color": "000000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/484770165411045376/TU6gH2dU_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/484770165411045376/TU6gH2dU_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/15175741/1404433774",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": {
+        "type": "Point",
+        "coordinates": [
+            27.274582,
+            -82.56562
+        ]
+    },
+    "coordinates": {
+        "type": "Point",
+        "coordinates": [
+            -82.56562,
+            27.274582
+        ]
+    },
+    "place": {
+        "id": "63fc5d2e91b3f086",
+        "url": "https://api.twitter.com/1.1/geo/id/63fc5d2e91b3f086.json",
+        "place_type": "city",
+        "name": "Siesta Key",
+        "full_name": "Siesta Key, FL",
+        "country_code": "US",
+        "country": "United States",
+        "bounding_box": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -82.570008,
+                        27.25077
+                    ],
+                    [
+                        -82.570008,
+                        27.299674
+                    ],
+                    [
+                        -82.5323898,
+                        27.299674
+                    ],
+                    [
+                        -82.5323898,
+                        27.25077
+                    ]
+                ]
+            ]
+        },
+        "attributes": {}
+    },
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "JohnHefley",
+                "name": "✌ TRIPPY✌",
+                "id": 134280203,
+                "id_str": "134280203",
+                "indices": [
+                    1,
+                    12
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 488346300400693250,
+                "id_str": "488346300400693248",
+                "indices": [
+                    104,
+                    126
+                ],
+                "media_url": "http://pbs.twimg.com/media/Bsb0X3LCcAAVx0_.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Bsb0X3LCcAAVx0_.jpg",
+                "url": "http://t.co/Z2SgiCBirx",
+                "display_url": "pic.twitter.com/Z2SgiCBirx",
+                "expanded_url": "http://twitter.com/e_malamis/status/488346302665613313/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 640,
+                        "h": 636,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 339,
+                        "h": 337,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 599,
+                        "h": 596,
+                        "resize": "fit"
+                    }
+                }
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

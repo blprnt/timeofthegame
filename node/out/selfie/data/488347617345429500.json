@@ -1,0 +1,251 @@
+{
+    "created_at": "Sun Jul 13 15:41:59 +0000 2014",
+    "id": 488347617345429500,
+    "id_str": "488347617345429504",
+    "text": "RT @HRoyalThighness: \"@DJZeeti: twitpic a selfie showing off your legs\". http://t.co/Hd5F8qZRQj",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 93007269,
+        "id_str": "93007269",
+        "name": "Uncle Jack Sparrow",
+        "screen_name": "Duke_Lad",
+        "location": "",
+        "url": null,
+        "description": "God 1st",
+        "protected": false,
+        "followers_count": 745,
+        "friends_count": 772,
+        "listed_count": 2,
+        "created_at": "Fri Nov 27 17:11:08 +0000 2009",
+        "favourites_count": 841,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 33289,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "ADAD28",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/495296232/Phoenix_Suns-wall.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/495296232/Phoenix_Suns-wall.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/486587769012379648/TcQ6Zzdp_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/486587769012379648/TcQ6Zzdp_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/93007269/1357863454",
+        "profile_link_color": "10BBD1",
+        "profile_sidebar_border_color": "5BF787",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "14E34F",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Jul 13 15:39:55 +0000 2014",
+        "id": 488347097008451600,
+        "id_str": "488347097008451584",
+        "text": "\"@DJZeeti: twitpic a selfie showing off your legs\". http://t.co/Hd5F8qZRQj",
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1496780905,
+            "id_str": "1496780905",
+            "name": "Her Royal Thighness",
+            "screen_name": "HRoyalThighness",
+            "location": "London",
+            "url": "http://instagram.com/herroyalthighness",
+            "description": "Full time superhero, part time human. Striving for greatness and confidence through fitness. Welcome to my world. #TeamHRT #IMsecure",
+            "protected": false,
+            "followers_count": 5615,
+            "friends_count": 795,
+            "listed_count": 5,
+            "created_at": "Sun Jun 09 22:24:47 +0000 2013",
+            "favourites_count": 212,
+            "utc_offset": 3600,
+            "time_zone": "London",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 2322,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/487969079509012480/Gb5IhKKH_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/487969079509012480/Gb5IhKKH_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1496780905/1403551953",
+            "profile_link_color": "4209ED",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 3,
+        "favorite_count": 3,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "DJZeeti",
+                    "name": "KDZT",
+                    "id": 22147031,
+                    "id_str": "22147031",
+                    "indices": [
+                        1,
+                        9
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 488347074249752600,
+                    "id_str": "488347074249752576",
+                    "indices": [
+                        52,
+                        74
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Bsb1E5_CAAADKAs.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Bsb1E5_CAAADKAs.jpg",
+                    "url": "http://t.co/Hd5F8qZRQj",
+                    "display_url": "pic.twitter.com/Hd5F8qZRQj",
+                    "expanded_url": "http://twitter.com/HRoyalThighness/status/488347097008451584/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 339,
+                            "h": 345,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 535,
+                            "h": 543,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 535,
+                            "h": 543,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "HRoyalThighness",
+                "name": "Her Royal Thighness",
+                "id": 1496780905,
+                "id_str": "1496780905",
+                "indices": [
+                    3,
+                    19
+                ]
+            },
+            {
+                "screen_name": "DJZeeti",
+                "name": "KDZT",
+                "id": 22147031,
+                "id_str": "22147031",
+                "indices": [
+                    22,
+                    30
+                ]
+            }
+        ],
+        "media": [
+            {
+                "id": 488347074249752600,
+                "id_str": "488347074249752576",
+                "indices": [
+                    73,
+                    95
+                ],
+                "media_url": "http://pbs.twimg.com/media/Bsb1E5_CAAADKAs.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/Bsb1E5_CAAADKAs.jpg",
+                "url": "http://t.co/Hd5F8qZRQj",
+                "display_url": "pic.twitter.com/Hd5F8qZRQj",
+                "expanded_url": "http://twitter.com/HRoyalThighness/status/488347097008451584/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 339,
+                        "h": 345,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 535,
+                        "h": 543,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 535,
+                        "h": 543,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 488347097008451600,
+                "source_status_id_str": "488347097008451584"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

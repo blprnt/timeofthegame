@@ -1,0 +1,152 @@
+{
+    "created_at": "Sun Jul 13 15:42:00 +0000 2014",
+    "id": 488347620759597060,
+    "id_str": "488347620759597056",
+    "text": "GOAT pic RT @Kantfit: “@YolieTheJew: RT @ItsJessicaReddy: “@DJZeeti: twitpic me any selfie in your phone” http://t.co/Xdvfauq1R4” ...... Toe",
+    "source": "<a href=\"http://tweetlogix.com\" rel=\"nofollow\">Tweetlogix</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 118173441,
+        "id_str": "118173441",
+        "name": "Ato Quansah",
+        "screen_name": "imAtoLino",
+        "location": " Gold Coast",
+        "url": null,
+        "description": null,
+        "protected": false,
+        "followers_count": 1216,
+        "friends_count": 363,
+        "listed_count": 3,
+        "created_at": "Sat Feb 27 20:49:50 +0000 2010",
+        "favourites_count": 68,
+        "utc_offset": -18000,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 15079,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "BADFCD",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/441545563687759872/RiJMfutb.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/441545563687759872/RiJMfutb.jpeg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/487563539658575872/65yX154S_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/487563539658575872/65yX154S_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/118173441/1404899247",
+        "profile_link_color": "FF0000",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "566136",
+        "profile_text_color": "020003",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "Kantfit",
+                "name": "Abenkwan",
+                "id": 14570571,
+                "id_str": "14570571",
+                "indices": [
+                    12,
+                    20
+                ]
+            },
+            {
+                "screen_name": "YolieTheJew",
+                "name": "Jewnose Mars",
+                "id": 31713008,
+                "id_str": "31713008",
+                "indices": [
+                    23,
+                    35
+                ]
+            },
+            {
+                "screen_name": "ItsJessicaReddy",
+                "name": "Jessica Reddy",
+                "id": 30370558,
+                "id_str": "30370558",
+                "indices": [
+                    40,
+                    56
+                ]
+            },
+            {
+                "screen_name": "DJZeeti",
+                "name": "KDZT",
+                "id": 22147031,
+                "id_str": "22147031",
+                "indices": [
+                    59,
+                    67
+                ]
+            }
+        ],
+        "media": [
+            {
+                "id": 488334278732705800,
+                "id_str": "488334278732705792",
+                "indices": [
+                    106,
+                    128
+                ],
+                "media_url": "http://pbs.twimg.com/media/BsbpcG-CcAAkPvb.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/BsbpcG-CcAAkPvb.jpg",
+                "url": "http://t.co/Xdvfauq1R4",
+                "display_url": "pic.twitter.com/Xdvfauq1R4",
+                "expanded_url": "http://twitter.com/ItsJessicaReddy/status/488334279420551168/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "medium": {
+                        "w": 600,
+                        "h": 600,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 1024,
+                        "h": 1024,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 340,
+                        "h": 340,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 488334279420551200,
+                "source_status_id_str": "488334279420551168"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

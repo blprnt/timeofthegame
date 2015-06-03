@@ -1,0 +1,230 @@
+{
+    "created_at": "Sun Jul 13 15:36:42 +0000 2014",
+    "id": 488346287217987600,
+    "id_str": "488346287217987585",
+    "text": "RT @Mrs2BareIt: Selfie boob flash at gas station!! Thought we (Mr2BareIt &amp; I) would share a pic with you all!! http://t.co/9IXdZjVlaO",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 267638832,
+        "id_str": "267638832",
+        "name": "A W",
+        "screen_name": "wtf4764",
+        "location": "Texas/ kik wtf4764",
+        "url": null,
+        "description": null,
+        "protected": false,
+        "verified": false,
+        "followers_count": 1571,
+        "friends_count": 2000,
+        "listed_count": 11,
+        "favourites_count": 264262,
+        "statuses_count": 121201,
+        "created_at": "Thu Mar 17 08:35:10 +0000 2011",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/479224632260558848/G8dAzqgv_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/479224632260558848/G8dAzqgv_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/267638832/1405085378",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sat Feb 15 02:00:40 +0000 2014",
+        "id": 434507520930230300,
+        "id_str": "434507520930230272",
+        "text": "Selfie boob flash at gas station!! Thought we (Mr2BareIt &amp; I) would share a pic with you all!! http://t.co/9IXdZjVlaO",
+        "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 354957295,
+            "id_str": "354957295",
+            "name": "Bare It",
+            "screen_name": "Mrs2BareIt",
+            "location": "",
+            "url": "http://www.sextoysex.com/index.php?a=bareit",
+            "description": "Checking out the sexy side of Twitter with @Mr2BareIt. Happily married couple for 19+ years that loves sex!!! Flirt with me ladies, I like girls too!!",
+            "protected": false,
+            "verified": false,
+            "followers_count": 1336,
+            "friends_count": 247,
+            "listed_count": 11,
+            "favourites_count": 10,
+            "statuses_count": 695,
+            "created_at": "Sun Aug 14 15:53:41 +0000 2011",
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "33B7F0",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_link_color": "C72098",
+            "profile_sidebar_border_color": "080894",
+            "profile_sidebar_fill_color": "DAECF4",
+            "profile_text_color": "663B12",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2794759279/f1b866bd0250f98d8ccad99b98acac85_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2794759279/f1b866bd0250f98d8ccad99b98acac85_normal.jpeg",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 4,
+        "favorite_count": 6,
+        "entities": {
+            "hashtags": [],
+            "trends": [],
+            "urls": [],
+            "user_mentions": [],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 434507520775053300,
+                    "id_str": "434507520775053312",
+                    "indices": [
+                        99,
+                        121
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BgeuSbwIYAAuDr9.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BgeuSbwIYAAuDr9.jpg",
+                    "url": "http://t.co/9IXdZjVlaO",
+                    "display_url": "pic.twitter.com/9IXdZjVlaO",
+                    "expanded_url": "http://twitter.com/Mrs2BareIt/status/434507520930230272/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 600,
+                            "h": 450,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 768,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 255,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "Mrs2BareIt",
+                "name": "Bare It",
+                "id": 354957295,
+                "id_str": "354957295",
+                "indices": [
+                    3,
+                    14
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 434507520775053300,
+                "id_str": "434507520775053312",
+                "indices": [
+                    115,
+                    137
+                ],
+                "media_url": "http://pbs.twimg.com/media/BgeuSbwIYAAuDr9.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/BgeuSbwIYAAuDr9.jpg",
+                "url": "http://t.co/9IXdZjVlaO",
+                "display_url": "pic.twitter.com/9IXdZjVlaO",
+                "expanded_url": "http://twitter.com/Mrs2BareIt/status/434507520930230272/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "medium": {
+                        "w": 600,
+                        "h": 450,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 1024,
+                        "h": 768,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 340,
+                        "h": 255,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 434507520930230300,
+                "source_status_id_str": "434507520930230272"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}

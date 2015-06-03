@@ -1,0 +1,231 @@
+{
+    "created_at": "Sun Jul 13 15:36:49 +0000 2014",
+    "id": 488346314984276000,
+    "id_str": "488346314984275968",
+    "text": "RT @OITNBpost: This group selfie gives me life http://t.co/l09shTYZq0",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1316954714,
+        "id_str": "1316954714",
+        "name": "Nathan Backman",
+        "screen_name": "Nathanbackman",
+        "location": "",
+        "url": null,
+        "description": "Daniel Ames inc.",
+        "protected": false,
+        "verified": false,
+        "followers_count": 393,
+        "friends_count": 306,
+        "listed_count": 0,
+        "favourites_count": 5130,
+        "statuses_count": 2308,
+        "created_at": "Sat Mar 30 18:25:26 +0000 2013",
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/487791757003087872/BDSzeWKl_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/487791757003087872/BDSzeWKl_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1316954714/1405133583",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Jul 13 01:15:52 +0000 2014",
+        "id": 488129650686558200,
+        "id_str": "488129650686558209",
+        "text": "This group selfie gives me life http://t.co/l09shTYZq0",
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1573882310,
+            "id_str": "1573882310",
+            "name": "OITNB",
+            "screen_name": "OITNBpost",
+            "location": "",
+            "url": null,
+            "description": "I am a garden rose. || Orange is the new black fan page. not affiliated with @Netflix or @OITNB",
+            "protected": false,
+            "verified": false,
+            "followers_count": 21673,
+            "friends_count": 12,
+            "listed_count": 6,
+            "favourites_count": 34,
+            "statuses_count": 165,
+            "created_at": "Sat Jul 06 23:36:54 +0000 2013",
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/483062656748621826/HHx3U2I5_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/483062656748621826/HHx3U2I5_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1573882310/1403320824",
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 5480,
+        "favorite_count": 6294,
+        "entities": {
+            "hashtags": [],
+            "trends": [],
+            "urls": [],
+            "user_mentions": [],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 488129644952948740,
+                    "id_str": "488129644952948736",
+                    "indices": [
+                        32,
+                        54
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BsYvU2vCEAAfzAb.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BsYvU2vCEAAfzAb.jpg",
+                    "url": "http://t.co/l09shTYZq0",
+                    "display_url": "pic.twitter.com/l09shTYZq0",
+                    "expanded_url": "http://twitter.com/OITNBpost/status/488129650686558209/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 598,
+                            "h": 438,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 637,
+                            "h": 466,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 339,
+                            "h": 248,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "OITNBpost",
+                "name": "OITNB",
+                "id": 1573882310,
+                "id_str": "1573882310",
+                "indices": [
+                    3,
+                    13
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 488129644952948740,
+                "id_str": "488129644952948736",
+                "indices": [
+                    47,
+                    69
+                ],
+                "media_url": "http://pbs.twimg.com/media/BsYvU2vCEAAfzAb.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/BsYvU2vCEAAfzAb.jpg",
+                "url": "http://t.co/l09shTYZq0",
+                "display_url": "pic.twitter.com/l09shTYZq0",
+                "expanded_url": "http://twitter.com/OITNBpost/status/488129650686558209/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "medium": {
+                        "w": 598,
+                        "h": 438,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 637,
+                        "h": 466,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 339,
+                        "h": 248,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    }
+                },
+                "source_status_id": 488129650686558200,
+                "source_status_id_str": "488129650686558209"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "medium",
+    "lang": "en"
+}
