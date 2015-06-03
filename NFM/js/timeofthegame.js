@@ -7,6 +7,8 @@
 // notes:
 // cannot use canvas and jquery:
 // http://stackoverflow.com/questions/19179025/how-can-i-fade-html5-canvas-ctx-objects-in-and-out-using-jquery
+// the original main file which is used to get image coordinates can be found here: http://timeofthegame.o-c-r.org/out/thetimeofthegame/data/main.json
+//  this is downloaded and saved to the
 
 
 // CONTROL VARS

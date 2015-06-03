@@ -12,6 +12,7 @@
   </style>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="howler.min.js"></script>
+  <script src="Sound.js"></script>
 
   <script>
 
@@ -32,13 +33,25 @@
 
     
 
-// setup the sound objects
-    var sounds[]; // the sound objects
+    // setup the sound objects
+    var sounds = []; // the sound objects
     
 
     $(document).ready(function() {
       w = $(document).width();
       h = $(document).height();    
+
+      // setup the sounds
+
+      sounds.push(new Sound('american.mp3', 'american', 60 * 59 + 0));
+      sounds.push(new Sound('fortune.mp3', 'fortune', 60 * 59 + 0));
+      sounds.push(new Sound('lucky.mp3', 'lucky', 60 * 59 + 0));
+
+      // run the setup for the sounds
+      for (var i = 0; i < sounds.length; i++) {
+        sounds[i].setupSound();
+      }
+/*
       soundAmerican = new Howl({
         urls: ['american.mp3'],
         loop:true,
@@ -54,24 +67,25 @@
         loop:true,
         onload:sayDidLoad("lucky"),
       }).play();
+*/
 
 
+/*
+$( document ).mousemove(function( event ) {
+  x = event.clientX;
+  y = event.clientY;
 
-      $( document ).mousemove(function( event ) {
-        x = event.clientX;
-        y = event.clientY;
 
+  newVolume = y / h;
+  $(".volume").html("volume: " + Math.round(100 * newVolume));  
 
-        newVolume = y / h;
-        $(".volume").html("volume: " + Math.round(100 * newVolume));  
+  soundAmerican.volume(getVolume(y, h, .5 * h));
+  soundFortune.volume(getVolume(y, 0, .5 * h));
+  soundLucky.volume(getVolume(y, .5 * h, .5 * h));        
+});
 
-        soundAmerican.volume(getVolume(y, h, .5 * h));
-        soundFortune.volume(getVolume(y, 0, .5 * h));
-        soundLucky.volume(getVolume(y, .5 * h, .5 * h));        
-      });
-
-      $(document).click(function() {
-        soundAmerican.pos(soundLengthAmerican * x / w);
+$(document).click(function() {
+  soundAmerican.pos(soundLengthAmerican * x / w);
         //soundAmerican.volume(getVolume(y, h, .5 * h));
         soundFortune.pos(soundLengthFortune * x / w);
         //soundFortune.volume(getVolume(y, 0, .5 * h));
@@ -82,23 +96,21 @@
         soundFortune.volume(getVolume(y, 0, .5 * h));
         soundLucky.volume(getVolume(y, .5 * h, .5 * h));       
       });    
+*/
 
 
-
-      function getVolume(yIn, target, range)  {
-        var vol = 1;
-        if (Math.abs(yIn - target) > range) vol = 0;
-        else {
-          vol = 1 - Math.abs(yIn - target) / range;
-        }
+function getVolume(yIn, target, range)  {
+  var vol = 1;
+  if (Math.abs(yIn - target) > range) vol = 0;
+  else {
+    vol = 1 - Math.abs(yIn - target) / range;
+  }
         //console.log("vol as: " + vol + " for target: " + target + " and yIn: " + yIn + " and range" + range);;
         return vol;
      } // end getVolume
 
-     function sayDidLoad(name) {
-      console.log("loaded sound file: " + name);
-    }
-  });
+
+   });
 
 
 
