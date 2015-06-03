@@ -30,20 +30,30 @@
     var soundLucky;
     var soundLengthLucky = 60 * 2 + 56;
 
+    
+
+// setup the sound objects
+    var sounds[]; // the sound objects
+    
+
     $(document).ready(function() {
       w = $(document).width();
       h = $(document).height();    
       soundAmerican = new Howl({
         urls: ['american.mp3'],
+        loop:true,
+        onload:sayDidLoad("american"),
       }).play();
       soundFortune = new Howl({
         urls:['fortune.mp3'],
+        loop:true,
+        onload:sayDidLoad("fortune"),
       }).play();
-      
       soundLucky = new Howl({
         urls:['lucky.mp3'],
+        loop:true,
+        onload:sayDidLoad("lucky"),
       }).play();
-
 
 
 
@@ -84,7 +94,11 @@
         //console.log("vol as: " + vol + " for target: " + target + " and yIn: " + yIn + " and range" + range);;
         return vol;
      } // end getVolume
-   });
+
+     function sayDidLoad(name) {
+      console.log("loaded sound file: " + name);
+    }
+  });
 
 
 

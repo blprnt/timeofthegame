@@ -1,0 +1,91 @@
+extend layout
+
+block content
+
+  script(type='text/javascript').
+      var defImage =!{JSON.stringify(defImage)}
+    
+  .mainblock
+
+    script(type='text/javascript', src="http://code.jquery.com/jquery-1.9.1.min.js")
+    script(type='text/javascript', src="tvmapping/js/easeljs-0.6.1.min.js")
+    script(type='text/javascript', src="tvmapping/js/qlib_min.js")
+    script(type='text/javascript', src="tvmapping/js/tvmapping.js")
+    script.
+
+      $('document').ready(function() {
+
+
+        $('#result').hide();
+
+        $('#testButton').click(function() {
+          console.log('GOOD')
+          submitSkew(true);
+          $('#result').show();
+          $('#msg').html("YOUR CODE IS: " + defImage.id);
+        })
+
+        $('#badButton').click(function() {
+          console.log('BAD');
+          submitSkew(false);
+          $('#result').show();
+          $('#msg').html("YOUR CODE IS: " + defImage.id);
+        })
+
+        $('#next').click(function() {
+          location.reload();
+        })
+
+        init();
+        currentImage = document.createElement("img"); 
+        currentImage.src = 'out/thetimeofthegame/' + defImage.localURL;
+        currentImage.onload = processImage;        
+
+      })
+
+      function submitSkew(good) {
+        var out = [[corners_in[0].x, corners_in[0].y],[corners_in[1].x, corners_in[1].y],[corners_in[2].x, corners_in[2].y],[corners_in[3].x, corners_in[3].y]];
+
+        if (!good) out = [0];
+
+        //*
+        $.get( "http://timeofthegame.o-c-r.org/report/" + defImage.id + "/" + out.toString(), function( data ) {
+          //alert( "Load was performed." + data );
+        });
+        //*/
+
+        /*
+        $.get( "http://localhost:24702/report/" + defImage.id + "/" + out.toString(), function( data ) {
+          //alert( "Load was performed." + data );
+        });
+        //*/
+
+        console.log(out);
+      }
+
+
+  div.canvii
+    | <canvas id="imageHolder" width="800" height="800" style="position:absolute;z-index:0;top:30;left:0;"></canvas>
+    | <canvas id="output" width="800" height="800" style="position:absolute;z-index:1;top:30;left:800px;"></canvas>
+    | <canvas id="uiCanvas" width="1600" height="800" style="position:absolute;z-index:2;top:30;left:0;"></canvas>
+
+
+  div.buttons
+    | <p>
+    | Please drag the handles on the orange rectangle below to trace the inside edges of the screen showing the World Cup.
+    | </p>
+    | <button id="testButton">
+    |   Done! I found the TV and traced its outline.
+    | </button>
+    | <button id="badButton">
+    |   There's no TV here!
+    | </button>
+    | <div id="result">
+    | <div id="msg">Your code is 134325533</div>
+    | <button id="next">
+    |   Next ->
+    | </button>
+    | </div>
+
+  .footer
+
