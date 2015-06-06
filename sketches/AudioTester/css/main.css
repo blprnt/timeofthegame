@@ -27,6 +27,18 @@ body {
 	text-align:center;
 }
 
+.fade {
+	left: 340px;
+	top:100px;
+	position: absolute;
+	width:100px;
+	color:#fff;
+	height:100px;
+	font-size:30px;
+	background-color: #11a;
+	text-align: center;
+}
+
 .option {
 	color:#ffa;
 	position: absolute;

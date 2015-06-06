@@ -9,8 +9,8 @@ var pageDims = {w:100, h:100};
 var sounds = [];
 
 var options = [];
-var currentOption = "";
-var currentOptionIndex = 0;
+var currentOption = "lucky";
+var currentOptionIndex = 1;
 
 var soundLoaded = function(name) {
 	console.log("DID LOAD THE AUDIO " + name);
@@ -27,7 +27,12 @@ $().ready(function() {
 	sounds[newSound.getName()] = newSound;
 	options.push(newSound.getName());
 
-	 newSound = new Sound("audio/california.mp3", "california");
+	newSound = new Sound("audio/lucky.mp3", "lucky");
+	newSound.setupSound();
+	sounds[newSound.getName()] = newSound;
+	options.push(newSound.getName());
+
+	newSound = new Sound("audio/california.mp3", "california");
 	newSound.setupSound();
 	sounds[newSound.getName()] = newSound;
 	options.push(newSound.getName());
@@ -50,10 +55,26 @@ $().ready(function() {
 
 	$('.play').click(function() {
 		sounds[currentOption].startPlaying(10);
+		// fade out all existing sounds??
+		console.log("length of sounds: " + sounds.length);
+		for (var i = 0; i < options.length; i++) {
+			console.log("____checking name: " + options[i]);
+
+			if (options[i] != currentOption) {
+				if (sounds[options[i]].getIsPlaying()) {
+					sounds[options[i]].fadeOut();
+					console.log("fading out sound: " + sounds[options[i]].getName());
+				}
+			}
+		}
 	});
 
 	$('.pause').click(function() {
 		sounds[currentOption].pause();
+	});
+
+	$('.fade').click(function() {
+		sounds[currentOption].fadeOut(1);
 	});
 
 
