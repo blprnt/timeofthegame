@@ -2,6 +2,10 @@
 // http://audio.online-convert.com/convert-to-ogg
 // see http://www.w3schools.com/tags/ref_av_dom.asp
 
+// NOTE TO SELF: USE NODE HTTPSERVER, not PYTHON because media stuff doesnt play will with it.
+// http-server -p 8000
+
+
 //var audioElement = null;
 var mousePos = {x:-1, y:-1};
 var pageDims = {w:100, h:100};
@@ -54,12 +58,10 @@ $().ready(function() {
 
 
 	$('.play').click(function() {
-		sounds[currentOption].startPlaying(10);
+		sounds[currentOption].startPlaying(130);
 		// fade out all existing sounds??
-		console.log("length of sounds: " + sounds.length);
 		for (var i = 0; i < options.length; i++) {
-			console.log("____checking name: " + options[i]);
-
+			//console.log("____checking name: " + options[i]);
 			if (options[i] != currentOption) {
 				if (sounds[options[i]].getIsPlaying()) {
 					sounds[options[i]].fadeOut();

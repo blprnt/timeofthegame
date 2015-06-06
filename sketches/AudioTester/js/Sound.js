@@ -42,10 +42,15 @@ function Sound(fileLocation_, name_) {
 	this.startPlaying = function(secondsIn) {
 		console.log("in startplaying");
 		if (this.audioElement != null) {
-			console.log('trying to go to and play: ' + secondsIn);
+			console.log('trying to go to and play: ' + secondsIn)
 			if (this.audioElement.paused) {
 				if (this.duration == -1) 		{
 					this.getDuration();
+				}
+				// reduce volume if it had played through
+				if (this.volume > 0 && this.decreaseVolumeInterval == null) {
+					this.volume = 0;
+					this.audioElement.volume = 0;
 				}
 				this.audioElement.currentTime = secondsIn;
 				this.audioElement.play();
@@ -70,7 +75,9 @@ function Sound(fileLocation_, name_) {
 				this.decreaseVolumeInterval.clearInterval();
 				this.decreaseVolumeInterval = null;
 			}
-			this.increaseVolumeInterval = setInterval(this.increaseVolume.bind(this), 10);
+			if (this.increaseVolumeInterval  == null) {
+				this.increaseVolumeInterval = setInterval(this.increaseVolume.bind(this), 10);
+			}
 			
 		} else {
 			console.log("cannot fade in, audioElement not playing");
@@ -93,7 +100,8 @@ function Sound(fileLocation_, name_) {
 	//
 	this.fadeOut = function(fadeTime)  {
 		if (fadeTime == undefined) fadeTime = 5;
-		if (!this.audioElement.paused) {
+
+		if (!this.audioElement.paused ) {
 			this.volumeInc = 1 / (fadeTime * 1000 / this.volumeInterval);
 			//console.log("this.volumeInterval: " + this.volumeInterval);
 			//console.log("fadeTime: " + fadeTime);
@@ -104,7 +112,9 @@ function Sound(fileLocation_, name_) {
 				clearInterval(this.increaseVolumeInterval);
 				this.increaseVolumeInterval = null;
 			}
-			this.decreaseVolumeInterval = setInterval(this.decreaseVolume.bind(this), 10);
+			if (this.decreaseVolumeInterval == null ) {
+				this.decreaseVolumeInterval = setInterval(this.decreaseVolume.bind(this), 10);
+			}
 			
 		} else {
 			console.log("cannot fade out, audioElement already paused");
@@ -122,7 +132,7 @@ function Sound(fileLocation_, name_) {
 			this.pause();
 			clearInterval(this.decreaseVolumeInterval);
 			this.decreaseVolumeInterval = null;
-			console.log("volume at " + this.volume + " will now pause");
+			console.log("volume at " + this.volume + " will now pause " + this.name);
 		}
 	} // end decreaseVolume
 
