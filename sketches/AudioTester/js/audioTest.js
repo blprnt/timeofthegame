@@ -52,7 +52,7 @@ $().ready(function() {
 	options.push(newSound.getName());	
 
 
-	newSound = new Sound("Users/noa/Desktop/NFM_Audio/World Cup Final 2014BBC/BBCMerged.mp3", "bbc");
+	newSound = new Sound("audio/BBCMerged.mp3", "bbc");
 	newSound.setupSound();
 	sounds[newSound.getName()] = newSound;
 	options.push(newSound.getName());	
