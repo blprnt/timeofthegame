@@ -16,9 +16,16 @@ function Sound(fileLocation, name, length) {
 		console.log("setting up sound: " + this.name);
 		this.sound = new Howl({
 			urls: [this.fileLocation],
-			loop:true,
-			onload:sayDidLoad("american"),
-		});
+			preload:true,
+			//loop:true,
+			//onload:sayDidLoad(this.name),
+			//onplay:sayDidPlay(this.name),
+			//buffer:true,
+			//autoplay: true,
+			volume:.6,
+		}).play();
+		//this.sound.on('load', sayDidLoad(this.name));
+
 	} // end setupSound
 
 
@@ -28,8 +35,20 @@ function Sound(fileLocation, name, length) {
 	} // end sayDidLoad
 
 	//
-	this.startPlaying = function(urlIn) {
-		sound.play();
+	function sayDidPlay(name) {
+		console.log("starting to play sound file: " + name);
+	} // end sayDidLoad
+
+	//
+	this.startPlaying = function(secondsIn) {
+		if (this.sound != null) {
+			this.sound.pause();
+			this.sound.play();
+			this.sound.pos(secondsIn);
+			console.log('trying to go to: ' + secondsIn);
+		} else {
+			console.log("null sound file");
+		}
 	} // end setSRC
 
 	//

@@ -16,8 +16,8 @@ body {
 }
 
 .pause {
-	right:100px;
-	bottom:100px;
+	left:220px;
+	top:100px;
 	position: absolute;
 	width: 100px;
 	color: #fff;
@@ -27,33 +27,9 @@ body {
 	text-align:center;
 }
 
-
-.imageDescription {
+.option {
+	color:#ffa;
 	position: absolute;
-	width: 300px;
-	text-align: center;
-	color: #40a;
-	height: 100px;
-	font-size: 32px;
-	opacity: 1;
-	background-color: #aa3;
-}
-
-
-
-.ListFader {
-	position: absolute;
-	width: 300px;
-	text-align: center;
-	color: #eee;
-	height: 100px;
-	font-size: 32px;
-	opacity: 1;
-	
-}
-
-.FaderListItem {
-	color:#a00;
-	font-size:22px;
-	height:34px; /* note that this determines the spacing of these divs */
+	bottom:20px;
+	left:20px;
 }
