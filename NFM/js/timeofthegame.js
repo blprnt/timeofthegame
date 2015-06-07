@@ -97,7 +97,7 @@ var debug = false;
 var gridOn = true;  // will draw the grid on top of everything before it is split.  for alignment
 var splittingOn = true; // will toggle whether or not the image is split up
 
-
+var masksOn = true; // whether or not to start with the masks.  then later whether or not to  toggle them
 
 
 
@@ -477,13 +477,17 @@ function init() {
 	setRandomData(30);
 
 	// setup the gradient divs
-	toggleGradientMasks();
+	if (masksOn) {
+		masksOn = false;
+		toggleGradientMasks();
+	}
 }// end init
 
 
 // this will look for the gradient divs.  if they exist then remove them, else make them
 function toggleGradientMasks() {
-	if (!$('body').hasClass('gradientLeft')) {
+	if (!masksOn) {
+		masksOn = true;
 		var overallWidth = $(window).width();
 		var overallHeight = $(window).height();
 		console.log("adding gradients");
@@ -524,8 +528,9 @@ function toggleGradientMasks() {
 		document.body.appendChild(centerRight);
 	} else {
 		console.log("removing gradients");
-		$('gradientLeft').remote();
-		$('gradientRight').remote();
+		$('.gradientLeft').remove();
+		$('.gradientRight').remove();
+		masksOn = false;
 	}
 
 } // end toggleGradientMasks
@@ -770,23 +775,30 @@ function globalRender() {
 		}
 	}
 
-	// do the actual rendering
+
+	// do the actual rendering of the photos
 	for (var i = 0; i < currentPhotos.length; i++) {
 		currentPhotos[i].renderImage();
 	}
 
 	context.restore();
-
 	
 
+
+
 	// update the listFader
-	if (listFader != null) listFader.update(currentTime);
+	if (listFader != null) listFader.update(currentTime, context);
+	// draw the listfader [now drawn to canvas]
+	if (listFader != null) listFader.display(context);
+
+
 
 
 	// now that everything's been drawn, do the grid drawing and splitting/masking if toggled on
 	if (gridOn) {
 		renderGrid(context);
 	}
+
 
 	// and finally do the splitting
 	if (splittingOn) {

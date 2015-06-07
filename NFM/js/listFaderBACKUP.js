@@ -75,11 +75,11 @@ function ListFader(faderDivIn, animationTimeIn, screenWidthIn, screenHeightIn, t
 	}// end shiftFader
 
 	//
-	this.update = function(currentTime, contextIn) {
+	this.update = function(currentTime) {
 		// update the alphas for all ListItems
 		// and remove any dead ones
 		for (var i = listItems.length - 1; i >= 0; i--) {
-			listItems[i].update(currentTime, centering, contextIn);
+			listItems[i].update(currentTime, centering);
 			if (listItems[i].okToDie(currentTime)) {
 				listItems.splice(i, 1);
 				//console.log("removed item at index: " + i + " total size of listItems is now: " + listItems.length);
@@ -108,20 +108,11 @@ function ListFader(faderDivIn, animationTimeIn, screenWidthIn, screenHeightIn, t
 				//height:listItemDivHeight + 'px',
 				//"text-align":"center",
 				//width:faderDiv.css("width") ,
-				visibility:'hidden',
 				opacity:0,
 			})
 
-			
-
 			// add this div to the overall div
-			// ****** NOTE THAT THIS IS STILL HERE EVEN THOUGH CANVAS IS DRAWING IT ******//
-			// ****** VISIBLE SET TO NO ******//
 			faderDiv.append(listItemDiv);
-
-
-
-
 			// change the text in that new div.  use toTitleCase
 			listItemDiv.html(toTitleCase(name));
 			// make a new ListItem with the div
@@ -159,15 +150,6 @@ function ListFader(faderDivIn, animationTimeIn, screenWidthIn, screenHeightIn, t
 	} // end createNewListItem
 
 	//
-	// part 2 - display to canvas
-	
-	this.display = function(contextIn) {
-		for (var i = listItems.length - 1; i >= 0; i--)  	listItems[i].display(contextIn);
-	} // end display
-
-
-
-	//
 	this.killAllListItems = function() {
 		console.log("GOING TO KILL ALL LIST ITEMS");
 		for (var i = 0; i < listItems.length; i++) listItems[i].kill();
@@ -186,7 +168,6 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 	var divId = divIdIn;
 	var divWidth = 0;
 	var name = nameIn;
-	var titleName = toTitleCase(nameIn);
 	var position = positionIn;
 	var targetPosition = positionIn;
 	var positionSpeed = .14;
@@ -202,14 +183,7 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 	var kill = false; // can be automatically set to be destroyed
 
 
-	// canvas variables
-	var rightSpacing = 100; // pixels from right
-	var topSpacing = 32; // pixels from top
-	//var thisFont = "24px Verdana";
-	var thisFont = '16px Roboto Slab';
-
-
-	//console.log("made new listItem with divID of: " + divId + " and alpha as: " + alpha +" maxAlpha: " + alphaMax + " name: "+ name + " conception: " + conception);
+//console.log("made new listItem with divID of: " + divId + " and alpha as: " + alpha +" maxAlpha: " + alphaMax + " name: "+ name + " conception: " + conception);
 
 
 	//
@@ -255,7 +229,7 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 
 	//
 	// centering is passed from parent ListFader obj
-	this.update = function(currentTimeIn, centeringIn, contextIn) {
+	this.update = function(currentTimeIn, centeringIn) {
 		// change alpha
 		if (!reachedMax || (!kill && currentTimeIn > conception && currentTimeIn < conception + life + lifeExtension)) {
 			alpha += alphaIncrease;
@@ -269,7 +243,7 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 		else if (alpha < 0) alpha = 0;
 		
 		// change position
-		// add in centering -- which goes from around 1 to 1000.  centered is like 1000 or something
+		// add in centering
 		//position.x += positionSpeed * (targetPosition.x - position.x);
 		position.x = ((-divWidth + parentDiv.width() )/ 2)   * (centeringIn / 1000);
 		position.y += positionSpeed * (targetPosition.y - position.y);
@@ -280,12 +254,6 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 			top:position['y'] + "px",
 			right:position['x'] + "px",
 		});
-
-		// udpate for canvas
-		contextIn.font = thisFont;
-		position.x = (contextIn.canvas.width + divWidth - contextIn.measureText(titleName).width - rightSpacing)* ((1000 - centeringIn) / 1000) + (contextIn.canvas.width / 2 + divWidth/2) * (centeringIn / 1000);
-
-		position.y = position.y;
 	} // end update
 
 	//
@@ -311,22 +279,6 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 	this.shiftFader = function() {
 
 	} // end shiftFader
-
-
-		//
-	// part 2 - display to canvas
-	this.display = function(contextIn) {
-		contextIn.save();
-		contextIn.fillStyle = 'white';
-		contextIn.font = thisFont; 
-		contextIn.textBaseline = 'top';
-		contextIn.globalAlpha = alpha;
-		contextIn.textAlign = 'right';
-		//contextIn.fillText("54 -" + position.x.toPrecision(2) + ", " + position.y.toPrecision(2), position.x, position.y);
-		contextIn.fillText(titleName, position.x, position.y + topSpacing);
-		contextIn.restore();
-	} // end display
-
 } // end class ListItem
 
 
