@@ -89,6 +89,8 @@ function setClockDivText() {
 }// end setClockDivText
 
 
+
+
 //
 function setRandomData(allottedTime, maximumPhotoCount) {
 	console.log("SET RANDOM.  min: " + minRange + " max:" + maxRange)

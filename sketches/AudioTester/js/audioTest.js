@@ -52,7 +52,7 @@ $().ready(function() {
 	options.push(newSound.getName());	
 
 
-	newSound = new Sound("audio/BBCMerged.mp3", "bbc");
+	newSound = new Sound("/../../NFM/audio/BBCMerged.mp3", "bbc");
 	newSound.setupSound();
 	sounds[newSound.getName()] = newSound;
 	options.push(newSound.getName());	
@@ -84,7 +84,7 @@ $().ready(function() {
 	});
 
 	$('.fade').click(function() {
-		sounds[currentOption].fadeOut(1);
+		sounds[currentOption].fadeOut();
 	});
 
 

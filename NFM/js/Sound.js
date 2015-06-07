@@ -39,7 +39,8 @@ function Sound(fileLocation_, name_) {
 	} // end sayDidLoad
 
 	//
-	this.startPlaying = function(secondsIn) {
+	this.startPlaying = function(secondsIn, fadeTime) {
+		if (fadeTime == undefined) fadeTime = 5;
 		console.log("in startplaying");
 		if (this.audioElement != null) {
 			console.log('trying to go to and play: ' + secondsIn)
@@ -54,11 +55,12 @@ function Sound(fileLocation_, name_) {
 				}
 				this.audioElement.currentTime = secondsIn;
 				this.audioElement.play();
-				if (this.volume < 1)  this.fadeIn();
+				if (this.volume < 1)  this.fadeIn(fadeTime);
 
 				console.log("playing element");
 			} else {
 				console.log("already playing");
+				if (this.volume < 1) this.fadeIn(fadeTime);
 			}			
 		} else {
 			console.log("null sound file");
@@ -153,29 +155,6 @@ function Sound(fileLocation_, name_) {
 		}
 	} // end pause
 
-
-/*
-	$('.play').click(function() {
-		if (audioElement.paused) {
-			audioElement.play();
-			console.log("playing element");
-		} else {
-			console.log("already playing");
-		}
-	});
-
-	$('.pause').click(function() {
-		if (!audioElement.paused) {
-			audioElement.pause();
-			console.log("pausing element");
-			console.log("currentTime: " + audioElement.currentTime);
-			console.log("loop?: " + audioElement.loop);
-			console.log("current volume: " + audioElement.volume);
-		} else {
-			console.log("already paused");
-		}
-	});
-*/
 	//
 	this.getLocation= function() {
 		return this.fileLocation;

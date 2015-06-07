@@ -132,6 +132,10 @@ var inCityMode = false;
 var cityThresholdCount = 0; // when the count for a minute doesnt meet this then city mode is entered.  set in preferences
 
 
+// SOUNDS
+var sounds = [];
+var crossFadeTime = 4; // seconds
+
 
 //
 $().ready(function() {
@@ -169,6 +173,24 @@ $().ready(function() {
 		right : imageDescriptionRightPos + "px"
 	})
 */
+
+
+
+
+
+	// setup the SOUNDS
+	var newSound = new Sound("audio/BBCMerged.mp3", "british");
+	newSound.setupSound();
+	sounds[newSound.getName()] = newSound;
+	
+	newSound = new Sound("audio/QuickDirtySofterSpanish.mp3", "spanish");
+	newSound.setupSound();
+	sounds[newSound.getName()] = newSound;
+	
+
+	
+
+
 
 
 
@@ -369,6 +391,16 @@ $().ready(function() {
 				clearInterval(globalRenderInterval);
 			}
 
+			// sound stuff
+			else if (thisString === 'y') {
+				// british
+				playSound("british", getCurrentTimeInSeconds());
+			} else if (thisString === 'u') {
+				// spanish
+				playSound("spanish", getCurrentTimeInSeconds());
+			}else if (thisString === 'r') {
+				pauseAllSounds();
+			}
 
 
 			// play with the overlap and width 
@@ -508,6 +540,34 @@ function setCornersOut() {
 
 
 
+// sound handler
+function playSound(soundName, time) {
+	console.log("sounds: " + sounds);
+	console.log("sounds.length: " + Object.keys(sounds).length);
+	if (soundName in sounds) {
+		console.log("rad, sounds has soundName: " + soundName + " -- will play it.  total sounds in array: " + sounds.length);
+		for (var key in sounds) {
+			var sound = sounds[key];
+			console.log("name: " + sound.getName() + " is playing? " + sound.getIsPlaying());
+			if (sound.getName() === soundName) sound.startPlaying(time, crossFadeTime);
+			else sound.fadeOut(crossFadeTime);
+		}
+	} else {
+		console.log("oops, sounds does not have soundName: " + soundName);
+	}
+} // end playSound
+
+function pauseAllSounds() {
+	console.log("in pauseAllSounds");
+	for (var key in sounds) {
+		var sound = sounds[key];
+		sound.fadeOut(2);
+
+	}
+} // end pauseAllSounds
+
+
+
 
 //
 // real timer
@@ -534,6 +594,7 @@ function secondTimerInterval() {
 //
 // game timer
   // from 0 to 120
+  // NOTE: make this go to 123
 // when a new minute triggers this will make the queue of images to play and their respective times
 //  times will be actual times in real date time by second
 function gameTimer(doIncrement) {

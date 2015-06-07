@@ -156,3 +156,15 @@ function measureText(divIn) {
 	return lResult;
 } // end measureText
 
+
+
+
+//
+// actually draw clock text to the clock div
+function getCurrentTimeInSeconds() {
+	var currentTime = gameMinuteTracker * 60 + secondTracker;
+	console.log("current time in seconds: " + currentTime);
+	return currentTime;
+}// end setClockDivText
+
+
