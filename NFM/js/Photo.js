@@ -99,6 +99,11 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 	} // end getToDie
 
 	//
+	this.getDelay = function() {
+		return this.delay;
+	}
+
+	//
 	this.setDelay = function(val) {
 		this.delay = val;
 	} // end setDelay

@@ -876,8 +876,7 @@ function globalRender() {
 
 
 	// do the actual rendering of the photos
-//for (var i = 0; i < currentPhotos.length; i++) {
-	for (var i = currentPhotos.length - 1; i >= 0; i--) {
+	for (var i = 0; i < currentPhotos.length; i++) {
 		currentPhotos[i].renderImage();
 	}
 

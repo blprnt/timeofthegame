@@ -115,9 +115,13 @@ function setRandomData(allottedTime, maximumPhotoCount) {
 	console.log('done with setRandomData.  pushed ' + data.length + ' things to the data array.  made ' + newPhotos.length + ' new photos with limit as: ' + maximumPhotoCount);
 
 	// add new photos
+	console.log("GOING TO ADD PHOTOS:");
 	for (var i = 0; i < newPhotos.length; i++) {
 		currentPhotos.push(newPhotos[i]);
+		console.log(newPhotos[i].getSRC()+ " -- " + newPhotos[i].getDelay());
 	}
+	console.log("ADDED PHOTOS");
+
 }// end setRandomData
 
 
@@ -150,6 +154,8 @@ function renderCity(city, allottedTime, maximumPhotoCount) {
 	var isCity= true;
 	var newPhotos = generateImageArray(data, allottedTime, maximumPhotoCount, isCity);
 	console.log('done with renderCity.  pushed ' + data.length + ' things to the data array.  made ' + newPhotos.length + ' new photos');
+
+
 
 	// add new photos
 	for (var i = 0; i < newPhotos.length; i++) {
@@ -201,6 +207,12 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 		newPhotos.push(newPhoto);
 		newPhoto.setSRC(src); // this will set the image and start up the callback function to reset coneption time
 	}
+
+	// sort the newPhotos by shortest delay time
+	newPhotos.sort(function(obj1, obj2) {
+		return obj1.getDelay() - obj2.getDelay();
+	});
+
 	return newPhotos;
 }// end generateImageArray
 
@@ -348,8 +360,8 @@ function performImageSplit(contextIn, panelWidthIn, overlapWidthIn) {
         // draw left side
         contextIn.drawImage(contextIn.canvas, leftEdgeSourceX, 0, panelWidthIn, imgHeight, leftEdgePositionX, 0, panelWidthIn, imgHeight);
         // draw right side
-       contextIn.drawImage(contextIn.canvas, rightEdgeSourceX, 0, panelWidthIn, imgHeight, rightEdgePositionX, 0, panelWidthIn, imgHeight);
-       contextIn.restore();
+        contextIn.drawImage(contextIn.canvas, rightEdgeSourceX, 0, panelWidthIn, imgHeight, rightEdgePositionX, 0, panelWidthIn, imgHeight);
+        contextIn.restore();
 } // end performImageSplit
 
 
