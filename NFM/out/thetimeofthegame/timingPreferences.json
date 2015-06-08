@@ -15,7 +15,7 @@
     "comment7":"duration to display image",
     "imageFadeOutTimeInSeconds":5,
     "comment8":"time to fade out",
-    "cityThresholdCount":8,
+    "cityThresholdCount":5,
     "comment9":"a minute must have at least this many pics to be considered valid, otherwise switch to a city",
     "crossFadeTime":5,
     "comment10":"amount of time, in seconds, for cross fading of audio",

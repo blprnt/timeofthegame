@@ -323,23 +323,25 @@ $().ready(function() {
 			
 			init(); // in imageDisplayFunctions.js
 
+			// also make a temp count of all images per minute for reference
+			var imagesPerMinute = [];
+			for (var i = 0; i <= 130; i++) {
+				imagesPerMinute[i] = 0;
+			}
+
 			// find the valid city options
 			var cityTemps = [];
 			for (var i = 0; i < allData.length; i++) {
 				if (allData[i].location != undefined) {
 					var thisCity = allData[i].location.toLowerCase().replace('.', '');
-
-					// check whether or not the image file exists.. use to manually take out the crap images
-					/*
-					var thisSRC = "out/thetimeofthegame"  + allData[i].localURL;
-					var fileExists = doesFileExist(thisSRC);
-					if (fileExists) console.log('file ' + thisSRC + " exists");
-					else console.log('file ' + thisSRC + " DOES NOT EXIST");
-					*/
-
-
 					if (cityTemps[thisCity] == null)  cityTemps[thisCity]  = 1;
 					else cityTemps[thisCity] = cityTemps[thisCity] + 1;
+				}
+				// save time for logging to see how many images per minute there are
+				if (allData[i].timeofgame < imagesPerMinute.length && allData[i].timeofgame >= 0) {
+					imagesPerMinute[allData[i].timeofgame]++;
+				} else {
+					imagesPerMinute[imagesPerMinute.length - 1]++;
 				}
 			}
 			//console.log(cityTemps);			
@@ -354,6 +356,20 @@ $().ready(function() {
 			if (lastFocusCityCount > validCityOptions.length - 2)  lastFocusCityCount = validCityOptions.length - 1;
 			//console.log("lastFocusCityCount set to: " + lastFocusCityCount);
 
+			// print out the minute counts
+			var minuteSum = 0;
+			var cityMinutes = 0; // count of minutes that will go to city
+			var nonCityMinutes = 0; // minutes that will play normally
+			for (var i = 0; i <= 130; i++) {
+				console.log("minute: " + i + " :: " + imagesPerMinute[i] + "     " + (imagesPerMinute[i] >= cityThresholdCount ? "iiiiii" : "city"));
+				if (imagesPerMinute[i] >= cityThresholdCount) nonCityMinutes++;
+				else cityMinutes++;
+				minuteSum += imagesPerMinute[i];
+			}
+			console.log("imagesPerMinute sum: " + minuteSum);
+			console.log("minutes that will go to city: " +  cityMinutes);
+			console.log("minutes that will stay without city: " + nonCityMinutes);
+
 			// start the timer now that the data is loaded
 			// use them to start the overall timer
 			// start up the game timer
@@ -363,9 +379,6 @@ $().ready(function() {
 				gameTimer(true)
 			}, gameMinuteMS);		
 		}) // end load of main file
-
-
-
 	}); // end load of skip files
 
 
