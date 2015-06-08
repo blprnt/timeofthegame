@@ -184,3 +184,11 @@ function doesFileExist(urlToFile) {
 } // end doesFileExist
 
 
+
+// 
+// 
+// send an osc message on port 3334
+function sendOSCMessage(message) {
+	console.log("in send osc message for message: " + message);
+	socket.emit('message', message);
+} // end sendOSCMessage

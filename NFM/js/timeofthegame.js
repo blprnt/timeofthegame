@@ -165,6 +165,10 @@ $().ready(function() {
 		left : clockLeftPos + "px",
 	})
 
+
+
+
+
 	// set th
 	// load thee imageDescription placement
 	/*
@@ -450,6 +454,11 @@ $().ready(function() {
 			toggleGrid();
 		}
 
+		// osc message stuff
+		else if (thisString === 'p') {
+			sendOSCMessage("hello world, this is an osc message");
+		}
+
 		// if debug is on then do other user commands
 		if (debug) {
 			if (thisString === 'z') {
@@ -626,6 +635,10 @@ function setCornersOut() {
 function playSound(soundName, time) {
 	console.log("sounds: " + sounds);
 	console.log("sounds.length: " + Object.keys(sounds).length);
+
+	// send an osc message
+	sendOSCMessage(soundName + "," + time);
+
 	if (soundName in sounds) {
 		console.log("rad, sounds has soundName: " + soundName + " -- will play it.  total sounds in array: " + sounds.length);
 		for (var key in sounds) {

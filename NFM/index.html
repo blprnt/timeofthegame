@@ -11,7 +11,47 @@
 					//var defTogJSON =
 				</script>
 				<div class="mainblock">
-				
+					<!-- osc stuff - based on example from http://automata.cc/osc-web -->
+					<!-- to get it running:
+						start the server to run this page:
+							http-server -p 8000
+						then start up the socket server:
+							goto wherever the folder osc-web-master and run:
+								node bridge.js
+						then load up the the actual webpage by goingto 
+							localhost:8000    in chrome
+						verify that the socket server is running, - look at the cmd line and see that there wasnt an error
+							if there was an error then restart the socket server [see above] and then refresh the webpage
+
+					-->
+					<script src="http://127.0.0.1:8081/socket.io/socket.io.js"></script>
+					<script>
+						socket = io.connect('http://127.0.0.1', { port: 8081, rememberTransport: false});
+						console.log('oi');
+						socket.on('connect', function() {
+					        // sends to socket.io server the host/port of oscServer
+					        // and oscClient
+					        socket.emit('config',
+					        {
+					        	server: {
+					        		port: 3333,
+					        		host: '127.0.0.1'
+					        	},
+					        	// configure the listenting program to listen on this port
+					        	client: {
+					        		port: 3334,
+					        		host: '127.0.0.1'
+					        	}
+					        }
+					        );
+					    });
+
+						socket.on('message', function(obj) {
+							//var status = document.getElementById("status");
+							//status.innerHTML = obj[0];
+							console.log(obj);
+						});
+					</script>
 
 					<script type="text/javascript" src="tvmapping/js/easeljs-0.6.1.min.js"></script>
 					<script type="text/javascript" src="tvmapping/js/qlib_min.js"></script>
