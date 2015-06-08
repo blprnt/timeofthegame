@@ -56,21 +56,21 @@ var corners_out; // the corners for displaying the image
 
 // variables for the panel appearance
 // how big each panel is, pre-overlap
-var panelWidth = 1920;
+var panelWidth = 1920; // set in plamentPreferences.json
 // overlap between panels
-var panelOverlap = 288; 
+var panelOverlap = 288; // set in plamentPreferences.json
 
 // how wide is the gradient.  this makes new gradientLeft and gradientRight divs
-var gradientWidth = 288;
+var gradientWidth = 288; // set in plamentPreferences.json
 
 // placement vars
 // clock positioning
 var clockLeftPos = 90;
 var clockTopPos = 30;
 
-// listFader positioning
-var listFaderRightPos = 70;
-var listFaderTopPos = 30;
+// listFader positioning. 
+var listFaderRightPos = 70; // set in placementPrefrences.json
+var listFaderTopPos = 30; 
 var listFader = null; // the actual fader object
 
 
@@ -123,7 +123,7 @@ var suppressGameRendering = false;
 
 // valid city options to jump to
 var validCityOptions = []; // the cities that have at least n photos
-var validCityOptionsMin = 10; // a city needs at least this many
+var validCityOptionsMin = 1; // a city needs at least this many.  set in timingPreferences
 var lastFocusCities = []; // keep track of the last focus city so it doesnt repeat
 var lastFocusCityCount = 2; // how long the lastFocusCity array will be
 
@@ -134,7 +134,7 @@ var cityThresholdCount = 0; // when the count for a minute doesnt meet this then
 
 // SOUNDS
 var sounds = [];
-var crossFadeTime = 4; // seconds
+var crossFadeTime = 4; // seconds.  set in timingPreferences.json
 
 
 //
@@ -227,6 +227,8 @@ $().ready(function() {
 		}
 		gradientWidth = data.gradient_width;
 		if (gradientWidth == undefined) gradientWidth = 288;
+
+
 	})
 
 	// preferences for timing and all that
@@ -266,51 +268,107 @@ $().ready(function() {
 		minRange = gameMinuteTracker;
 		maxRange = gameMinuteTracker;
 
+		// sound stuff
+		crossFadeTime  = data.crossFadeTime;
+		if (crossFadeTime == undefined) crossFadeTime = 4;
 
-
+		// how many images are required to make a city
+		validCityOptionsMin = data.validCityOptionsMin;
+		if (validCityOptionsMin == undefined) validCityOptionsMin = 10;
+		
 		// make the fader object now that the animation time is set
 		listFader = new ListFader($('.ListFader'), animationTime, w, h, listFaderTopPos, listFaderRightPos);		
 	})	
 
-	//LOAD JSON for the actual data
-	console.log("LOAD JSON");
-	$.getJSON('out/thetimeofthegame/main.json', function(data) {// local copy
-	//$.getJSON('http://timeofthegame.o-c-r.org/out/thetimeofthegame/data/main.json', function(data) { // web copy
+
+	// load the skip csv - a list of the files that should be skipped
+	// load the skip files
+	$.getJSON("out/thetimeofthegame/imageSkip.json", function(data) {
+		console.log("adsfasdfasfd");
+		console.log("adsfasdfasfd");
+		console.log("adsfasdfasfd");
 		console.log(data);
-		allData = data.images;
-		console.log("finished loading all data.  size: " + allData.length);
-		init(); // in imageDisplayFunctions.js
-
-		// find the valid city options
-		var cityTemps = [];
-		for (var i = 0; i < allData.length; i++) {
-			if (allData[i].location != undefined) {
-				var thisCity = allData[i].location.toLowerCase().replace('.', '');
-				if (cityTemps[thisCity] == null)  cityTemps[thisCity]  = 1;
-				else cityTemps[thisCity] = cityTemps[thisCity] + 1;
-			}
+		var imagesToSkip = [];
+		var skip = data.skip;
+		for (var j = 0; j < skip.length; j++) {
+			var thisId = skip[j].id;
+			imagesToSkip[thisId] = 0;
 		}
-		//console.log(cityTemps);			
-		for (var option in cityTemps) {
-			//console.log(option + " -- " + cityTemps[option]);
-			if (cityTemps[option] > validCityOptionsMin) {
-				validCityOptions.push(option);
-			}
-		}
-		console.log("valid city options:");
-		console.log(validCityOptions);
-		if (lastFocusCityCount > validCityOptions.length - 2)  lastFocusCityCount = validCityOptions.length - 1;
-		//console.log("lastFocusCityCount set to: " + lastFocusCityCount);
 
-		// start the timer now that the data is loaded
-		// use them to start the overall timer
-		// start up the game timer
-		// note that gameMinuteMS determines the overall speed of the game minute
-		gameTimer(false);
-		gameTimerInterval = setInterval(function() {
-			gameTimer(true)
-		}, gameMinuteMS);		
-	})
+		// now load the main json
+		// reminder: check if a key is in an associative array
+		//if (soundName in sounds) {
+
+
+		//LOAD JSON for the actual data
+		console.log("LOAD JSON");
+		$.getJSON('out/thetimeofthegame/main.json', function(data) {// local copy
+		//$.getJSON('http://timeofthegame.o-c-r.org/out/thetimeofthegame/data/main.json', function(data) { // web copy
+			console.log(data);
+			allData = [];
+			// cycle though the data, only add the ones that arent skippable
+			// take out the skip files
+			for (var i = 0; i < data.images.length; i++) {
+				var thisImage = data.images[i];
+				if (thisImage.id in imagesToSkip) {
+					console.log("skipping image: " + thisImage.id);
+				} else {
+					allData.push(thisImage);
+				}
+			}
+			//allData = data.images;
+			
+			console.log("finished loading all data.  size: " + allData.length);
+
+			
+			init(); // in imageDisplayFunctions.js
+
+			// find the valid city options
+			var cityTemps = [];
+			for (var i = 0; i < allData.length; i++) {
+				if (allData[i].location != undefined) {
+					var thisCity = allData[i].location.toLowerCase().replace('.', '');
+
+					// check whether or not the image file exists.. use to manually take out the crap images
+					/*
+					var thisSRC = "out/thetimeofthegame"  + allData[i].localURL;
+					var fileExists = doesFileExist(thisSRC);
+					if (fileExists) console.log('file ' + thisSRC + " exists");
+					else console.log('file ' + thisSRC + " DOES NOT EXIST");
+					*/
+
+
+					if (cityTemps[thisCity] == null)  cityTemps[thisCity]  = 1;
+					else cityTemps[thisCity] = cityTemps[thisCity] + 1;
+				}
+			}
+			//console.log(cityTemps);			
+			for (var option in cityTemps) {
+				//console.log(option + " -- " + cityTemps[option]);
+				if (cityTemps[option] > validCityOptionsMin) {
+					validCityOptions.push(option);
+				}
+			}
+			console.log("valid city options:");
+			console.log(validCityOptions);
+			if (lastFocusCityCount > validCityOptions.length - 2)  lastFocusCityCount = validCityOptions.length - 1;
+			//console.log("lastFocusCityCount set to: " + lastFocusCityCount);
+
+			// start the timer now that the data is loaded
+			// use them to start the overall timer
+			// start up the game timer
+			// note that gameMinuteMS determines the overall speed of the game minute
+			gameTimer(false);
+			gameTimerInterval = setInterval(function() {
+				gameTimer(true)
+			}, gameMinuteMS);		
+		}) // end load of main file
+
+
+
+	}); // end load of skip files
+
+
 	//
 
 
@@ -341,7 +399,10 @@ $().ready(function() {
 		if (thisString === 'd') {
 			debug = !debug;
 			console.log("turning debug to: " + debug)
-		} else if (thisString == 'u') {
+		} 
+
+
+		/*else if (thisString == 'u') {
 			console.log("toggling clock to hide");
 			toggleClock(false);
 		} else if (thisString == 'i') {
@@ -354,6 +415,19 @@ $().ready(function() {
 			console.log("toggling imageDescription to show");
 			toggleImageDescription(true);
 		}		
+		*/
+
+		// sound stuff
+		else if (thisString === 'y') {
+			// british
+			playSound("british", getCurrentTimeInSeconds());
+		} else if (thisString === 'u') {
+			// spanish
+			playSound("spanish", getCurrentTimeInSeconds());
+		}else if (thisString === 'r') {
+			pauseAllSounds();
+		}
+		
 		// splitting, mask, and grid
 		else if (thisString === 's') {
 			toggleSplitting();
@@ -391,16 +465,6 @@ $().ready(function() {
 				clearInterval(globalRenderInterval);
 			}
 
-			// sound stuff
-			else if (thisString === 'y') {
-				// british
-				playSound("british", getCurrentTimeInSeconds());
-			} else if (thisString === 'u') {
-				// spanish
-				playSound("spanish", getCurrentTimeInSeconds());
-			}else if (thisString === 'r') {
-				pauseAllSounds();
-			}
 
 
 			// play with the overlap and width 
@@ -616,7 +680,7 @@ function gameTimer(doIncrement) {
 	secondTracker = 0;
 	secondTimer = setInterval(function() {
 		secondTimerInterval()
-	}, 1000);
+	}, 1000 * (gameMinuteMS / 60000));
 
 
 

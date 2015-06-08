@@ -168,3 +168,19 @@ function getCurrentTimeInSeconds() {
 }// end setClockDivText
 
 
+//
+// check whether or not  a file exists
+// see http://www.kirupa.com/html5/checking_if_a_file_exists.htm
+function doesFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+     
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
+} // end doesFileExist
+
+
