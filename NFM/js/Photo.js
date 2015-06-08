@@ -1,7 +1,7 @@
 // this is the Photo object
 //
 // note that the osc stuff is sent here too
-function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorners, photoType) {
+function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorners, photoType, languagePreference) {
 	var image = new Image();
 
 	var url;
@@ -27,10 +27,13 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 	var triggered = false; // set to true when the alpha is > 0 for the first time
 	var firedFaderLabelAlready = false; // triggered to true after 'triggered' is true and the global render asks it to
 
+	this.languagePreference = languagePreference;
+	var firedOSCAlready = false; // triggered after 'triggered' is set to true
+
 	//
 	// nullify things.. to save on memory?
 	this.kill = function() {
-		console.log("killing image: " + url);
+		//console.log("killing image: " + url);
 		image = null;
 	} // end kill
 
@@ -149,6 +152,8 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 				if (!triggered) {
 					//console.log("triggered image: " + url + " -- loc: " + this.location);
 					triggered = true;
+					// fire off the osc if it hasnt already
+					if (!firedOSCAlready) this.fireOSC();
 				}				
 			}
 			// pausing
@@ -245,6 +250,19 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 				} // end for
 		} // end if alpha > 0
 	} // end renderImage
+
+	// this will actually fire off the OSC message
+	this.fireOSC = function() {
+		console.log("in foreOSC for url: " + this.getSRC());
+		firedOSCAlready = true;
+			// send an osc message
+			if (typeof socket !== 'undefined') {
+				var message = this.languagePreference + "," + getCurrentTimeInSeconds() + "," + this.photoType;
+				sendOSCMessage(message);
+			} else {
+				console.log("socket is undefined.  DID NOT send osc message")
+			}
+	} // end fireOSC
 } // end class Photo
 
 

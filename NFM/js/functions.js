@@ -163,7 +163,7 @@ function measureText(divIn) {
 // actually draw clock text to the clock div
 function getCurrentTimeInSeconds() {
 	var currentTime = gameMinuteTracker * 60 + secondTracker;
-	console.log("current time in seconds: " + currentTime);
+	//console.log("current time in seconds: " + currentTime);
 	return currentTime;
 }// end setClockDivText
 
@@ -189,6 +189,6 @@ function doesFileExist(urlToFile) {
 // 
 // send an osc message on port 3334
 function sendOSCMessage(message) {
-	console.log("in send osc message for message: " + message);
 	socket.emit('message', message);
+	console.log("in send osc message for message: " + message);
 } // end sendOSCMessage

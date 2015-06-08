@@ -115,13 +115,10 @@ function setRandomData(allottedTime, maximumPhotoCount) {
 	console.log('done with setRandomData.  pushed ' + data.length + ' things to the data array.  made ' + newPhotos.length + ' new photos with limit as: ' + maximumPhotoCount);
 
 	// add new photos
-	console.log("GOING TO ADD PHOTOS:");
 	for (var i = 0; i < newPhotos.length; i++) {
 		currentPhotos.push(newPhotos[i]);
-		console.log(newPhotos[i].getSRC()+ " -- " + newPhotos[i].getDelay());
+		//console.log("added photo: " + newPhotos[i].getSRC()+ " -- delay time: " + newPhotos[i].getDelay());
 	}
-	console.log("ADDED PHOTOS");
-
 }// end setRandomData
 
 
@@ -203,7 +200,9 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 		var corners = candidates[index].corners.split(",");
 		var photoType = "normal";
 		if(isCity) photoType = "city";
-		var newPhoto = new Photo(loc, thisMaxAlpha, delay, displayTime, conception, corners, photoType);
+		var languagePreference = "english";
+		// search for language preference from the data
+		var newPhoto = new Photo(loc, thisMaxAlpha, delay, displayTime, conception, corners, photoType, languagePreference);
 		newPhotos.push(newPhoto);
 		newPhoto.setSRC(src); // this will set the image and start up the callback function to reset coneption time
 	}

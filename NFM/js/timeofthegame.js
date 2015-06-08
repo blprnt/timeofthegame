@@ -94,7 +94,7 @@ var animationTime = 0;
 var debug = false;
 
 // 
-var gridOn = true;  // will draw the grid on top of everything before it is split.  for alignment
+var gridOn = false;  // will draw the grid on top of everything before it is split.  for alignment
 var splittingOn = false; // will toggle whether or not the image is split up
 
 var masksOn = false; // whether or not to start with the masks.  then later whether or not to  toggle them
@@ -638,7 +638,7 @@ function playSound(soundName, time) {
 
 	// send an osc message
 	if (typeof socket !== 'undefined') {
-		sendOSCMessage(soundName + "," + time);
+		sendOSCMessage(soundName + "," + time + ",normal");
 	} else {
 		console.log("socket is undefined")
 	}
