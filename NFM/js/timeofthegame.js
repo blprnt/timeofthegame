@@ -806,13 +806,13 @@ function globalRender() {
 
 
 	// if the grid is on then draw a background so that  things don't overlap
-	if (gridOn) {
+	//if (gridOn) {
 		context.beginPath();
 		context.rect(0, 0, output.width, output.height);
 		context.fillStyle = $('body').css("background-color");
 		context.fill();
 		context.closePath();
-	}
+	//}
 
 
 
