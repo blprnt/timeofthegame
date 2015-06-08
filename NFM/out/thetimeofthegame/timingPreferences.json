@@ -1,5 +1,5 @@
 {
-    "gameMinuteMS": 10000,
+    "gameMinuteMS": 60000,
     "comment1":"how long, in ms, each game minute is.  60000 is a realtime minute",
     "gameMinuteTracker": 54,
     "comment2":"the first minute to start on",
@@ -11,14 +11,14 @@
     "comment5":"time in ms for animation of things like moving clock and city div",
     "imageWarmupTimeInSeconds":1,
     "comment6":"how long it takes each image to warm up - integer",
-    "imageDisplayTimeInSeconds":8,
+    "imageDisplayTimeInSeconds":20,
     "comment7":"duration to display image",
-    "imageFadeOutTimeInSeconds":5,
+    "imageFadeOutTimeInSeconds":10,
     "comment8":"time to fade out",
-    "cityThresholdCount":5,
+    "cityThresholdCount":3,
     "comment9":"a minute must have at least this many pics to be considered valid, otherwise switch to a city",
     "crossFadeTime":5,
-    "comment10":"amount of time, in seconds, for cross fading of audio",
+    "comment10":"amount of time, in seconds, for cross fading of audio... when using it via html5, not the osc stuff",
     "validCityOptionsMin":5,
     "comment11":"minimum number of images for a city to be considered usable"
 }

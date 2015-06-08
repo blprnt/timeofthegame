@@ -1,6 +1,7 @@
 // this is the Photo object
 //
-function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorners) {
+// note that the osc stuff is sent here too
+function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorners, photoType) {
 	var image = new Image();
 
 	var url;
@@ -13,6 +14,9 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 	var actuallyLoadedImage = false; // set to true in setNewConception
 	imageCorners = imageCorners;
 
+	this.photoType = photoType; // the type of photo:
+	// normal: normal play time
+	// city: for when in city mode
 
 	var alpha = 0;
 	var okToDie = false; // for killing off things
@@ -22,6 +26,13 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 
 	var triggered = false; // set to true when the alpha is > 0 for the first time
 	var firedFaderLabelAlready = false; // triggered to true after 'triggered' is true and the global render asks it to
+
+	//
+	// nullify things.. to save on memory?
+	this.kill = function() {
+		console.log("killing image: " + url);
+		image = null;
+	} // end kill
 
 	//
 	this.setSRC = function(urlIn) {

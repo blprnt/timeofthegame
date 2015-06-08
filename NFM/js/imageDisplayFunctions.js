@@ -195,7 +195,9 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 		}
 		var conception = getCurrentTime() ; 
 		var corners = candidates[index].corners.split(",");
-		var newPhoto = new Photo(loc, thisMaxAlpha, delay, displayTime, conception, corners);
+		var photoType = "normal";
+		if(isCity) photoType = "city";
+		var newPhoto = new Photo(loc, thisMaxAlpha, delay, displayTime, conception, corners, photoType);
 		newPhotos.push(newPhoto);
 		newPhoto.setSRC(src); // this will set the image and start up the callback function to reset coneption time
 	}

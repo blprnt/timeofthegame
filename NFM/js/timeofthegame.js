@@ -95,9 +95,9 @@ var debug = false;
 
 // 
 var gridOn = true;  // will draw the grid on top of everything before it is split.  for alignment
-var splittingOn = true; // will toggle whether or not the image is split up
+var splittingOn = false; // will toggle whether or not the image is split up
 
-var masksOn = true; // whether or not to start with the masks.  then later whether or not to  toggle them
+var masksOn = false; // whether or not to start with the masks.  then later whether or not to  toggle them
 
 
 
@@ -637,8 +637,13 @@ function playSound(soundName, time) {
 	console.log("sounds.length: " + Object.keys(sounds).length);
 
 	// send an osc message
-	sendOSCMessage(soundName + "," + time);
+	if (typeof socket !== 'undefined') {
+		sendOSCMessage(soundName + "," + time);
+	} else {
+		console.log("socket is undefined")
+	}
 
+	/*
 	if (soundName in sounds) {
 		console.log("rad, sounds has soundName: " + soundName + " -- will play it.  total sounds in array: " + sounds.length);
 		for (var key in sounds) {
@@ -650,6 +655,7 @@ function playSound(soundName, time) {
 	} else {
 		console.log("oops, sounds does not have soundName: " + soundName);
 	}
+	*/
 } // end playSound
 
 function pauseAllSounds() {
@@ -819,13 +825,13 @@ function globalRender() {
 
 
 	// if the grid is on then draw a background so that  things don't overlap
-	//if (gridOn) {
+	if (gridOn) {
 		context.beginPath();
 		context.rect(0, 0, output.width, output.height);
 		context.fillStyle = $('body').css("background-color");
 		context.fill();
 		context.closePath();
-	//}
+	}
 
 
 
@@ -843,7 +849,9 @@ function globalRender() {
 		// manage the listFader
 		if (currentPhotos[i].shouldFireFaderLabel()) {
 			var listItemLabel = currentPhotos[i].getFaderLabel();
-			var listItemDuration = 1200 * currentPhotos[i].getDisplayTimeInSeconds();
+			// ****** CHANGE THE LIST ITEM DURATION HERE ****** //
+			// 1300 seems like a decent number?
+			var listItemDuration = 1500 * currentPhotos[i].getDisplayTimeInSeconds();
 			if (listItemLabel != " ") listFader.createNewListItem(listItemLabel, getCurrentTime(), listItemDuration);
 		}
 
@@ -856,30 +864,34 @@ function globalRender() {
 
 
 		// delete dead ones
-		
 	//if ((currentPhotos[i].getOkToDie() && currentPhotos[i].getAlpha() <= 0) || (currentTime > currentPhotos[i].getConception()+ 1000 * (imageWarmupTimeInSeconds + currentPhotos[i].getDisplayTimeInSeconds() + imageFadeOutTimeInSeconds))) {
 		if (currentPhotos[i].getOkToDie() && currentPhotos[i].getAlpha() <= 0) {
+			currentPhotos[i].kill();
 			currentPhotos.splice(i, 1);
 		} else if(currentTime > currentPhotos[i].getConception()+ 1000 * (imageWarmupTimeInSeconds + currentPhotos[i].getDisplayTimeInSeconds() + imageFadeOutTimeInSeconds)) {
+			currentPhotos[i].kill();
 			currentPhotos.splice(i, 1);
 		}
 	}
 
 
 	// do the actual rendering of the photos
-	for (var i = 0; i < currentPhotos.length; i++) {
+//for (var i = 0; i < currentPhotos.length; i++) {
+	for (var i = currentPhotos.length - 1; i >= 0; i--) {
 		currentPhotos[i].renderImage();
 	}
 
 	context.restore();
-	
+
 
 
 
 	// update the listFader
-	if (listFader != null) listFader.update(currentTime, context);
+	//if (listFader != null) listFader.update(currentTime, context); // when using CANVAS
+	if (listFader != null) listFader.update(currentTime); // when using DIVS
 	// draw the listfader [now drawn to canvas]
-	if (listFader != null) listFader.display(context);
+	//if (listFader != null) listFader.display(context); // when using CANVAS
+	// note: no display function when using divs.  all is taken care of in the update
 
 
 
