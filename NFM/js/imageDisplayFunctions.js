@@ -181,6 +181,7 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 	for (var index = 0; index < Math.min(candidates.length, maximumPhotoCount); index++) {
 		var src = "out/thetimeofthegame" + candidates[index].localURL;
 		var loc = candidates[index].location;
+		if (loc !== 'undefined' && loc != null)  loc = getSimpleLocationName(loc);
 		// figure this out
 		var thisMaxAlpha = .5;
 		// figure this out
@@ -200,8 +201,13 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 		var corners = candidates[index].corners.split(",");
 		var photoType = "normal";
 		if(isCity) photoType = "city";
-		var languagePreference = "english";
+		var languagePreference = "american"; // default language to use
 		// search for language preference from the data
+		if (loc in languagePreferences) {
+			languagePreference = languagePreferences[loc];
+		}
+
+
 		var newPhoto = new Photo(loc, thisMaxAlpha, delay, displayTime, conception, corners, photoType, languagePreference);
 		newPhotos.push(newPhoto);
 		newPhoto.setSRC(src); // this will set the image and start up the callback function to reset coneption time

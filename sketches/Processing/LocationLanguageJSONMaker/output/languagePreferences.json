@@ -1,0 +1,1455 @@
+{
+  "totalCount": 290,
+  "languagePreferences": [
+    {
+      "count": 262,
+      "location": "none",
+      "languagePreference": "british"
+    },
+    {
+      "count": 18,
+      "location": "toronto",
+      "languagePreference": "british"
+    },
+    {
+      "count": 17,
+      "location": "london",
+      "languagePreference": "british"
+    },
+    {
+      "count": 13,
+      "location": "brooklyn",
+      "languagePreference": "british"
+    },
+    {
+      "count": 12,
+      "location": "lagos",
+      "languagePreference": "british"
+    },
+    {
+      "count": 10,
+      "location": "washington",
+      "languagePreference": "british"
+    },
+    {
+      "count": 9,
+      "location": "vancouver",
+      "languagePreference": "british"
+    },
+    {
+      "count": 8,
+      "location": "nigeria",
+      "languagePreference": "british"
+    },
+    {
+      "count": 8,
+      "location": "johannesburg",
+      "languagePreference": "british"
+    },
+    {
+      "count": 8,
+      "location": "berlin",
+      "languagePreference": "british"
+    },
+    {
+      "count": 8,
+      "location": "austin",
+      "languagePreference": "british"
+    },
+    {
+      "count": 7,
+      "location": "stockholm",
+      "languagePreference": "british"
+    },
+    {
+      "count": 7,
+      "location": "seattle",
+      "languagePreference": "british"
+    },
+    {
+      "count": 7,
+      "location": "chicago",
+      "languagePreference": "british"
+    },
+    {
+      "count": 6,
+      "location": "uk",
+      "languagePreference": "british"
+    },
+    {
+      "count": 6,
+      "location": "sweden",
+      "languagePreference": "british"
+    },
+    {
+      "count": 6,
+      "location": "san jose",
+      "languagePreference": "british"
+    },
+    {
+      "count": 6,
+      "location": "new york",
+      "languagePreference": "british"
+    },
+    {
+      "count": 6,
+      "location": "germany",
+      "languagePreference": "british"
+    },
+    {
+      "count": 5,
+      "location": "nairobi",
+      "languagePreference": "british"
+    },
+    {
+      "count": 5,
+      "location": "durham",
+      "languagePreference": "british"
+    },
+    {
+      "count": 5,
+      "location": "boston",
+      "languagePreference": "british"
+    },
+    {
+      "count": 5,
+      "location": "athens",
+      "languagePreference": "british"
+    },
+    {
+      "count": 5,
+      "location": "amsterdam",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "portland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "paris",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "oslo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "nyc",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "los angeles",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "islamabad",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "glasgow",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "france",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "dublin",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "cape town",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "cambridge",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "birmingham",
+      "languagePreference": "british"
+    },
+    {
+      "count": 4,
+      "location": "bangalore",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "winnipeg",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "somerville",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "san francisco",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "philadelphia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "mumbai",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "manchester",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "kozhikode",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "kenya",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "harlem",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "guatemala",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "ethiopia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "dubai",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "detroit",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "cardiff",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "canberra",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "calgary",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "barcelona",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "australia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "atlanta",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "ahmedabad",
+      "languagePreference": "british"
+    },
+    {
+      "count": 3,
+      "location": "abuja",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "wellington",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "waterloo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "usa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "umeã¥",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "ukraine",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "tokyo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "the netherlands",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "sydney",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "st louis",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "spain",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "singapore",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "shreveport",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "seoul",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "san pablo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "san diego",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "rochester",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "reykjavik",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "queens",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "prescott",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "porto",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "peshawar",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "ottawa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "offenbach",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "ocean grove",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "norfolk",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "newcastle",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "new york city",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "munich",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "montreal",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "modesto",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "miami",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "melbourne",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "marblehead",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "lyon",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "liverpool",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "havana",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "hamilton",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "elmhurst",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "denmark",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "delhi",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "copenhagen",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "cleveland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "chile",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "berkeley",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "bensalem",
+      "languagePreference": "british"
+    },
+    {
+      "count": 2,
+      "location": "belgium",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "ã\u2013rebro",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "zurich",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "zambia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "ypsilanti",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "yokohama",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "yellowknife",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "wroclaw",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "winchester",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "wilmington",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "wigan",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "wettingen",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "westbury",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "weltmeister ottawa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "watertown",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "walnut creek",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "victoria",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "venezuela",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "valparaiso http://tco/jzlfmiyt4m",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "valencia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "us",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "uppsala",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tucson",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tokio",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tilburg",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tejucole mexico city",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tanzania",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tampere",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "tallahassee",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "taipei",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "sã£o paulo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "switzerland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "stuttgart",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "springfield",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "southend",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "south haven",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "south africa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "sooke",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "sofia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "sicily",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "shrewsbury",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "sechelt",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "sao paulo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "san luis obispo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "rotterdam",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "pã©rez",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "pretoria",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "prairie village",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "prague",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "potsdam",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "plougonvelin",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "pitt meadows",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "peterborough",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "perth",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "palo alto",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "oxford",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "omaha",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "oaxaca",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "oakland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "nã¤rke",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "nz",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "nottingham",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "norwich",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "north london",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "new orleans",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "new bombay",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "netherlands",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "nashville",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "mã©xico",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "mountain view",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "moorhead",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "montgomery",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "montevallo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "monterey",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "missoula",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "misawa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "minehead",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "middletown",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "mexico city",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "mexico",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "manhattan",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "manaus",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "malta",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "maitland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "mainz",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "madrid",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "lucknow",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "los alamitos",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "leeds",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "las vegas",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "laramie",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "lansing",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "lancaster uk",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "la",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kingston jamaica",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kingston",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kent",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kelowna",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "keele village",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kauai",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kathmandu",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kasama",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "karlsruhe",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "karachi",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "kabul",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "jfk",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "jerusalem",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "jeddah",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "jamaica",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "istanbul",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "isla",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "india",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "huntsville",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "houston",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "het bildt",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "hertfordshire",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "helsinki",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "helena",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "haverhill",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "harare",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "guelph",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "grenoble",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "greenville",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "gothenburg",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "goma",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "goa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "ghana",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "gatwick",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "gainesville",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "gaborone",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "funchal",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "fresno",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "fort worth",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "finland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "fayetteville",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "evanston",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "england",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "el ocotillo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "edmonton",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "edinburgh",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "eagan",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "durban",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "dortmund",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "dorchester",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "devizes",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "deptford",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "denton",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "dekalb",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "dc",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "davis",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "davenport",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "darlington",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "dallas",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "cupertino",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "croatia",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "cornwall",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "corner brook",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "cork",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "columbus",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "colchester",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "co kildare",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "charlotte",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "canada",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "calcutta",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "cairo",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "bã©ziers france",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "buckinghamshire",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "bristol",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "bombay",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "boca",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "bloomington",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "berne",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "bermuda",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "berkshire",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "barranquilla",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "baltimore",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "auckland",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "astoria",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "argentina",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "antigonish",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "annapolis",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "agra",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "agde",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "addis ababa",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "accra",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "aberdeen",
+      "languagePreference": "british"
+    },
+    {
+      "count": 1,
+      "location": "4947 http://tco/sspi1fmoqu",
+      "languagePreference": "british"
+    }
+  ]
+}

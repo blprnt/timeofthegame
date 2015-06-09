@@ -133,8 +133,10 @@ var cityThresholdCount = 0; // when the count for a minute doesnt meet this then
 
 
 // SOUNDS
+var useHTMLSounds = false; // whether or not to use html sounds.  if set to true will actually read in the mp3s and all that
 var sounds = [];
 var crossFadeTime = 4; // seconds.  set in timingPreferences.json
+var languagePreferences = [];
 
 
 //
@@ -183,16 +185,30 @@ $().ready(function() {
 
 
 	// setup the SOUNDS
-	var newSound = new Sound("audio/BBCMerged.mp3", "british");
-	newSound.setupSound();
-	sounds[newSound.getName()] = newSound;
-	
-	newSound = new Sound("audio/QuickDirtySofterSpanish.mp3", "spanish");
-	newSound.setupSound();
-	sounds[newSound.getName()] = newSound;
+	if (useHTMLSounds) {
+		var newSound = new Sound("audio/BBCMerged.mp3", "british");
+		newSound.setupSound();
+		sounds[newSound.getName()] = newSound;
+
+		newSound = new Sound("audio/QuickDirtySofterSpanish.mp3", "spanish");
+		newSound.setupSound();
+		sounds[newSound.getName()] = newSound;
+	}
 	
 
-	
+	// load up the languagePreferences file
+	console.log("LOAD OF THE LANGUAGEPREFERENCES FILE");
+	$.getJSON('out/thetimeofthegame/languagePreferences.json', function(data) {// local copy
+		console.log(data);
+		var allLanguagePreferences = data.languagePreferences;
+		for (var i = 0; i < allLanguagePreferences.length; i++) {
+			var modifiedLoc =  getSimpleLocationName(allLanguagePreferences[i].location);
+			languagePreferences[modifiedLoc] = allLanguagePreferences[i].languagePreference;
+			console.log(modifiedLoc);
+		}
+	});
+	console.log("loaded languagePreferences " );
+	console.log(languagePreferences);
 
 
 
@@ -298,6 +314,7 @@ $().ready(function() {
 			var thisId = skip[j].id;
 			imagesToSkip[thisId] = 0;
 		}
+
 
 		// now load the main json
 		// reminder: check if a key is in an associative array
@@ -638,24 +655,25 @@ function playSound(soundName, time) {
 
 	// send an osc message
 	if (typeof socket !== 'undefined') {
-		sendOSCMessage(soundName + "," + time + ",normal");
+		console.log("in playSound sending OSC message");
+		sendOSCMessage(soundName + "," + time + ",normal,undefined");
 	} else {
 		console.log("socket is undefined")
 	}
 
-	/*
-	if (soundName in sounds) {
-		console.log("rad, sounds has soundName: " + soundName + " -- will play it.  total sounds in array: " + sounds.length);
-		for (var key in sounds) {
-			var sound = sounds[key];
-			console.log("name: " + sound.getName() + " is playing? " + sound.getIsPlaying());
-			if (sound.getName() === soundName) sound.startPlaying(time, crossFadeTime);
-			else sound.fadeOut(crossFadeTime);
+	if (useHTMLSounds) {
+		if (soundName in sounds) {
+			console.log("rad, sounds has soundName: " + soundName + " -- will play it.  total sounds in array: " + sounds.length);
+			for (var key in sounds) {
+				var sound = sounds[key];
+				console.log("name: " + sound.getName() + " is playing? " + sound.getIsPlaying());
+				if (sound.getName() === soundName) sound.startPlaying(time, crossFadeTime);
+				else sound.fadeOut(crossFadeTime);
+			}
+		} else {
+			console.log("oops, sounds does not have soundName: " + soundName);
 		}
-	} else {
-		console.log("oops, sounds does not have soundName: " + soundName);
 	}
-	*/
 } // end playSound
 
 function pauseAllSounds() {

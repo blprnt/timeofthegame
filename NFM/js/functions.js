@@ -141,6 +141,19 @@ function toTitleCase(str) {
 } // toTitleCase
 
 //
+// this will simplify the location name.  eg from England. to england
+function getSimpleLocationName(str) {
+	var newStr = str.toLowerCase();
+	newStr = newStr.replaceAll(".", "");
+	return newStr;
+} // end getSimpleLocationName
+// replaceAll.  see http://stackoverflow.com/questions/2116558/fastest-method-to-replace-all-instances-of-a-character-in-a-string
+String.prototype.replaceAll = function(str1, str2, ignore) {
+	return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
+} // end replaceAll
+
+
+//
 // see http://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
 function measureText(divIn) {
 	var lDiv = divIn;
@@ -172,16 +185,17 @@ function getCurrentTimeInSeconds() {
 // check whether or not  a file exists
 // see http://www.kirupa.com/html5/checking_if_a_file_exists.htm
 function doesFileExist(urlToFile) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false);
-    xhr.send();
-     
-    if (xhr.status == "404") {
-        return false;
-    } else {
-        return true;
-    }
+	var xhr = new XMLHttpRequest();
+	xhr.open('HEAD', urlToFile, false);
+	xhr.send();
+
+	if (xhr.status == "404") {
+		return false;
+	} else {
+		return true;
+	}
 } // end doesFileExist
+
 
 
 

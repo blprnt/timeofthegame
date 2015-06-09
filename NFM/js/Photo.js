@@ -253,14 +253,14 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 
 	// this will actually fire off the OSC message
 	this.fireOSC = function() {
-		console.log("in foreOSC for url: " + this.getSRC());
+		//console.log("in foreOSC for url: " + this.getSRC());
 		firedOSCAlready = true;
+		var message = this.languagePreference + "," + getCurrentTimeInSeconds() + "," + this.photoType+","+this.location;
 			// send an osc message
 			if (typeof socket !== 'undefined') {
-				var message = this.languagePreference + "," + getCurrentTimeInSeconds() + "," + this.photoType;
 				sendOSCMessage(message);
 			} else {
-				console.log("socket is undefined.  DID NOT send osc message")
+				console.log("socket is undefined.  DID NOT send osc message for " + this.getSRC()+ "   :   " + message);
 			}
 	} // end fireOSC
 } // end class Photo
