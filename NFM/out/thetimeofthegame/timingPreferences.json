@@ -1,5 +1,5 @@
 {
-    "gameMinuteMS": 500,
+    "gameMinuteMS": 600,
     "comment1":"how long, in ms, each game minute is.  60000 is a realtime minute",
     "gameMinuteTracker": 54,
     "comment2":"the first minute to start on",
