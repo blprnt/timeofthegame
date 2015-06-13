@@ -271,7 +271,7 @@ $().ready(function() {
 			maximumImagesPerMinute = 20;
 		maximumPhotosToHaveTotal = data.maximumPhotosToHaveTotal;
 		if (maximumPhotosToHaveTotal == undefined)
-			maximumPhotosToHaveTotal = 8;
+			maximumPhotosToHaveTotal = 25;
 		animationTime = data.animationTime;
 		if (animationTime == undefined)
 			animationTime = 900;
@@ -741,7 +741,9 @@ function secondTimerInterval() {
 //  times will be actual times in real date time by second
 function gameTimer(doIncrement) {
 	if (doIncrement) gameMinuteTracker++; // set to false for very first run, otherwise true for interval
-	if (gameMinuteTracker > 120)
+	// ****** set the maximum time here.  note that we will go through minute 123 since that's when the exiting stuff happens
+	//if (gameMinuteTracker > 120)
+	if (gameMinuteTracker > 123)
 		gameMinuteTracker = 0;
 
 	// reset the  second time
@@ -758,7 +760,9 @@ function gameTimer(doIncrement) {
 
 
 	// do something here based on the minute
-	setTimeRange(gameMinuteTracker, gameMinuteTracker);
+	// *** note here that we will manually modify the time if it is in extra time
+	if (gameMinuteTracker <= 120) setTimeRange(gameMinuteTracker, gameMinuteTracker);
+	else setTimeRange(0, 120); // this way if it is > 120 minutes we will grab all of the photos 
 
 	// get the number of items that will be categorized intothis minute
 	var thisMinuteCount = getThisMinuteCount();
@@ -883,6 +887,12 @@ function globalRender() {
 	//var imageDescriptionText = "";
 	//var tempHighestImageConceptionValue = 0;
 
+	// count all of the live photos.. those with an alpha value > 0
+	var livePhotos = 0;
+	for (var i = 0; i < currentPhotos.length; i++){
+		if (currentPhotos[i].getAlpha() > 0) livePhotos++;
+	}
+
 	// update all of the images that are still valid
 	// and also store the max alpha and description text and all that
 	for (var i = currentPhotos.length - 1; i >= 0; i--) {
@@ -897,8 +907,13 @@ function globalRender() {
 		}
 
 		// kill off any existing photos that are over the total limit:
-		
+		/*
 		if (i < currentPhotos.length - maximumPhotosToHaveTotal && !currentPhotos[i].getOkToDie()) {
+			currentPhotos[i].setToDie(getCurrentTime());
+		}
+		*/
+		// update: only use the live current photos so that a big influx of photos won't kill off all of them at once
+		if (i < livePhotos - maximumPhotosToHaveTotal && !currentPhotos[i].getOkToDie()) {
 			currentPhotos[i].setToDie(getCurrentTime());
 		}
 		

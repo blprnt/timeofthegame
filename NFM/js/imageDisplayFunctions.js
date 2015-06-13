@@ -117,7 +117,7 @@ function setRandomData(allottedTime, maximumPhotoCount) {
 	// add new photos
 	for (var i = 0; i < newPhotos.length; i++) {
 		currentPhotos.push(newPhotos[i]);
-		//console.log("added photo: " + newPhotos[i].getSRC()+ " -- delay time: " + newPhotos[i].getDelay());
+		//console.log("added photo: " + newPhotos[i].getSRC()+ " -- delay time: " + newPhotos[i].getDelay() + ' and total display time of' + newPhotos[i].displayTimeInSeconds);
 	}
 }// end setRandomData
 
@@ -193,6 +193,7 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 			delay = mathMap(candidates[index].timeofgame, 0, 120, 0, allottedTime);
 			
 			displayTime = Math.max(imageDisplayTimeInSeconds, allottedTime - delay);
+
 			// convert displayTime to seconds
 			displayTime /= 1000;
 			//console.log("image name: " + candidates[index].localURL + " with minute: " + candidates[index].timeofgame + " maps to: " + delay + " displayTime: "+ displayTime);
