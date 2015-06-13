@@ -139,6 +139,11 @@ var crossFadeTime = 4; // seconds.  set in timingPreferences.json
 var languagePreferences = [];
 
 
+
+
+
+
+
 //
 $().ready(function() {
 	// Returns height of browser viewport
@@ -471,6 +476,10 @@ $().ready(function() {
 			toggleGrid();
 		}
 
+		else if (thisString === "o") {
+			testRemoveAllListFaderItems();
+		}
+
 		// osc message stuff
 		else if (thisString === 'p') {
 			sendOSCMessage("hello world, this is an osc message");
@@ -500,8 +509,7 @@ $().ready(function() {
 				killOffCurrentPhotos();				
 				renderCity("London", gameMinuteMS, maximumImagesPerMinute);
 			} else if(thisString === 'w'){
-				clearInterval(gameTimerInterval);
-				clearInterval(globalRenderInterval);
+				stopEverything();
 			}
 
 
@@ -684,6 +692,21 @@ function pauseAllSounds() {
 
 	}
 } // end pauseAllSounds
+
+
+
+// note only works in debug mode
+function stopEverything() {
+	console.log("in stopEverything");
+	clearInterval(gameTimerInterval);
+	clearInterval(globalRenderInterval);
+	clearInterval(secondTimer);
+} // end stopEverything
+
+function testRemoveAllListFaderItems() {
+	console.log("in testRemoveAllListFaderItems");
+	$(".FaderListItem").remove();
+}  // end testRemoveAllListFaderItems
 
 
 
