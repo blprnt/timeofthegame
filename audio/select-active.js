@@ -76,7 +76,7 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "active");
-		} else if (a == "X"){
+		} else if (a == "x"){
 			pickRandomLanguage();
 		}
 	}
