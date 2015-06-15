@@ -9,7 +9,7 @@ var languages = {0 : "English-1",
 				 3 : "Spanish-2",
 				 4 : "German",
 				 5 : "Bulgarian",
-				 6 : "FrAbSp"} 
+				 6 : "FrAbSp"} ;
 
 function set_active(a){
 	if (a != active){
@@ -82,7 +82,7 @@ function set_active(a){
 	}
 }
 
-pickRandomLanguage(){
-	languageChoice = Math.floor((Math.random * 8));
+function pickRandomLanguage(){
+	languageChoice = Math.floor(Math.random() * 8);
 	set_active(languages[languageChoice]);
 }
