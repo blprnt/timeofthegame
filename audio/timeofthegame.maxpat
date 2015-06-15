@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 70.0, 78.0, 733.0, 594.0 ],
+		"rect" : [ 660.0, 78.0, 733.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3603,14 +3603,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-49",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 482.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3623,14 +3623,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-48",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 425.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3643,14 +3643,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-47",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 367.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3663,14 +3663,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-46",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 311.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3683,14 +3683,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-45",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 254.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3703,14 +3703,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-44",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 196.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3723,14 +3723,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-35",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 131.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3743,14 +3743,14 @@
 					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-34",
-					"items" : [ "american.wav", ",", "british.wav", ",", "dutch.wav", ",", "french.wav", ",", "german.wav", ",", "japanese.wav", ",", "spanish.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 66.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Documents/timeofthegame/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3869,7 +3869,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 375.0, 78.0, 750.0, 1020.0 ],
+						"rect" : [ 255.0, 78.0, 750.0, 1020.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3896,6 +3896,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-57",
@@ -4278,71 +4279,76 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 539.0, 293.0, 81.0, 22.0 ],
+									"patching_rect" : [ 488.0, 317.0, 81.0, 22.0 ],
 									"style" : "",
-									"text" : "send german"
+									"text" : "send FrAbSp"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 436.5, 293.0, 89.0, 22.0 ],
+									"patching_rect" : [ 410.0, 289.0, 91.0, 22.0 ],
 									"style" : "",
-									"text" : "send japanese"
+									"text" : "send Bulgarian"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 351.0, 293.0, 81.0, 22.0 ],
+									"patching_rect" : [ 332.0, 317.0, 83.0, 22.0 ],
 									"style" : "",
-									"text" : "send spanish"
+									"text" : "send German"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 276.0, 293.0, 69.0, 22.0 ],
+									"patching_rect" : [ 256.0, 289.0, 94.0, 22.0 ],
 									"style" : "",
-									"text" : "send dutch"
+									"text" : "send Spanish-2"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 198.0, 293.0, 73.0, 22.0 ],
+									"patching_rect" : [ 179.0, 317.0, 94.0, 22.0 ],
 									"style" : "",
-									"text" : "send french"
+									"text" : "send Spanish-1"
 								}
 
 							}
@@ -4355,9 +4361,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.0, 293.0, 89.0, 22.0 ],
+									"patching_rect" : [ 104.0, 285.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "send american"
+									"text" : "send English-2"
 								}
 
 							}
@@ -4370,9 +4376,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 293.0, 72.0, 22.0 ],
+									"patching_rect" : [ 25.0, 313.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "send british"
+									"text" : "send English-1"
 								}
 
 							}
@@ -5006,7 +5012,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
-									"patching_rect" : [ 26.0, 106.0, 229.0, 22.0 ],
+									"patching_rect" : [ 26.0, 130.0, 229.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack x i x x"
 								}
@@ -7317,7 +7323,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "select-active.js",
-				"bootpath" : "~/Documents/timeofthegame",
+				"bootpath" : "~/Desktop/timeofthegame/audio",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
