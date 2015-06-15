@@ -1,3 +1,6 @@
+echo starting max patch
+start C:\Users\OCR\Documents\GitHub\timeofthegame\audio\timeofthegame_2/timeofthegame_2.exe
+
 echo starting the osc bridge
 start cmd /k "node C:\Users\OCR\Documents\GitHub\timeofthegame\sketches\osc-web-master\bridge.js"
 echo starting the main server

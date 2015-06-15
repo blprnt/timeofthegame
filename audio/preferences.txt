@@ -1,6 +1,6 @@
 Sub_Volume 45
-Min_Volume 30
-Max_Volume 120
+Min_Volume 85
+Max_Volume 100
 Channel_1 0
 Channel_2 1
 Channel_3 2
