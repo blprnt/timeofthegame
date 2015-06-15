@@ -1,7 +1,7 @@
 {
-    "usable_width": 195,
-    "usable_height": 109,
-    "vertical_shift": -200,
+    "usable_width": 645,
+    "usable_height": 360,
+    "vertical_shift": -250,
     "listFaderRightPos": 100,
     "comment01":"the right edge of the ListFader divs",
     "panel_overlap": 45,
