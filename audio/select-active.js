@@ -1,12 +1,12 @@
 inlets = 1;
 outlets = 7;
 
-var active = "british";
+var active = "NULL";
 
 function set_active(a){
 	if (a != active){
-		if (a == "british"){
-			active = "british";
+		if (a == "English-1"){
+			active = "English-1";
 			outlet(0, "active");
 			outlet(1, "inactive");
 			outlet(2, "inactive");
@@ -14,8 +14,8 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-		} else if (a == "american"){
-			active = "american";
+		} else if (a == "English-2"){
+			active = "English-2";
 			outlet(0, "inactive");
 			outlet(1, "active");
 			outlet(2, "inactive");
@@ -23,17 +23,8 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-		} else if (a == "french"){
-			active = "french";
-			outlet(0, "inactive");
-			outlet(1, "active");
-			outlet(2, "inactive");
-			outlet(3, "inactive");
-			outlet(4, "inactive");
-			outlet(5, "inactive");
-			outlet(6, "inactive");
-		} else if (a == "german"){
-			active = "german";
+		} else if (a == "Spanish-1"){
+			active = "Spanish-1";
 			outlet(0, "inactive");
 			outlet(1, "inactive");
 			outlet(2, "active");
@@ -41,8 +32,8 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-		} else if (a == "spanish"){
-			active = "spanish";
+		} else if (a == "Spanish-2"){
+			active = "Spanish-2";
 			outlet(0, "inactive");
 			outlet(1, "inactive");
 			outlet(2, "inactive");
@@ -50,8 +41,8 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-		} else if (a == "japanese"){
-			active = "japanese";
+		} else if (a == "German"){
+			active = "German";
 			outlet(0, "inactive");
 			outlet(1, "inactive");
 			outlet(2, "inactive");
@@ -59,8 +50,8 @@ function set_active(a){
 			outlet(4, "active");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-		} else if (a == "dutch"){
-			active = "dutch";
+		} else if (a == "Bulgarian"){
+			active = "Bulgarian";
 			outlet(0, "inactive");
 			outlet(1, "inactive");
 			outlet(2, "inactive");
@@ -68,8 +59,8 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "active");
 			outlet(6, "inactive");
-		} else if (a == "arabic"){
-			active = "arabic";
+		} else if (a == "FrAbSp"){
+			active = "FrAbSp";
 			outlet(0, "inactive");
 			outlet(1, "inactive");
 			outlet(2, "inactive");
