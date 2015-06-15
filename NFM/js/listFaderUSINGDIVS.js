@@ -81,6 +81,7 @@ function ListFader(faderDivIn, animationTimeIn, screenWidthIn, screenHeightIn, t
 		for (var i = listItems.length - 1; i >= 0; i--) {
 			listItems[i].update(currentTime, centering);
 			if (listItems[i].okToDie(currentTime)) {
+				listItems[i].cleanup();
 				listItems.splice(i, 1);
 				//console.log("removed item at index: " + i + " total size of listItems is now: " + listItems.length);
 			}
@@ -268,6 +269,12 @@ function ListItem(divIn, divIdIn, parentDivIn, nameIn, positionIn, conceptionIn,
 		kill  = true;
 		//console.log ("TRYING TO KILL OFF this list item: " + name);
 	} // end kill
+
+	//
+	// remove the div  from the dom
+	this.cleanup = function() {
+		$('#' + divId).remove();
+	} // end cleanup
 
 	//
 	this.okToDie = function(currentTimeIn) {
