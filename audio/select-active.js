@@ -82,7 +82,7 @@ function set_active(a){
 	}
 }
 
-pickRandomLanguage(){
+function pickRandomLanguage(){
 	languageChoice = Math.floor((Math.random * 8));
 	set_active(languages[languageChoice]);
 }
