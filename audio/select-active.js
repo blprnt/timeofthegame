@@ -3,6 +3,14 @@ outlets = 7;
 
 var active = "NULL";
 
+var languages = {0 : "English-1",
+				 1 : "English-2",
+				 2 : "Spanish-1",
+				 3 : "Spanish-2",
+				 4 : "German",
+				 5 : "Bulgarian",
+				 6 : "FrAbSp"} 
+
 function set_active(a){
 	if (a != active){
 		if (a == "English-1"){
@@ -68,6 +76,13 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "active");
+		} else if (a == "X"){
+			pickRandomLanguage();
 		}
 	}
+}
+
+pickRandomLanguage(){
+	languageChoice = Math.floor((Math.random * 8));
+	set_active(languages[languageChoice]);
 }
