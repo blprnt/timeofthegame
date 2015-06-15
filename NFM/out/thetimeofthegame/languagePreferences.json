@@ -4,12 +4,12 @@
     {
       "count": 262,
       "location": "none",
-      "languagePreference": "british"
+      "languagePreference": "English-1"
     },
     {
       "count": 18,
       "location": "toronto",
-      "languagePreference": "british"
+      "languagePreference": "English-2"
     },
     {
       "count": 17,
@@ -24,7 +24,7 @@
     {
       "count": 12,
       "location": "lagos",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 10,
@@ -39,7 +39,7 @@
     {
       "count": 8,
       "location": "nigeria",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 8,
@@ -49,7 +49,7 @@
     {
       "count": 8,
       "location": "berlin",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 8,
@@ -59,7 +59,7 @@
     {
       "count": 7,
       "location": "stockholm",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 7,
@@ -79,7 +79,7 @@
     {
       "count": 6,
       "location": "sweden",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 6,
@@ -94,12 +94,12 @@
     {
       "count": 6,
       "location": "germany",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 5,
       "location": "nairobi",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 5,
@@ -114,12 +114,12 @@
     {
       "count": 5,
       "location": "athens",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 5,
       "location": "amsterdam",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 4,
@@ -129,12 +129,12 @@
     {
       "count": 4,
       "location": "paris",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 4,
       "location": "oslo",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 4,
@@ -149,7 +149,7 @@
     {
       "count": 4,
       "location": "islamabad",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 4,
@@ -159,7 +159,7 @@
     {
       "count": 4,
       "location": "france",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 4,
@@ -224,7 +224,7 @@
     {
       "count": 3,
       "location": "kenya",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 3,
@@ -234,17 +234,17 @@
     {
       "count": 3,
       "location": "guatemala",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 3,
       "location": "ethiopia",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 3,
       "location": "dubai",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 3,
@@ -269,7 +269,7 @@
     {
       "count": 3,
       "location": "barcelona",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 3,
@@ -284,12 +284,12 @@
     {
       "count": 3,
       "location": "ahmedabad",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 3,
       "location": "abuja",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -314,17 +314,17 @@
     {
       "count": 2,
       "location": "ukraine",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
       "location": "tokyo",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
       "location": "the netherlands",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -339,7 +339,7 @@
     {
       "count": 2,
       "location": "spain",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 2,
@@ -354,12 +354,12 @@
     {
       "count": 2,
       "location": "seoul",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
       "location": "san pablo",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 2,
@@ -374,7 +374,7 @@
     {
       "count": 2,
       "location": "reykjavik",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -394,7 +394,7 @@
     {
       "count": 2,
       "location": "peshawar",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -404,7 +404,7 @@
     {
       "count": 2,
       "location": "offenbach",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 2,
@@ -429,7 +429,7 @@
     {
       "count": 2,
       "location": "munich",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 2,
@@ -459,7 +459,7 @@
     {
       "count": 2,
       "location": "lyon",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -469,7 +469,7 @@
     {
       "count": 2,
       "location": "havana",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 2,
@@ -484,7 +484,7 @@
     {
       "count": 2,
       "location": "denmark",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -494,7 +494,7 @@
     {
       "count": 2,
       "location": "copenhagen",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 2,
@@ -504,7 +504,7 @@
     {
       "count": 2,
       "location": "chile",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 2,
@@ -519,7 +519,7 @@
     {
       "count": 2,
       "location": "belgium",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -529,12 +529,12 @@
     {
       "count": 1,
       "location": "zurich",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 1,
       "location": "zambia",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -544,7 +544,7 @@
     {
       "count": 1,
       "location": "yokohama",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -604,7 +604,7 @@
     {
       "count": 1,
       "location": "venezuela",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
@@ -614,7 +614,7 @@
     {
       "count": 1,
       "location": "valencia",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
@@ -634,7 +634,7 @@
     {
       "count": 1,
       "location": "tokio",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -644,12 +644,12 @@
     {
       "count": 1,
       "location": "tejucole mexico city",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
       "location": "tanzania",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -664,22 +664,22 @@
     {
       "count": 1,
       "location": "taipei",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "sã£o paulo",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
       "location": "switzerland",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 1,
       "location": "stuttgart",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 1,
@@ -714,7 +714,7 @@
     {
       "count": 1,
       "location": "sicily",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -739,12 +739,12 @@
     {
       "count": 1,
       "location": "rotterdam",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "pã©rez",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -759,17 +759,17 @@
     {
       "count": 1,
       "location": "prague",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "potsdam",
-      "languagePreference": "british"
+      "languagePreference": "Germany"
     },
     {
       "count": 1,
       "location": "plougonvelin",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -804,7 +804,7 @@
     {
       "count": 1,
       "location": "oaxaca",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
@@ -814,7 +814,7 @@
     {
       "count": 1,
       "location": "nã¤rke",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -849,7 +849,7 @@
     {
       "count": 1,
       "location": "netherlands",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -859,7 +859,7 @@
     {
       "count": 1,
       "location": "mã©xico",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
@@ -894,7 +894,7 @@
     {
       "count": 1,
       "location": "misawa",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -909,12 +909,12 @@
     {
       "count": 1,
       "location": "mexico city",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
       "location": "mexico",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
@@ -929,7 +929,7 @@
     {
       "count": 1,
       "location": "malta",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -939,12 +939,12 @@
     {
       "count": 1,
       "location": "mainz",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 1,
       "location": "madrid",
-      "languagePreference": "british"
+      "languagePreference": "Spanish-1"
     },
     {
       "count": 1,
@@ -1019,27 +1019,27 @@
     {
       "count": 1,
       "location": "kathmandu",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "kasama",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "karlsruhe",
-      "languagePreference": "british"
+      "languagePreference": "German"
     },
     {
       "count": 1,
       "location": "karachi",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "kabul",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1049,12 +1049,12 @@
     {
       "count": 1,
       "location": "jerusalem",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
       "location": "jeddah",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1064,7 +1064,7 @@
     {
       "count": 1,
       "location": "istanbul",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1089,7 +1089,7 @@
     {
       "count": 1,
       "location": "het bildt",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1099,7 +1099,7 @@
     {
       "count": 1,
       "location": "helsinki",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1114,7 +1114,7 @@
     {
       "count": 1,
       "location": "harare",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1124,7 +1124,7 @@
     {
       "count": 1,
       "location": "grenoble",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1139,7 +1139,7 @@
     {
       "count": 1,
       "location": "goma",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1149,7 +1149,7 @@
     {
       "count": 1,
       "location": "ghana",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1169,7 +1169,7 @@
     {
       "count": 1,
       "location": "funchal",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1184,7 +1184,7 @@
     {
       "count": 1,
       "location": "finland",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
@@ -1204,7 +1204,7 @@
     {
       "count": 1,
       "location": "el ocotillo",
-      "languagePreference": "british"
+      "languagePreference": "x"
     },
     {
       "count": 1,
