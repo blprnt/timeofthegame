@@ -202,7 +202,7 @@ function generateImageArray(candidates, allottedTime, maximumPhotoCount, isCity)
 		var corners = candidates[index].corners.split(",");
 		var photoType = "normal";
 		if(isCity) photoType = "city";
-		var languagePreference = "american"; // default language to use
+		var languagePreference = "x"; // default language to use - set to random
 		// search for language preference from the data
 		if (loc in languagePreferences) {
 			languagePreference = languagePreferences[loc];
