@@ -2,6 +2,7 @@ inlets = 1;
 outlets = 7;
 
 var active = "NULL";
+var isRandom = false;
 
 var languages = {0 : "English-1",
 				 1 : "English-2",
@@ -22,6 +23,7 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
+			isRandom = false;
 		} else if (a == "English-2"){
 			active = "English-2";
 			outlet(0, "inactive");
@@ -31,6 +33,7 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
+			isRandom = false;
 		} else if (a == "Spanish-1"){
 			active = "Spanish-1";
 			outlet(0, "inactive");
@@ -40,6 +43,7 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
+			isRandom = false;
 		} else if (a == "Spanish-2"){
 			active = "Spanish-2";
 			outlet(0, "inactive");
@@ -49,6 +53,7 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
+			isRandom = false;
 		} else if (a == "German"){
 			active = "German";
 			outlet(0, "inactive");
@@ -58,6 +63,7 @@ function set_active(a){
 			outlet(4, "active");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
+			isRandom = false;
 		} else if (a == "Bulgarian"){
 			active = "Bulgarian";
 			outlet(0, "inactive");
@@ -67,6 +73,7 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "active");
 			outlet(6, "inactive");
+			isRandom = false;
 		} else if (a == "FrAbSp"){
 			active = "FrAbSp";
 			outlet(0, "inactive");
@@ -76,7 +83,8 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "active");
-		} else if (a == "X"){
+			isRandom = false;
+		} else if (a == "x" && !isRandom){
 			pickRandomLanguage();
 		}
 	}
@@ -84,5 +92,6 @@ function set_active(a){
 
 function pickRandomLanguage(){
 	languageChoice = Math.floor(Math.random() * 8);
+	isRandom = true;
 	set_active(languages[languageChoice]);
 }
