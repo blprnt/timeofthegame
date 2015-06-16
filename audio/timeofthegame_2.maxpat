@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 49.0, 78.0, 747.0, 667.0 ],
+		"rect" : [ 116.0, 122.0, 1174.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,127 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 403.571442, 82.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "del 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 373.785706, 52.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 561.5, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 487.5, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-109",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 412.571411, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-111",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 338.571411, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 263.642853, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 189.642853, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 114.714287, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 40.714287, 502.0, 18.0, 20.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -64,8 +185,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -173,6 +294,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -205,8 +345,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -314,6 +454,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -346,8 +505,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -455,6 +614,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -487,8 +665,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -596,6 +774,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -628,8 +825,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -737,6 +934,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -769,8 +985,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -878,6 +1094,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -910,8 +1145,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1019,6 +1254,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -1055,7 +1309,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 444.0, 344.0, 100.0, 22.0 ],
+					"patching_rect" : [ 496.0, 569.0, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.5, 49.0, 63.0, 22.0 ],
 					"style" : "",
@@ -1070,7 +1324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 155.428574, 565.0, 43.0, 22.0 ],
+					"patching_rect" : [ 411.5, 599.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "del 20"
 				}
@@ -1096,7 +1350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 155.428574, 535.0, 60.0, 22.0 ],
+					"patching_rect" : [ 411.5, 569.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -1121,7 +1375,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 740.285706, 714.0, 63.0, 22.0 ],
+					"patching_rect" : [ 996.357117, 748.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_8"
 				}
@@ -1146,7 +1400,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.285706, 714.0, 63.0, 22.0 ],
+					"patching_rect" : [ 925.357117, 748.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_7"
 				}
@@ -1171,7 +1425,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 594.285706, 714.0, 63.0, 22.0 ],
+					"patching_rect" : [ 850.357117, 748.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_6"
 				}
@@ -1196,7 +1450,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.285706, 714.0, 63.0, 22.0 ],
+					"patching_rect" : [ 779.357117, 748.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_5"
 				}
@@ -1221,7 +1475,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.285675, 714.0, 63.0, 22.0 ],
+					"patching_rect" : [ 706.357056, 748.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_4"
 				}
@@ -1246,7 +1500,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.071442, 715.0, 63.0, 22.0 ],
+					"patching_rect" : [ 634.142883, 749.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_3"
 				}
@@ -1271,7 +1525,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.857147, 715.0, 63.0, 22.0 ],
+					"patching_rect" : [ 563.928528, 749.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_2"
 				}
@@ -1296,7 +1550,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 715.0, 63.0, 22.0 ],
+					"patching_rect" : [ 491.071411, 749.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s menu_1"
 				}
@@ -1321,7 +1575,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 715.0, 61.0, 22.0 ],
+					"patching_rect" : [ 276.071411, 749.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "s sub_vol"
 				}
@@ -1333,7 +1587,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 715.0, 65.0, 22.0 ],
+					"patching_rect" : [ 350.071411, 749.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "s max_val"
 				}
@@ -1346,7 +1600,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 644.0, 51.0, 22.0 ],
+					"patching_rect" : [ 308.071411, 678.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "pack x i"
 				}
@@ -1358,7 +1612,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 715.0, 61.0, 22.0 ],
+					"patching_rect" : [ 419.071411, 749.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "s min_val"
 				}
@@ -1371,7 +1625,7 @@
 					"numinlets" : 12,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 24.0, 678.0, 748.0, 22.0 ],
+					"patching_rect" : [ 280.071411, 712.0, 748.0, 22.0 ],
 					"style" : "",
 					"text" : "route Sub_Volume Max_Volume Min_Volume Channel_1 Channel_2 Channel_3 Channel_4 Channel_5 Channel_6 Channel_7 Channel_8"
 				}
@@ -1410,7 +1664,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 24.0, 610.0, 74.0, 22.0 ],
+					"patching_rect" : [ 280.071411, 644.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "unpack x x i"
 				}
@@ -1423,7 +1677,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.428574, 597.0, 41.0, 22.0 ],
+					"patching_rect" : [ 411.5, 631.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "dump"
 				}
@@ -1436,7 +1690,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 24.0, 577.0, 113.0, 22.0 ],
+					"patching_rect" : [ 280.071411, 611.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "text preferences.txt"
 				}
@@ -1472,8 +1726,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1610,6 +1864,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -1642,8 +1915,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1780,6 +2053,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -1812,8 +2104,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1950,6 +2242,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -1982,8 +2293,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2120,6 +2431,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -2152,8 +2482,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2290,6 +2620,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -2322,8 +2671,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2460,6 +2809,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -2492,8 +2860,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2630,6 +2998,25 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -2774,8 +3161,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2913,6 +3300,25 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -2958,8 +3364,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3067,6 +3473,25 @@
 									"source" : [ "obj-4", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -3252,7 +3677,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.785706, 207.0, 44.0, 22.0 ],
+					"patching_rect" : [ 363.785706, 196.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "r ch_5"
 				}
@@ -3319,7 +3744,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 8373120.0, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -3523,7 +3948,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-49",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3533,7 +3957,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 482.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3543,7 +3967,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-48",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3553,7 +3976,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 425.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3563,7 +3986,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-47",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3573,7 +3995,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 367.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3583,7 +4005,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-46",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3593,7 +4014,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 311.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3603,7 +4024,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-45",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3613,7 +4033,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 254.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3623,7 +4043,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-44",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3633,7 +4052,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 196.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3643,7 +4062,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-35",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3653,7 +4071,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 131.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3663,7 +4081,6 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-34",
 					"items" : [ "Bulgarian.wav", ",", "English-1.wav", ",", "English-2.wav", ",", "FrAbSp.wav", ",", "German.wav", ",", "Spanish-1.wav", ",", "Spanish-2.wav" ],
@@ -3673,7 +4090,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 66.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
+					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3772,12 +4189,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 97.0, 1344.0, 1020.0 ],
+						"rect" : [ 670.0, 818.0, 1344.0, 823.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3804,7 +4221,33 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-96",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 830.0, 572.0, 34.0, 22.0 ],
+									"style" : "",
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-92",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 648.0, 182.0, 122.0, 22.0 ],
+									"style" : "",
+									"text" : "set_active Spanish-1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-48",
 									"maxclass" : "newobj",
@@ -4132,6 +4575,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
@@ -4141,7 +4585,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 496.0, 348.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "r line_6"
+									"text" : "r line_7"
 								}
 
 							}
@@ -4918,6 +5362,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-16",
@@ -4927,7 +5372,7 @@
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 539.0, 116.0, 45.0, 22.0 ],
 									"style" : "",
-									"text" : "* 5000"
+									"text" : "* 1000"
 								}
 
 							}
@@ -5291,6 +5736,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-74", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-96", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-37", 0 ]
@@ -5711,6 +6165,34 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-92", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -5759,7 +6241,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 386886.4375, "ticks" ],
+						"originallength" : [ 9156048.0, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -5788,7 +6270,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 698896.875, "ticks" ],
+						"originallength" : [ 8373120.0, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -5846,7 +6328,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 698896.875, "ticks" ],
+						"originallength" : [ 8373120.0, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -5969,7 +6451,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 24.0, 374.0, 24.0, 122.0 ],
+					"patching_rect" : [ 29.0, 374.0, 24.0, 122.0 ],
 					"style" : ""
 				}
 
@@ -6048,7 +6530,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 9156048.0, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6069,7 +6551,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 8,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 508.0, 542.0, 22.0 ],
+					"patching_rect" : [ 24.0, 529.0, 542.0, 22.0 ],
 					"style" : "",
 					"text" : "dac~ 1 2 3 4 5 6 7 8"
 				}
@@ -6208,6 +6690,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-131", 0 ]
 				}
 
 			}
@@ -6450,7 +6950,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 29.214294, 153.0, 27.0, 153.0, 27.0, 360.0, 33.5, 360.0 ],
+					"midpoints" : [ 29.214294, 153.0, 27.0, 153.0, 27.0, 360.0, 38.5, 360.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -6791,6 +7291,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
@@ -7241,19 +7750,39 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "select-active.js",
-				"bootpath" : "~/Desktop/timeofthegame/audio",
+				"bootpath" : "~/GitHub/timeofthegame/audio",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dspiomap.maxpat",
-				"bootpath" : "C74:/interfaces",
+				"bootpath" : "/Program Files/Cycling '74/Max 7/resources/interfaces",
+				"patcherrelativepath" : "../../../../../../Program Files/Cycling '74/Max 7/resources/interfaces",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
