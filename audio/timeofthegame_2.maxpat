@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 116.0, 122.0, 1174.0, 832.0 ],
+		"rect" : [ 11.0, 78.0, 644.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -212,8 +212,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -372,8 +372,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -532,8 +532,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -692,8 +692,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -852,8 +852,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1012,8 +1012,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1172,8 +1172,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1753,8 +1753,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1942,8 +1942,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2131,8 +2131,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2320,8 +2320,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2509,8 +2509,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2698,8 +2698,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2887,8 +2887,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3188,8 +3188,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3391,8 +3391,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3771,7 +3771,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -3984,7 +3984,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 482.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4003,7 +4003,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 425.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4022,7 +4022,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 367.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4041,7 +4041,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 311.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4060,7 +4060,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 254.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4079,7 +4079,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 196.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4098,7 +4098,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 131.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4117,7 +4117,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 66.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/OCR/Documents/GitHub/timeofthegame/audio/samples/",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -4216,8 +4216,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4248,8 +4248,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 162.0, 163.0, 111.0, 22.0 ],
+									"style" : "",
+									"text" : "select reset_timing"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-96",
 									"maxclass" : "newobj",
@@ -5564,6 +5576,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5865,6 +5886,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-50", 0 ]
 								}
 
 							}
@@ -6268,7 +6298,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 9156048.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6297,7 +6327,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6326,7 +6356,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6355,7 +6385,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6499,7 +6529,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6528,7 +6558,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6557,7 +6587,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 9156048.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -7786,15 +7816,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "select-active.js",
-				"bootpath" : "~/GitHub/timeofthegame/audio",
+				"bootpath" : "~/Desktop/timeofthegame/audio",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dspiomap.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 7/resources/interfaces",
-				"patcherrelativepath" : "../../../../../../Program Files/Cycling '74/Max 7/resources/interfaces",
+				"bootpath" : "C74:/interfaces",
 				"type" : "JSON",
 				"implicit" : 1
 			}

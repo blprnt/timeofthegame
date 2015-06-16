@@ -1,3 +1,6 @@
+var oscCount = 0; // keep track of the overall messages sent.  this way the sound can reset
+
+
 // this is the Photo object
 //
 // note that the osc stuff is sent here too
@@ -255,7 +258,7 @@ function Photo(loc, alphaMax, delay, displayTimeInSeconds, conception, imageCorn
 	this.fireOSC = function() {
 		//console.log("in foreOSC for url: " + this.getSRC());
 		firedOSCAlready = true;
-		var message = this.languagePreference + "," + getCurrentTimeInSeconds() + "," + this.photoType+","+this.location;
+		var message = this.languagePreference + "," + getCurrentTimeInSeconds() + "," + (oscCount < 2 ?  'reset_timing' : this.photoType) +","+this.location;
 			// send an osc message
 			if (typeof socket !== 'undefined') {
 				sendOSCMessage(message);
