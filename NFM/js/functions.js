@@ -202,7 +202,10 @@ function doesFileExist(urlToFile) {
 // 
 // 
 // send an osc message on port 3334
+
 function sendOSCMessage(message) {
+	// see PHOTO function fireOSC
 	socket.emit('message', message);
 	console.log("in send osc message for message: " + message);
+	oscCount++;
 } // end sendOSCMessage
