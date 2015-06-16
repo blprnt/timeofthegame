@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 95.0, 184.0, 1202.0, 667.0 ],
+		"rect" : [ 49.0, 78.0, 747.0, 667.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,15 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-129",
+					"id" : "obj-62",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 499.0, 128.0, 45.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 584.5, 76.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"style" : "",
-					"text" : "r rprint"
+					"text" : "thispatcher"
 				}
 
 			}
@@ -64,7 +65,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -205,7 +206,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -346,7 +347,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -487,7 +488,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -628,7 +629,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -769,7 +770,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -910,7 +911,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1472,7 +1473,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1642,7 +1643,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1812,7 +1813,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1982,7 +1983,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2152,7 +2153,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2322,7 +2323,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2492,7 +2493,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2774,7 +2775,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2958,7 +2959,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3396,22 +3397,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 623.285706, 72.0, 69.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"style" : "",
-					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3548,7 +3533,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 482.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3568,7 +3553,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 425.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3588,7 +3573,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 367.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3608,7 +3593,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 311.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3628,7 +3613,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 254.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3648,7 +3633,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 196.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3668,7 +3653,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 131.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 206.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3688,7 +3673,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 740.285706, 66.0, 100.0, 22.0 ],
-					"prefix" : "C:/Program Files/Cycling '74/Max 7/samples",
+					"prefix" : "Macintosh HD:/Users/elleryroyston/Desktop/timeofthegame/audio/samples/",
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 143.0, 100.0, 22.0 ],
 					"style" : "",
@@ -3788,11 +3773,11 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 389.0, 97.0, 1344.0, 1020.0 ],
+						"rect" : [ 34.0, 97.0, 1344.0, 1020.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3819,7 +3804,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-48",
@@ -5775,7 +5759,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 386886.443537, "ticks" ],
+						"originallength" : [ 386886.4375, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -5804,7 +5788,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 698896.84898, "ticks" ],
+						"originallength" : [ 698896.875, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -5862,7 +5846,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 698896.84898, "ticks" ],
+						"originallength" : [ 698896.875, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6926,7 +6910,7 @@
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
+					"source" : [ "obj-62", 1 ]
 				}
 
 			}
@@ -7257,7 +7241,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "select-active.js",
-				"bootpath" : "~/GitHub/timeofthegame/audio",
+				"bootpath" : "~/Desktop/timeofthegame/audio",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
