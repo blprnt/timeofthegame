@@ -21,7 +21,7 @@
     create_account_email_to = null;
     return max.getAuthServerURL(function(base_url) {
       return max.getMaxVersion(function(maxversion) {
-        var APM_AUTH_PROVIDER_AUTHFILE, APM_AUTH_PROVIDER_KEYSERVER, APM_AUTH_PROVIDER_LIVE, APM_AUTH_PROVIDER_PACE, APM_LICENSE_TYPE_DEMO, APM_LICENSE_TYPE_FULL, APM_LICENSE_TYPE_KEYSERVER, APM_LICENSE_TYPE_NONE, APM_LICENSE_TYPE_PACE, APM_LICENSE_TYPE_SUBSCRIPTION, APM_LICENSE_TYPE_TERM, ERR_AUTHFILE_CANNOTWRITE, ERR_AUTHFILE_EXPIRED, ERR_AUTHFILE_NOTVERIFIED, ERR_CONNECTIONERR, ERR_FILETIMEOUT, ERR_GENERIC, ERR_LICENSETIMEOUT, ERR_NOAUTHFILE, ERR_NONE, ERR_PARSE, ERR_PROCESS, ERR_SIG_NOTVERIFIED, Progress, add_input_to_purchase_form, auth_dict_has_expired, errors, firstname_func, get_name_from_auth_dict, get_validate_func, goto_signin, hide, isNumber, isOnline, lastname_func, license_type, max_has_expired, max_is_authorized, onLicData, onOrOffline, online, password_func, render_expiration_date, render_product_info, server_proto, server_url, server_version, setup_purchase_form, show, show_error, show_page, signin_delay, signin_timer, tmp, update_page, url;
+        var ERR_AUTHFILE_CANNOTWRITE, ERR_AUTHFILE_EXPIRED, ERR_AUTHFILE_NOTVERIFIED, ERR_CONNECTIONERR, ERR_FILETIMEOUT, ERR_GENERIC, ERR_LICENSETIMEOUT, ERR_NOAUTHFILE, ERR_NONE, ERR_PARSE, ERR_PROCESS, ERR_SIG_NOTVERIFIED, Progress, add_input_to_purchase_form, auth_dict_has_expired, errors, firstname_func, get_name_from_auth_dict, get_validate_func, goto_signin, hide, isNumber, isOnline, lastname_func, max_has_expired, max_is_authorized, onLicData, onOrOffline, online, password_func, render_expiration_date, render_product_info, server_proto, server_url, server_version, setup_purchase_form, show, show_error, show_page, signin_delay, signin_timer, tmp, update_page, url;
         console.log("connecting to " + base_url, maxversion);
         tmp = base_url.split("://");
         server_proto = tmp[0];
@@ -56,25 +56,6 @@
         errors[ERR_CONNECTIONERR] = "Network error. No connection.";
         errors[ERR_AUTHFILE_EXPIRED] = "Your authorization file has expired.";
         errors[ERR_AUTHFILE_CANNOTWRITE] = "Could not write the authorization file.";
-        APM_LICENSE_TYPE_NONE = 0;
-        APM_LICENSE_TYPE_DEMO = 1;
-        APM_LICENSE_TYPE_SUBSCRIPTION = 2;
-        APM_LICENSE_TYPE_FULL = 3;
-        APM_LICENSE_TYPE_KEYSERVER = 4;
-        APM_LICENSE_TYPE_PACE = 5;
-        APM_LICENSE_TYPE_TERM = 6;
-        license_type = [];
-        license_type[APM_LICENSE_TYPE_NONE] = "None";
-        license_type[APM_LICENSE_TYPE_DEMO] = "Demo";
-        license_type[APM_LICENSE_TYPE_SUBSCRIPTION] = "Subscription";
-        license_type[APM_LICENSE_TYPE_FULL] = "Full";
-        license_type[APM_LICENSE_TYPE_KEYSERVER] = "Keyserver";
-        license_type[APM_LICENSE_TYPE_PACE] = "ilok";
-        license_type[APM_LICENSE_TYPE_TERM] = "Term";
-        APM_AUTH_PROVIDER_AUTHFILE = 1;
-        APM_AUTH_PROVIDER_PACE = 2;
-        APM_AUTH_PROVIDER_KEYSERVER = 4;
-        APM_AUTH_PROVIDER_LIVE = 8;
         isNumber = function(n) {
           return !isNaN(parseFloat(n)) && isFinite(n);
         };
@@ -522,21 +503,17 @@
           return $el.removeClass('hidden');
         };
         get_name_from_auth_dict = function(auth_dict) {
-          var n;
-          if (!auth_dict) {
-            return "";
+          var _ref, _ref1, _ref2;
+          if ((auth_dict != null ? (_ref = auth_dict.name) != null ? _ref.trim() : void 0 : void 0) !== "") {
+            return auth_dict.name;
           }
-          n = "Luther Blisset";
-          if (auth_dict.name != null) {
-            n = auth_dict.name.trim();
-          } else if (auth_dict.nickname != null) {
-            n = auth_dict.nickname.trim();
-          } else if (auth_dict.username != null) {
-            n = auth_dict.username.trim();
-          } else if (auth_dict.email != null) {
-            n = auth_dict.email.trim();
+          if ((auth_dict != null ? (_ref1 = auth_dict.nickname) != null ? _ref1.trim() : void 0 : void 0) !== "") {
+            return auth_dict.nickname;
           }
-          return " for " + n;
+          if ((auth_dict != null ? (_ref2 = auth_dict.username) != null ? _ref2.trim() : void 0 : void 0) !== "") {
+            return auth_dict.username;
+          }
+          return "Luther Blisset";
         };
         add_input_to_purchase_form = function(name, val) {
           var $i, n, o, _results;
@@ -604,7 +581,7 @@
           return txt;
         };
         render_product_info = function(auth_dict, auth_status_dict) {
-          var exp, today, txt, vu, _ref, _ref1, _ref2, _ref3, _ref4, _ref5, _ref6;
+          var today, txt, vu, _ref;
           $("span#version").html("Max 7");
           $("span#expiration").html("").removeClass("alert-warning");
           hide($("#buy_now"));
@@ -613,21 +590,10 @@
           hide($("#cancel_subscription_container"));
           hide($("#fake_subscription_container"));
           today = new Date();
-          if (auth_status_dict.license_type === APM_LICENSE_TYPE_KEYSERVER) {
-            $("#info").html("(keyserver)");
-          } else if (auth_status_dict.license_type === APM_LICENSE_TYPE_PACE) {
-            $("#info").html("(ilok)");
-          } else if (((_ref = auth_status_dict.auth_providers) != null ? _ref.indexOf("keyserver") : void 0) !== -1) {
-            console.log("WTF", auth_status_dict.auth_providers);
-            $("#info").html("(keyserver)");
-          } else if (((_ref1 = auth_status_dict.auth_providers) != null ? _ref1.indexOf("pace") : void 0) !== -1) {
-            $("#info").html("(ilok)");
-          } else if ((auth_dict != null ? auth_dict.key_id : void 0) != null) {
-            $("#info").html("(key)");
-          } else if (!(auth_dict != null ? (_ref2 = auth_dict.max7) != null ? _ref2.type : void 0 : void 0)) {
+          if (!(auth_dict != null ? (_ref = auth_dict.max7) != null ? _ref.type : void 0 : void 0)) {
             $("#info").html("(unauthorized)");
             show($("#buy_now"));
-          } else if ((auth_dict != null ? (_ref3 = auth_dict.max7) != null ? _ref3.type : void 0 : void 0) === "full") {
+          } else if (auth_dict.max7.type === "full") {
             $("#info").html("(perpetual license)");
             if ((auth_dict != null ? auth_dict.expires_on : void 0) === "never") {
               show($("#auth_permanent_already"));
@@ -639,7 +605,7 @@
             } else {
               show($("#auth_permanent_req_container"));
             }
-          } else if ((auth_dict != null ? (_ref4 = auth_dict.max7) != null ? _ref4.type : void 0 : void 0) === "subscription") {
+          } else if (auth_dict.max7.type === "subscription") {
             if (auth_dict.subscription_url) {
               $("#info").html("(subscription)");
               show($("#cancel_subscription_container"));
@@ -648,43 +614,32 @@
               show($("#fake_subscription_container"));
               show($("#buy_now"));
             }
-            exp = new Date(auth_dict.max7.expires_on);
-            today = new Date();
-            if (exp < today) {
-              show($("#buy_now"));
-            }
-          } else if ((auth_dict != null ? (_ref5 = auth_dict.max7) != null ? _ref5.type : void 0 : void 0) === "demo") {
+          } else if (auth_dict.max7.type === "demo") {
             $("#info").html("(demo)");
             show($("#buy_now"));
-          } else if (auth_dict != null) {
-            $("#info").html("(" + auth_dict.max7.type + ")");
-            exp = new Date(auth_dict.max7.warn_on);
-            today = new Date();
-            if (exp < today) {
-              show($("#buy_now"));
-            }
+          } else {
+            $("#info").html("(unauthorized)");
           }
-          if (((auth_dict != null ? auth_dict.max7 : void 0) != null) && (auth_dict != null ? (_ref6 = auth_dict.max7) != null ? _ref6.expires_on : void 0 : void 0) !== "never") {
+          if (auth_dict.max7.expires_on !== "never") {
             vu = new Date(auth_dict.max7.expires_on);
             txt = render_expiration_date(vu);
             if (vu < today) {
               $("#expiration").html(txt);
-              return $("#expiration").addClass("alert-warning");
-            } else if ((auth_dict != null ? auth_dict.key_id : void 0) == null) {
-              return $("#expiration").html(txt);
+              $("#expiration").addClass("alert-warning");
+            } else {
+              $("#expiration").html(txt);
             }
           } else {
-            return $("#expiration").html("");
+            $("#expiration").html("");
           }
-
-          /*
-          if auth_dict?.key_id?
-            hide $("#auth_permanent_req_container")
-            hide $("#cancel_subscription_container")
-            if auth_dict.key_expires_on
-              txt= render_expiration_date new Date auth_dict.key_expires_on
-               *$("#expiration").html "key: #{txt}"
-           */
+          if (auth_dict.key_id) {
+            hide($("#auth_permanent_req_container"));
+            hide($("#cancel_subscription_container"));
+            if (auth_dict.key_expires_on) {
+              txt = render_expiration_date(new Date(auth_dict.key_expires_on));
+              return $("#expiration").html("key: " + txt);
+            }
+          }
         };
         auth_dict_has_expired = function(auth_dict) {
           var d, to;
@@ -727,7 +682,7 @@
           switch (auth_dict.max7.type) {
             case "demo":
               return !max_has_expired(auth_dict);
-            case "subscription":
+            case "sub":
               return !max_has_expired(auth_dict);
             case "full":
               return true;
@@ -740,19 +695,12 @@
         update_page = function(auth_dict) {
           console.log("update_page, auth_dict", auth_dict);
           $("#auth_error").remove();
-          return max.getAuthorizationStatus(function(auth_status_dict) {
-            var exp, _ref, _ref1;
-            console.log("update_page auth_status_dict", auth_status_dict);
-            console.log("update_page auth_providers", auth_status_dict.auth_providers);
-            if ((auth_status_dict != null ? auth_status_dict.license_type : void 0) === APM_LICENSE_TYPE_KEYSERVER || auth_status_dict.license_type === APM_LICENSE_TYPE_PACE || ((_ref = auth_status_dict.auth_providers) != null ? _ref.indexOf("pace") : void 0) !== -1 || auth_status_dict.auth_providers.indexOf("keyserver") !== -1) {
-              show_page($("#welcomeContainer"));
-              if ((auth_status_dict.error != null) && auth_status_dict.error !== 1) {
-                show_error(auth_status_dict.error);
-              }
-              hide($("#signout_but"));
-              return render_product_info(null, auth_status_dict);
-            } else if (auth_dict) {
-              show($("#signout_but"));
+          if (!auth_dict) {
+            return goto_signin();
+          }
+          if (auth_dict) {
+            return max.getAuthorizationStatus(function(auth_status_dict) {
+              var exp, _ref;
               console.log("update_page, auth_status_dict", auth_status_dict);
               if (!auth_status_dict) {
                 return goto_signin();
@@ -771,7 +719,7 @@
                 } else if (!auth_dict.max7) {
                   show_error("You are successfully signed in, but your authorization file has no 'max7' entry.");
                 } else if (max_has_expired(auth_dict)) {
-                  if (auth_dict != null ? (_ref1 = auth_dict.max7) != null ? _ref1.expires_on : void 0 : void 0) {
+                  if (auth_dict != null ? (_ref = auth_dict.max7) != null ? _ref.expires_on : void 0 : void 0) {
                     exp = new Date(auth_dict.max7.expires_on).toLocaleDateString();
                     show_error("Your " + auth_dict.max7.type + " period expired on " + exp);
                   } else {
@@ -786,19 +734,14 @@
               console.log("calling setup_purchase_form");
               setup_purchase_form(auth_dict, auth_status_dict);
               show_page($("#welcomeContainer"));
-              $("#name").html("");
-              if (auth_dict.key_id == null) {
-                $("#name").html(get_name_from_auth_dict(auth_dict));
-              }
+              $("#name").html(get_name_from_auth_dict(auth_dict));
               $("#email").html("");
-              if ((auth_dict != null ? auth_dict.email : void 0) && (auth_dict.key_id == null)) {
+              if (auth_dict.email) {
                 $("#email").html("  (" + auth_dict.email + ")");
               }
               return render_product_info(auth_dict, auth_status_dict);
-            } else {
-              return goto_signin();
-            }
-          });
+            });
+          }
         };
         onLicData = function(d) {
           var prog;

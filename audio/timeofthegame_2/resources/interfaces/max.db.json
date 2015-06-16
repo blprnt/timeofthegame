@@ -14,27 +14,27 @@
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/default-definitions",
+				"path" : "C74:/default-definitions",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/default-settings",
+				"path" : "C74:/default-settings",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/extensions",
+				"path" : "C74:/extensions",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/init",
+				"path" : "C74:/init",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/interfaces",
+				"path" : "C74:/interfaces",
 				"kind" : "*"
 			},
 			{
@@ -44,17 +44,17 @@
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/jit-init",
+				"path" : "*/jit-init",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/jsextensions",
+				"path" : "C74:/jsextensions",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/object-icons",
+				"path" : "C74:/object-icons",
 				"kind" : "*"
 			},
 			{
@@ -69,27 +69,24 @@
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/java-doc",
+				"path" : "C74:/java-doc",
 				"kind" : "*"
 			},
 			{
 				"filter" : "ignore",
-				"path" : "package@*:/support",
+				"path" : "C74:/support",
 				"kind" : "*"
 			}
 		],
 
 		"exclusions" : ["opened","progress","ca1d","ls.central","ls.mono","ls.ratelag","step.overplay","zeropoint~","max","dsp","jit_kernel","jit.group-gl","jit.group-mop","jbox","parameters","paraminspector","playlist","jit.qt.engine","jit.avf.engine"],
 
-		"internals" : ["+","-","*","/","%",">","<","<=",">=","==","!=","&","&&","|","||","<<",">>","abs","accum","active","bag","bangbang","bendin","bendout","bpatcher","change","closebang","ctlin","ctlout","del","dict","dict.view","error","expr","float","follow","freebang","gate","grab","if","inlet","int","jweb","jstrigger","key","keyup","loadbang","maxurl","menubar","midiformat","midiin","midiout","midiparse","notein","noteout","onecopy","opened","outlet","pack","patcher","pcontrol","pgmin","pgmout","polyin","polyout","preset","print","pvar","random","receive","route","routepass","rtin","select","send","seq","setclock","stripnote","sustain","swap","switch","sysexin","table","thispatcher","touchin","touchout","trigger","unpack","value"],
+		"internals" : ["+","-","*","/","%",">","<","<=",">=","==","!=","&","&&","|","||","abs","accum","active","bangbang","bendin","bendout","bpatcher","change","closebang","ctlin","ctlout","del","dict","dict.view","error","expr","float","follow","freebang","gate","grab","if","inlet","int","jweb","jstrigger","key","keyup","loadbang","maxurl","menubar","midiformat","midiin","midiout","midiparse","notein","noteout","onecopy","opened","outlet","pack","patcher","pcontrol","pgmin","pgmout","polyin","polyout","preset","print","pvar","random","receive","route","routepass","rtin","select","send","seq","setclock","stripnote","sustain","swap","switch","sysexin","table","thispatcher","touchin","touchout","trigger","unpack","value"],
 
 		"genobjects" : {
-			"genobject_common" : [
-				"abs","absdiff","acos","acosh","add","and","asin","asinh","atan","atan2","atanh","bool","cartopol","ceil","clamp","clip","codebox","constant","cos","cosh","degrees","degtorad","div","e","eq","eqp","exp","exp2","expr","fastcos","fastexp","fastpow","fastsin","fasttan","float","floor","fold","fract","gate","gen","gt","gte","gtep","gtp","halfpi","hypot","in","int","invpi","ln","ln10","ln2","log","log10","log10e","log2","log2e","lt","lte","ltep","ltp","max","maximum","min","minimum","mix","mod","mul","neg","neq","neqp","noise","not","or","out","param","pass","phi","pi","poltocar","pow","radians","radtodeg","rdiv","receive","rmod","rsub","scale","selector","send","setparam","sign","sin","sinh","smoothstep","sqrt","sqrt1_2","sqrt2","step","sub","switch","tan","tanh","trunc","twopi","wrap","xor"],
-			"genobject_dsp" : [
-				"accum","atodb","buffer","change","channels","counter","cycle","data","dbtoa","dcblock","delay","delta","dim","elapsed","fftfullspect","ffthop","fftinfo","fftoffset","fftsize","fixdenorm","fixnan","ftom","history","interp","isdenorm","isnan","latch","lookup","mstosamps","mtof","mulequals","nearest","peek","phasewrap","phasor","plusequals","poke","rate","round","sah","sample","samplerate","sampstoms","slide","splat","t60","t60time","train","triangle","vectorisize","vectorsize","voice","wave"],
-			"genobject_jit" : [
-				"cell","circle","concat","cone","cross","cylinder","dim","dot","faceforward","hsl2rgb","length","nearest","nearestpix","norm","normalize","plane","qconj","qmul","qrot","reflect","refract","rgb2hsl","rotor","sample","samplepix","snorm","sphere","swiz","torus","vec"]
+			"genobject_common" : [ "abs","absdiff","acos","acosh","add","and","asin","asinh","atan","atan2","atanh","bool","cartopol","ceil","clamp","clip","constant","cos","cosh","degrees","degtorad","div","e","eq","eqp","exp","exp2","expr","fastcos","fastexp","fastpow","fastsin","fasttan","float","floor","fold","fract","gate","gen","gt","gte","gtep","gtp","halfpi","hypot","in","int","invpi","ln","ln10","ln2","log","log10","log10e","log2","log2e","lt","lte","ltep","ltp","max","maximum","min","minimum","mix","mod","mul","neg","neq","neqp","noise","not","or","out","param","pass","pi","poltocar","pow","radians","radtodeg","rdiv","receive","rmod","rsub","scale","selector","send","setparam","sign","sin","sinh","smoothstep","sqrt","sqrt1_2","sqrt2","step","sub","switch","tan","tanh","trunc","twopi","wrap","xor" ],
+			"genobject_dsp" : [ "accum","atodb","buffer","change","channels","counter","cycle","data","dbtoa","dcblock","delay","delta","dim","fftfullspect","ffthop","fftinfo","fftoffset","fftsize","fixdenorm","fixnan","ftom","history","interp","isdenorm","isnan","latch","lookup","mstosamps","mtof","mulequals","nearest","peek","phasewrap","phasor","plusequals","poke","rate","sah","sample","samplerate","sampstoms","splat","train","triangle","vectorsize","wave" ],
+			"genobject_jit" : [ "cell","circle","concat","cone","cross","cylinder","dim","dot","faceforward","hsl2rgb","length","nearest","norm","normalize","plane","qconj","qmul","qrot","reflect","refract","rgb2hsl","rotor","sample","snorm","sphere","swiz","torus","vec" ]
 		},
 
 		"fakeobjects" : {

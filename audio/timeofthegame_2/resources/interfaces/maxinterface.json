@@ -1753,7 +1753,7 @@
 			"message" : "reference",
 			"label" : "Reference",
 			"shortcut" : "shift+R",
-			"target" : "max",
+			"target" : "owner",
 			"icon" : "list.svg",
 			"caption" : "Reference"
 		},
@@ -2158,6 +2158,11 @@
 			"target" : "owner",
 			"icon" : "list.svg",
 			"caption" : "List Paths"
+		},
+		{
+			"message" : "showunibrowser",
+			"label" : "Max Documentation",
+			"target" : "max"
 		},
 		{
 			"message" : "docintro",
@@ -3264,7 +3269,7 @@
 			"id" : "viewmenu",
 			"label" : "View",
 			"navkey" : "V",
-			"commands" : [ "newview", "-", "edit", "presentation", "-", "dialog", "showparameters", "-", "zoomin", "zoomout", "showat100percent", "-",
+			"commands" : [ "newview", "-", "edit", "presentation", "-", "dialog", "showparameters", "dependencies", "-", "zoomin", "zoomout", "showat100percent", "-",
 					"grid", "-", "patcherdrawer", "showtoolbar", "-", "showconnections", "showfg", "showbg", "lockbg", "-","showcpuusage","-",
 							"initialposition", "defineinitialposition", "clearinitialposition" ]
 		},
@@ -3330,8 +3335,8 @@
 			"id" : "helpmenu",
 			"label" :  "Help",
 			"navkey" : "H",
-			"commands_mac" : ["showauthorizationwindow", "supportpage", "communitypage", "forcestartuptour", "-", "help", "reference", "-", "example", "-", "doctesting", "reveal_resources"],
-			"commands_windows" : ["showauthorizationwindow", "supportpage", "communitypage", "forcestartuptour", "-", "help", "reference", "-", "example", "-", "doctesting", "about"],
+			"commands_mac" : ["showunibrowser", "showauthorizationwindow", "supportpage", "communitypage", "forcestartuptour", "-", "help", "reference", "-", "example", "-", "doctesting", "reveal_resources"],
+			"commands_windows" : ["showunibrowser", "showauthorizationwindow", "supportpage", "communitypage", "forcestartuptour", "-", "help", "reference", "-", "example", "-", "doctesting", "about"],
 			"commands_runtime_mac" : [ "help" ],
 			"commands_runtime_windows" : [ "help", "-", "about"]
 		},
