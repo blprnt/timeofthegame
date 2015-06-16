@@ -2,17 +2,28 @@ inlets = 1;
 outlets = 7;
 
 var active = "NULL";
-var isRandom = false;
+var lastX= false;
 
-var languages = {0 : "English-1",
-				 1 : "English-2",
-				 2 : "Spanish-1",
-				 3 : "Spanish-2",
-				 4 : "German",
-				 5 : "Bulgarian",
-				 6 : "FrAbSp"} ;
-
+var randomLanguages = { 0 : "Spanish-1",
+				 	    1 : "Spanish-2",
+				 		2 : "German",
+				 		3 : "Bulgarian",
+				 		4 : "FrAbSp"} ;
+				
 function set_active(a){
+	post(lastX);
+	if (a == "x" && !lastX){
+		lastX = true;
+		post("X and not LastX");
+		output(a);
+	} else if (a != "x"){
+		lastX = false;
+		post("false, not X");
+		output(a)
+	}
+}
+
+function output(a){
 	if (a != active){
 		if (a == "English-1"){
 			active = "English-1";
@@ -23,7 +34,6 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-			isRandom = false;
 		} else if (a == "English-2"){
 			active = "English-2";
 			outlet(0, "inactive");
@@ -33,7 +43,6 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-			isRandom = false;
 		} else if (a == "Spanish-1"){
 			active = "Spanish-1";
 			outlet(0, "inactive");
@@ -43,7 +52,6 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-			isRandom = false;
 		} else if (a == "Spanish-2"){
 			active = "Spanish-2";
 			outlet(0, "inactive");
@@ -53,7 +61,6 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-			isRandom = false;
 		} else if (a == "German"){
 			active = "German";
 			outlet(0, "inactive");
@@ -63,7 +70,6 @@ function set_active(a){
 			outlet(4, "active");
 			outlet(5, "inactive");
 			outlet(6, "inactive");
-			isRandom = false;
 		} else if (a == "Bulgarian"){
 			active = "Bulgarian";
 			outlet(0, "inactive");
@@ -73,7 +79,6 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "active");
 			outlet(6, "inactive");
-			isRandom = false;
 		} else if (a == "FrAbSp"){
 			active = "FrAbSp";
 			outlet(0, "inactive");
@@ -83,15 +88,14 @@ function set_active(a){
 			outlet(4, "inactive");
 			outlet(5, "inactive");
 			outlet(6, "active");
-			isRandom = false;
-		} else if (a == "x" && !isRandom){
+		} else if (a == "x"){
 			pickRandomLanguage();
 		}
 	}
 }
 
 function pickRandomLanguage(){
-	languageChoice = Math.floor(Math.random() * 8);
-	isRandom = true;
-	set_active(languages[languageChoice]);
+	languageChoice = Math.floor(Math.random() * 5);
+	output(randomLanguages[languageChoice]);
+	post(randomLanguages[languageChoice]);
 }
