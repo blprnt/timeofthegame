@@ -3744,7 +3744,11 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
+<<<<<<< Updated upstream
 						"originallength" : [ 8373120.0, "ticks" ],
+=======
+						"originallength" : [ 203294.125, "ticks" ],
+>>>>>>> Stashed changes
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -4194,7 +4198,11 @@
 							"modernui" : 1
 						}
 ,
+<<<<<<< Updated upstream
 						"rect" : [ 670.0, 818.0, 1344.0, 823.0 ],
+=======
+						"rect" : [ 136.0, 78.0, 556.0, 684.0 ],
+>>>>>>> Stashed changes
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6241,7 +6249,11 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
+<<<<<<< Updated upstream
 						"originallength" : [ 9156048.0, "ticks" ],
+=======
+						"originallength" : [ 203294.125, "ticks" ],
+>>>>>>> Stashed changes
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6270,7 +6282,11 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
+<<<<<<< Updated upstream
 						"originallength" : [ 8373120.0, "ticks" ],
+=======
+						"originallength" : [ 203294.125, "ticks" ],
+>>>>>>> Stashed changes
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6299,7 +6315,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6328,7 +6344,11 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
+<<<<<<< Updated upstream
 						"originallength" : [ 8373120.0, "ticks" ],
+=======
+						"originallength" : [ 203294.125, "ticks" ],
+>>>>>>> Stashed changes
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6472,7 +6492,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6501,7 +6521,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 8373120.0, "ticks" ],
+						"originallength" : [ 203294.125, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -6530,7 +6550,11 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
+<<<<<<< Updated upstream
 						"originallength" : [ 9156048.0, "ticks" ],
+=======
+						"originallength" : [ 203294.125, "ticks" ],
+>>>>>>> Stashed changes
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
