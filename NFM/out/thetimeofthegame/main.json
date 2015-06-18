@@ -56,7 +56,7 @@
         {
             "status": "Dublin, Ireland. Minute 14. #thetimeofthegame #GER #ARG http://t.co/dbPBtVuosj",
             "id": 488401100169826300,
-            "timeofgame": "54",
+            "timeofgame": "14",
             "location": "Dublin",
             "imageURL": "http://pbs.twimg.com/media/BscmNkACcAAaFkH.jpg",
             "localURL": "/images/488401100169826300.jpg",
@@ -65,7 +65,7 @@
         {
             "status": "White Plains. 12:27. Messi stripped. #thetimeofthegame http://t.co/py7nuD5Th3",
             "id": 488401117987237900,
-            "timeofgame": "7",
+            "timeofgame": "12",
             "imageURL": "http://pbs.twimg.com/media/BscmOoOCQAAT5gs.jpg",
             "localURL": "/images/488401117987237900.jpg",
             "corners": "26,169,799,164,800,626,14,615"
@@ -99,7 +99,7 @@
         {
             "status": "Marblehead, Massachusetts. The Americas. #thetimeofthegame #WorldCupFinal http://t.co/qaKJLSYnlr",
             "id": 488401184777322500,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "location": "Marblehead",
             "imageURL": "http://pbs.twimg.com/media/BscmShQCIAAAZES.jpg",
             "localURL": "/images/488401184777322500.jpg",
@@ -108,7 +108,7 @@
         {
             "status": "Stockholm, 10:58, #thetimeofthegame http://t.co/mS64Z7Ceob",
             "id": 488401193665048600,
-            "timeofgame": "54",
+            "timeofgame": "10",
             "location": "Stockholm",
             "imageURL": "http://pbs.twimg.com/media/BscmSavCUAE3Euk.jpg",
             "localURL": "/images/488401193665048600.jpg",
@@ -169,7 +169,7 @@
         {
             "status": "Vancouver, Canada. 14' #thetimeofthegame http://t.co/4rwgXD0Otw",
             "id": 488401402792652800,
-            "timeofgame": "54",
+            "timeofgame": "14",
             "location": "Vancouver",
             "imageURL": "http://pbs.twimg.com/media/BscmfKPCIAAPLPA.jpg",
             "localURL": "/images/488401402792652800.jpg",
@@ -178,7 +178,7 @@
         {
             "status": "RT @Soccerpolitics: Durham. The Americas. 1st minute. #thetimeofthegame http://t.co/KiAqqkB7cO",
             "id": 488401424922214400,
-            "timeofgame": "54",
+            "timeofgame": "1",
             "location": "Durham",
             "imageURL": "http://pbs.twimg.com/media/BscjTnsCEAEAHuU.jpg",
             "localURL": "/images/488401424922214400.jpg",
@@ -196,7 +196,7 @@
         {
             "status": "@tejucole The Field pub, Cambridge, MA, USA 13:20 #thetimeofthegame http://t.co/AIwQlB3P5V",
             "id": 488401461110657000,
-            "timeofgame": "20",
+            "timeofgame": "13",
             "location": "Cambridge",
             "imageURL": "http://pbs.twimg.com/media/BscmRy8IAAAPpsc.jpg",
             "localURL": "/images/488401461110657000.jpg",
@@ -214,7 +214,7 @@
         {
             "status": "Philadelphia. Minute 15. Quiet here, but fans are slowly showing up! #thetimeofthegame @tejucole http://t.co/EcbDTypIm7",
             "id": 488401532669284350,
-            "timeofgame": "54",
+            "timeofgame": "15",
             "imageURL": "http://pbs.twimg.com/media/BscmmyhCMAAc9vg.jpg",
             "localURL": "/images/488401532669284350.jpg",
             "corners": "471,133,588,127,582,195,474,197"
@@ -248,7 +248,7 @@
         {
             "status": "RT @tejucole: THE TIME OF THE GAME. Take a photo of your TV/screen, tell us where, tell us what minute, hashtag #thetimeofthegame http://t.â€¦",
             "id": 488401572192202750,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BsciNb7CMAAQwgr.png",
             "localURL": "/images/488401572192202750.jpg",
             "corners": "50,50,300,50,300,300,50,300"
@@ -301,7 +301,7 @@
         {
             "status": "15' Mexico #thetimeofthegame http://t.co/K92Vak8yJj",
             "id": 488401908155949060,
-            "timeofgame": "54",
+            "timeofgame": "15",
             "location": "Mexico",
             "imageURL": "http://pbs.twimg.com/media/Bscm6hJCEAExO0d.jpg",
             "localURL": "/images/488401908155949060.jpg",
@@ -328,7 +328,7 @@
         {
             "status": "14. #thetimeofthegame in #Sicily http://t.co/qirgwMWYw2",
             "id": 488401998099009540,
-            "timeofgame": "54",
+            "timeofgame": "14",
             "location": "Sicily",
             "imageURL": "http://pbs.twimg.com/media/BscnB3-IUAAm1Jh.jpg",
             "localURL": "/images/488401998099009540.jpg",
@@ -337,7 +337,7 @@
         {
             "status": "RT @wicary: Kickoff, Havana. #thetimeofthegame cc @tejucole http://t.co/Y6VZTCs2CG",
             "id": 488402011302285300,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "location": "Havana.",
             "imageURL": "http://pbs.twimg.com/media/BscknSzCcAEc3z-.jpg",
             "localURL": "/images/488402011302285300.jpg",
@@ -418,7 +418,7 @@
         {
             "status": "RT @thisbrokenwheel: 6:19 minutes in, #SanDiego, CA #thetimeofthegame http://t.co/2ABHO7Ebk3 #MyDayInSD",
             "id": 488402198821228540,
-            "timeofgame": "19",
+            "timeofgame": "6",
             "imageURL": "http://pbs.twimg.com/media/BsckjA_CUAAPqxl.jpg",
             "localURL": "/images/488402198821228540.jpg",
             "corners": "243,367,449,366,449,486,244,485"
@@ -443,7 +443,7 @@
         {
             "status": "14' en Panama (Santa Catalina) #thetimeofthegame http://t.co/r4SWpALHog",
             "id": 488402237920526340,
-            "timeofgame": "54",
+            "timeofgame": "14",
             "imageURL": "http://pbs.twimg.com/media/BscnPjiCAAArugX.jpg",
             "localURL": "/images/488402237920526340.jpg",
             "corners": "122,212,225,220,226,280,127,277"
@@ -460,7 +460,7 @@
         {
             "status": "#thetimeofthegame \n#WorldCupFinal kicks off in #Chile http://t.co/dB0y8g1NXE",
             "id": 488402288537763840,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "location": "Chile",
             "imageURL": "http://pbs.twimg.com/media/BscnSygIgAELxFo.jpg",
             "localURL": "/images/488402288537763840.jpg",
@@ -504,7 +504,7 @@
         {
             "status": "Winnipeg, Canada. Minute 15. #thetimeofthegame #GER #ARG http://t.co/urFGoWNPXw",
             "id": 488402328127418400,
-            "timeofgame": "54",
+            "timeofgame": "15",
             "location": "Winnipeg",
             "imageURL": "http://pbs.twimg.com/media/BscnUyICYAEF7ck.jpg",
             "localURL": "/images/488402328127418400.jpg",
@@ -565,7 +565,7 @@
         {
             "status": "18' austin, tx #thetimeofthegame http://t.co/yCXmykBzAN",
             "id": 488402573984948200,
-            "timeofgame": "54",
+            "timeofgame": "18",
             "location": "austin",
             "imageURL": "http://pbs.twimg.com/media/BscnjHqCEAAvyhs.jpg",
             "localURL": "/images/488402573984948200.jpg",
@@ -591,7 +591,7 @@
         {
             "status": "@tejucole #thetimeofthegame w/ @rabihalameddine @FedericoArdila &amp; a real live argentine, Alvaro Villanueva. http://t.co/T3XwF6wl7c",
             "id": 488402590825074700,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BscnkXJCUAAtt9U.jpg",
             "localURL": "/images/488402590825074700.jpg",
             "corners": "48,167,96,191,95,232,45,207"
@@ -642,7 +642,7 @@
         {
             "status": "21st minute. Toronto.  #thetimeofthegame http://t.co/f2AfoUDPNO",
             "id": 488402766478315500,
-            "timeofgame": "54",
+            "timeofgame": "21",
             "imageURL": "http://pbs.twimg.com/media/BscnuYUCAAESaa7.jpg",
             "localURL": "/images/488402766478315500.jpg",
             "corners": "217,255,686,313,733,586,187,562"
@@ -685,7 +685,7 @@
         {
             "status": "RT @tejucole: THE TIME OF THE GAME. Take a photo of your TV/screen, tell us where, tell us what minute, hashtag #thetimeofthegame http://t.â€¦",
             "id": 488402803829010400,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BsciNb7CMAAQwgr.png",
             "localURL": "/images/488402803829010400.jpg",
             "corners": "50,50,861,2,750,480,21,579"
@@ -737,7 +737,7 @@
         {
             "status": "20\" Higuian miss... #thetimeofthegame http://t.co/8bxPwQk4jq",
             "id": 488402913945853950,
-            "timeofgame": "54",
+            "timeofgame": "20",
             "imageURL": "http://pbs.twimg.com/media/Bscn3HnIcAAcqf1.jpg",
             "localURL": "/images/488402913945853950.jpg",
             "corners": "163,269,700,265,700,544,170,503"
@@ -762,7 +762,7 @@
         {
             "status": "RT @kitabet: Minute 39, Brooklyn. Another yawn. #thetimeofthegame @tejucole @Eric_LaForest http://t.co/k7ZA2YqqeH",
             "id": 488402935429492740,
-            "timeofgame": "54",
+            "timeofgame": "39",
             "location": "Brooklyn",
             "imageURL": "http://pbs.twimg.com/media/BsDLBuEIMAMZv6D.jpg",
             "localURL": "/images/488402935429492740.jpg",
@@ -771,7 +771,7 @@
         {
             "status": "#thetimeofthegame Higuain just missed a clear opportunity to score #ARG #WorldCupFinal http://t.co/O3ITZwXtSg",
             "id": 488402936247353340,
-            "timeofgame": "54",
+            "timeofgame": "20",
             "imageURL": "http://pbs.twimg.com/media/Bscn4fPIUAEf3bx.jpg",
             "localURL": "/images/488402936247353340.jpg",
             "corners": "42,202,734,173,744,626,3,576"
@@ -779,7 +779,7 @@
         {
             "status": "Blackrose! Addis Ababa, Ethiopia #21:07 #thetimeofthegame http://t.co/auLpmxnmUr",
             "id": 488402938038333440,
-            "timeofgame": "07",
+            "timeofgame": "21",
             "location": "Addis Ababa",
             "imageURL": "http://pbs.twimg.com/media/Bscn4ZoIQAA2r5l.jpg",
             "localURL": "/images/488402938038333440.jpg",
@@ -788,7 +788,7 @@
         {
             "status": "Sechelt, British Columbia 21st minute #thetimeofthegame http://t.co/vfwgooT1Wy",
             "id": 488402984796037100,
-            "timeofgame": "54",
+            "timeofgame": "21",
             "location": "Sechelt",
             "imageURL": "http://pbs.twimg.com/media/Bscn7NdCEAEONcd.jpg",
             "localURL": "/images/488402984796037100.jpg",
@@ -841,7 +841,7 @@
         {
             "status": "21st minute, Victoria, CA #thetimeofthegame http://t.co/RbtpQpeEOx",
             "id": 488403131365994500,
-            "timeofgame": "54",
+            "timeofgame": "21",
             "location": "Victoria",
             "imageURL": "http://pbs.twimg.com/media/BscoDc1CAAAG_qR.jpg",
             "localURL": "/images/488403131365994500.jpg",
@@ -859,7 +859,7 @@
         {
             "status": "@tejucole Hertfordshire, minute 21. #thetimeofthegame http://t.co/5TasUm6dtx",
             "id": 488403202082349060,
-            "timeofgame": "54",
+            "timeofgame": "21",
             "location": "Hertfordshire",
             "imageURL": "http://pbs.twimg.com/media/BscoH92IYAAJbBI.jpg",
             "localURL": "/images/488403202082349060.jpg",
@@ -868,7 +868,7 @@
         {
             "status": "Southend, UK 21st minute #thetimeofthegame http://t.co/8v41miTbxa",
             "id": 488403202791211000,
-            "timeofgame": "41",
+            "timeofgame": "21",
             "location": "Southend",
             "imageURL": "http://pbs.twimg.com/media/BscoIAdIMAEanCB.jpg",
             "localURL": "/images/488403202791211000.jpg",
@@ -877,7 +877,7 @@
         {
             "status": "RT @DanielGAlarcon: @tejucole #thetimeofthegame w/ @rabihalameddine @FedericoArdila &amp; a real live argentine, Alvaro Villanueva. http://t.coâ€¦",
             "id": 488403213809614850,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BscnkXJCUAAtt9U.jpg",
             "localURL": "/images/488403213809614850.jpg",
             "dud": true,
@@ -886,7 +886,7 @@
         {
             "status": "#thetimeofthegame London. 20.00 mins @tejucole http://t.co/n0AMrPD4Qz",
             "id": 488403234332348400,
-            "timeofgame": "00",
+            "timeofgame": "20",
             "imageURL": "http://pbs.twimg.com/media/BscoJxlCQAALWRg.jpg",
             "localURL": "/images/488403234332348400.jpg",
             "corners": "262,225,558,242,561,411,258,408"
@@ -944,7 +944,7 @@
         {
             "status": "@tejucole 21st minute, Melbourne #thetimeofthegame http://t.co/I6g6CuG99c",
             "id": 488403543045320700,
-            "timeofgame": "54",
+            "timeofgame": "21",
             "location": "Melbourne",
             "imageURL": "http://pbs.twimg.com/media/BscobvnCEAA8GsV.jpg",
             "localURL": "/images/488403543045320700.jpg",
@@ -953,7 +953,7 @@
         {
             "status": "21st minute. Reading UK. Watching as we wait to do a pick up from Gatwick airport. #thetimeofthegame @tejucole http://t.co/dpgBCPRIPf",
             "id": 488403624541061100,
-            "timeofgame": "54",
+            "timeofgame": "21",
             "location": "Gatwick",
             "imageURL": "http://pbs.twimg.com/media/BscofgXIYAAh5IS.jpg",
             "localURL": "/images/488403624541061100.jpg",
@@ -989,7 +989,7 @@
         {
             "status": "RT @edugela: Blackrose! Addis Ababa, Ethiopia #21:07 #thetimeofthegame http://t.co/auLpmxnmUr",
             "id": 488403690408407040,
-            "timeofgame": "07",
+            "timeofgame": "21",
             "location": "Ethiopia",
             "imageURL": "http://pbs.twimg.com/media/Bscn4ZoIQAA2r5l.jpg",
             "localURL": "/images/488403690408407040.jpg",
@@ -1016,7 +1016,7 @@
         {
             "status": "RT @tejucole: THE TIME OF THE GAME. Take a photo of your TV/screen, tell us where, tell us what minute, hashtag #thetimeofthegame http://t.â€¦",
             "id": 488403795362463740,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BsciNb7CMAAQwgr.png",
             "localURL": "/images/488403795362463740.jpg",
             "corners": "999,337,1158,366,1199,579,984,579"
@@ -1041,7 +1041,7 @@
         {
             "status": "RT @tejucole: The instructions are the same as before, but we'll relay the results in real-time this time around. #thetimeofthegame http://â€¦",
             "id": 488403852040089600,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BscFmu5CEAAqrQD.png",
             "localURL": "/images/488403852040089600.jpg",
             "corners": "996,75,1188,70,1202,322,1025,317"
@@ -1092,7 +1092,7 @@
         {
             "status": "Canet. South of France. #thetimeofthegame http://t.co/cmDVJi7YG0",
             "id": 488404016440016900,
-            "timeofgame": "54",
+            "timeofgame": "23",
             "location": "France.",
             "imageURL": "http://pbs.twimg.com/media/Bsco3DhIIAAjciB.jpg",
             "localURL": "/images/488404016440016900.jpg",
@@ -1101,7 +1101,7 @@
         {
             "status": "Grenoble. 17:43 #GER vs #ARG #thetimeofthegame http://t.co/NYObV8PTHZ",
             "id": 488404116423839740,
-            "timeofgame": "43",
+            "timeofgame": "17",
             "location": "Grenoble.",
             "imageURL": "http://pbs.twimg.com/media/Bsco9BVCUAAfCPj.jpg",
             "localURL": "/images/488404116423839740.jpg",
@@ -1128,7 +1128,7 @@
         {
             "status": "â€œ@edugela: Blackrose! Addis Ababa, Ethiopia #21:07 #thetimeofthegame http://t.co/kyZ13c4DtKâ€",
             "id": 488404359936741400,
-            "timeofgame": "07",
+            "timeofgame": "21",
             "location": "Ethiopia",
             "imageURL": "http://pbs.twimg.com/media/Bscn4ZoIQAA2r5l.jpg",
             "localURL": "/images/488404359936741400.jpg",
@@ -1164,7 +1164,7 @@
         {
             "status": "26' Watertown, NY #thetimeofthegame http://t.co/XVEf6Y829V",
             "id": 488404410310361100,
-            "timeofgame": "54",
+            "timeofgame": "26",
             "location": "Watertown",
             "imageURL": "http://pbs.twimg.com/media/BscpOOxIgAEOwUk.jpg",
             "localURL": "/images/488404410310361100.jpg",
@@ -1189,7 +1189,7 @@
         {
             "status": "#thetimeofthegame http://t.co/QtiPcALP9V",
             "id": 488404662971039740,
-            "timeofgame": "54",
+            "timeofgame": "27",
             "imageURL": "http://pbs.twimg.com/media/Bscpc7fCAAAolJp.jpg",
             "localURL": "/images/488404662971039740.jpg",
             "corners": "241,217,583,237,655,408,275,433"
@@ -1205,7 +1205,7 @@
         {
             "status": "los angeles. 26:53. #thetimeofthegame http://t.co/gFkdH97Kbj",
             "id": 488404701872812000,
-            "timeofgame": "54",
+            "timeofgame": "26",
             "location": "los angeles",
             "imageURL": "http://pbs.twimg.com/media/BscpfO_CIAAwpXX.jpg",
             "localURL": "/images/488404701872812000.jpg",
@@ -1250,7 +1250,7 @@
         {
             "status": "@tejucole @DanielGAlarcon @FedericoArdila #thetimeofthegame - same place, different view. With @JacobGoolkasian http://t.co/FqTgwTLY8v",
             "id": 488404804574531600,
-            "timeofgame": "54",
+            "timeofgame": "26",
             "imageURL": "http://pbs.twimg.com/media/Bscpi_1CUAE5M9o.jpg",
             "localURL": "/images/488404804574531600.jpg",
             "corners": "266,41,530,39,526,191,273,194"
@@ -1267,7 +1267,7 @@
         {
             "status": "RT @tejucole: THE TIME OF THE GAME. Take a photo of your TV/screen, tell us where, tell us what minute, hashtag #thetimeofthegame http://t.â€¦",
             "id": 488404920890949600,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BsciNb7CMAAQwgr.png",
             "localURL": "/images/488404920890949600.jpg",
             "corners": "0"
@@ -1284,7 +1284,7 @@
         {
             "status": "#TheTimeOfTheGame Durban 29:40 http://t.co/xkqFGgR69p",
             "id": 488405244444151800,
-            "timeofgame": "40",
+            "timeofgame": "29",
             "imageURL": "http://pbs.twimg.com/media/Bscp-2RIgAAiZ33.jpg",
             "localURL": "/images/488405244444151800.jpg",
             "corners": "93,181,611,144,636,534,127,599"
@@ -1292,7 +1292,7 @@
         {
             "status": "Offside as hell. 29.34 BredsjÃ¶, Sweden #thetimeofthegame http://t.co/JeIjAkpWlN",
             "id": 488405276476080100,
-            "timeofgame": "34",
+            "timeofgame": "29",
             "location": "Sweden",
             "imageURL": "http://pbs.twimg.com/media/BscqAZIIgAIqFuM.jpg",
             "localURL": "/images/488405276476080100.jpg",
@@ -1337,7 +1337,7 @@
         {
             "status": "RT @DanielGAlarcon: @tejucole #thetimeofthegame w/ @rabihalameddine @FedericoArdila &amp; a real live argentine, Alvaro Villanueva. http://t.coâ€¦",
             "id": 488405324068442100,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BscnkXJCUAAtt9U.jpg",
             "localURL": "/images/488405324068442100.jpg",
             "corners": "0"
@@ -1345,7 +1345,7 @@
         {
             "status": "Potsdam, Germany. 21:29 at 29min, just before offside goal #thetimeofthegame http://t.co/pHey1VJiqV",
             "id": 488405326329565200,
-            "timeofgame": "29",
+            "timeofgame": "21",
             "location": "Potsdam",
             "imageURL": "http://pbs.twimg.com/media/BscqDjvCMAIvhoS.jpg",
             "localURL": "/images/488405326329565200.jpg",
@@ -1363,7 +1363,7 @@
         {
             "status": "RT @mayli: @tejucole @DanielGAlarcon @FedericoArdila #thetimeofthegame - same place, different view. With @JacobGoolkasian http://t.co/FqTgâ€¦",
             "id": 488405341915578400,
-            "timeofgame": "54",
+            "timeofgame": "28",
             "imageURL": "http://pbs.twimg.com/media/Bscpi_1CUAE5M9o.jpg",
             "localURL": "/images/488405341915578400.jpg",
             "corners": "267,41,532,39,525,191,274,194"
@@ -1468,7 +1468,7 @@
         {
             "status": "31st minute, Taipei #thetimeofthegame http://t.co/BJpP2QJtdK",
             "id": 488405562346856450,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "location": "Taipei",
             "imageURL": "http://pbs.twimg.com/media/BscqRQxCYAAelX0.jpg",
             "localURL": "/images/488405562346856450.jpg",
@@ -1486,7 +1486,7 @@
         {
             "status": "31st minute. Atlanta. #thetimeofthegame http://t.co/oRmFSXCrcn",
             "id": 488405601018318850,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "location": "Atlanta.",
             "imageURL": "http://pbs.twimg.com/media/BscqThwCEAM0-Gn.jpg",
             "localURL": "/images/488405601018318850.jpg",
@@ -1495,7 +1495,7 @@
         {
             "status": "31st minute, Calgary, #thetimeofthegame http://t.co/pR3a6KzB9l",
             "id": 488405879037771800,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "location": "Calgary",
             "imageURL": "http://pbs.twimg.com/media/BscqiYxCAAAsOgw.jpg",
             "localURL": "/images/488405879037771800.jpg",
@@ -1504,7 +1504,7 @@
         {
             "status": "RT @tejucole: The instructions are the same as before, but we'll relay the results in real-time this time around. #thetimeofthegame http://â€¦",
             "id": 488405881252753400,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "imageURL": "http://pbs.twimg.com/media/BscFmu5CEAAqrQD.png",
             "localURL": "/images/488405881252753400.jpg",
             "corners": "0"
@@ -1521,7 +1521,7 @@
         {
             "status": "Game on! #worldcup #GER #ARG. #thetimeofthegame Kickoff! http://t.co/KRwNgd7GmM http://t.co/X2s62Zstc6",
             "id": 488405893604970500,
-            "timeofgame": "54",
+            "timeofgame": "0",
             "imageURL": "http://pbs.twimg.com/media/BscqkobIcAAgMi-.jpg",
             "localURL": "/images/488405893604970500.jpg",
             "corners": "0"
@@ -1529,7 +1529,7 @@
         {
             "status": "Minute 32. Oaxaca, MÃ©xico. #TheTimeOfTheGame #ARGvsGER http://t.co/nHjSnFXtik",
             "id": 488405915771469800,
-            "timeofgame": "54",
+            "timeofgame": "32",
             "location": "Oaxaca",
             "imageURL": "http://pbs.twimg.com/media/BscqYn_CYAAmTVC.jpg",
             "localURL": "/images/488405915771469800.jpg",
@@ -1538,7 +1538,7 @@
         {
             "status": "Austin. 31:36 #thetimeofthegame http://t.co/pbgejT8Gg1",
             "id": 488405921165344800,
-            "timeofgame": "36",
+            "timeofgame": "31",
             "imageURL": "http://pbs.twimg.com/media/BscqmMVCQAA22DL.jpg",
             "localURL": "/images/488405921165344800.jpg",
             "corners": "1,214,716,193,704,615,47,616"
@@ -1546,7 +1546,7 @@
         {
             "status": "31st minute, Harare, Zimbabwe...  #thetimeofthegame http://t.co/2gFZ9843C0",
             "id": 488405923426488300,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "location": "Harare",
             "imageURL": "http://pbs.twimg.com/media/BscqmN7CQAAcPB3.jpg",
             "localURL": "/images/488405923426488300.jpg",
@@ -1555,7 +1555,7 @@
         {
             "status": "33rd minute. A nursing home in Hamilton, Ontario. Mid-afternoon. #thetimeofthegame http://t.co/9jqKQhXesq",
             "id": 488406088643924000,
-            "timeofgame": "54",
+            "timeofgame": "33",
             "location": "Hamilton",
             "imageURL": "http://pbs.twimg.com/media/Bscqv1TCIAAGEhS.jpg",
             "localURL": "/images/488406088643924000.jpg",
@@ -1564,7 +1564,7 @@
         {
             "status": "Jackson Heights, QNS. 31' #thetimeofthegame @tejucole #arg http://t.co/Ig2cWwmUfO",
             "id": 488406131509702660,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "imageURL": "http://pbs.twimg.com/media/BscqyesCcAAYtX_.jpg",
             "localURL": "/images/488406131509702660.jpg",
             "corners": "198,175,573,205,566,414,209,442"
@@ -1572,7 +1572,7 @@
         {
             "status": "Hamilton Heights, Harlem NYC. 31st minute. #thetimeofthegame http://t.co/B3aNJOVa3W",
             "id": 488406141429239800,
-            "timeofgame": "54",
+            "timeofgame": "31",
             "location": "Harlem",
             "imageURL": "http://pbs.twimg.com/media/Bscqy_QCMAA87j1.jpg",
             "localURL": "/images/488406141429239800.jpg",
@@ -1599,7 +1599,7 @@
         {
             "status": "33rd minute. Greenpoint, Brooklyn, NY. #thetimeofthegame http://t.co/zoaX3kFut4",
             "id": 488406290696126460,
-            "timeofgame": "54",
+            "timeofgame": "33",
             "location": "Brooklyn",
             "imageURL": "http://pbs.twimg.com/media/Bscq7jcCIAA3dX8.jpg",
             "localURL": "/images/488406290696126460.jpg",
@@ -1634,7 +1634,7 @@
         {
             "status": "33rd minute. London, England. #thetimeofthegame @tejucole http://t.co/2WsCPH0dyp",
             "id": 488406339195260900,
-            "timeofgame": "54",
+            "timeofgame": "33",
             "location": "London",
             "imageURL": "http://pbs.twimg.com/media/Bscq9gxIIAEDd1_.jpg",
             "localURL": "/images/488406339195260900.jpg",
@@ -1730,7 +1730,7 @@
         {
             "status": "33rd minute, ZÃ¼rich. #thetimeofthegame http://t.co/Xd9nIfmYJ2",
             "id": 488406737217941500,
-            "timeofgame": "9",
+            "timeofgame": "33",
             "imageURL": "http://pbs.twimg.com/media/BscrVvTIEAAHesd.jpg",
             "localURL": "/images/488406737217941500.jpg",
             "corners": "163,429,560,425,580,645,166,701"
@@ -1824,7 +1824,7 @@
         {
             "status": "Minute 35. Austin, Texas #thetimeofthegame http://t.co/Jdj01TKlYS",
             "id": 488406925675995140,
-            "timeofgame": "54",
+            "timeofgame": "35",
             "location": "Austin",
             "imageURL": "http://pbs.twimg.com/media/BscrgsrCIAAquE7.jpg",
             "localURL": "/images/488406925675995140.jpg",
@@ -1921,7 +1921,7 @@
         {
             "status": "#thirtysixthminute Cottenham #thetimeofthegame (a little bored) http://t.co/8uS5OqCFhR",
             "id": 488407405223747600,
-            "timeofgame": "8",
+            "timeofgame": "36",
             "imageURL": "http://pbs.twimg.com/media/Bscr8noIEAAj8L1.jpg",
             "localURL": "/images/488407405223747600.jpg",
             "corners": "78,635,98,118,418,132,372,632"
@@ -2044,7 +2044,7 @@
         {
             "status": "RT @tejucole: 33rd minute, ZÃ¼rich. #thetimeofthegame http://t.co/Xd9nIfmYJ2",
             "id": 488407623759585300,
-            "timeofgame": "9",
+            "timeofgame": "33",
             "imageURL": "http://pbs.twimg.com/media/BscrVvTIEAAHesd.jpg",
             "localURL": "/images/488407623759585300.jpg",
             "corners": "162,427,560,423,582,648,165,697"
@@ -2275,7 +2275,7 @@
         {
             "status": "#thetimeofthegame Ocean Grove, NJ @tejucole http://t.co/8MNDNmODeK",
             "id": 488408298060673000,
-            "timeofgame": "8",
+            "timeofgame": "0",
             "location": "Ocean Grove",
             "imageURL": "http://pbs.twimg.com/media/BscswlbCcAAJaia.jpg",
             "localURL": "/images/488408298060673000.jpg",
@@ -2348,7 +2348,7 @@
         {
             "status": "@tejucole Minute 41. Barranquilla, Colombia #thetimeofthegame http://t.co/BVRdZ7iQSK",
             "id": 488408544262488060,
-            "timeofgame": "7",
+            "timeofgame": "41",
             "location": "Barranquilla",
             "imageURL": "http://pbs.twimg.com/media/Bscs-18IMAAsrQ2.jpg",
             "localURL": "/images/488408544262488060.jpg",
@@ -2390,7 +2390,7 @@
         {
             "status": ".@tejucole 43rd Minute. Seattle, WA. #thetimeofthegame http://t.co/4hZ2XpFaQ2",
             "id": 488408713586556900,
-            "timeofgame": "4",
+            "timeofgame": "43",
             "location": "Seattle",
             "imageURL": "http://pbs.twimg.com/media/BsctIxuIAAAUSfj.jpg",
             "localURL": "/images/488408713586556900.jpg",
@@ -2399,7 +2399,7 @@
         {
             "status": "#thetimeofthegame 43rd minute. london. http://t.co/OXbihu9F5i",
             "id": 488408720796581900,
-            "timeofgame": "5",
+            "timeofgame": "43",
             "location": "london",
             "imageURL": "http://pbs.twimg.com/media/BsctJMpIAAAuOW1.jpg",
             "localURL": "/images/488408720796581900.jpg",
@@ -2449,7 +2449,7 @@
         {
             "status": "Chicago, minute 46. #thetimeofthegame #GERvsARG http://t.co/T1kefGBt0h",
             "id": 488409340462637060,
-            "timeofgame": "0",
+            "timeofgame": "46",
             "location": "Chicago",
             "imageURL": "http://pbs.twimg.com/media/BsctsqMCEAEu4ld.jpg",
             "localURL": "/images/488409340462637060.jpg",
@@ -2492,7 +2492,7 @@
         {
             "status": "@tejucole 45+1 #thetimeofthegame Scottish Borders http://t.co/J0pCEn0isr",
             "id": 488409533161930750,
-            "timeofgame": "1",
+            "timeofgame": "45",
             "imageURL": "http://pbs.twimg.com/media/Bsct4ayIgAA1Ufj.jpg",
             "localURL": "/images/488409533161930750.jpg",
             "corners": "198,234,557,230,562,445,210,477"
@@ -2594,7 +2594,7 @@
         {
             "status": "Lincoln Square, Chicago, 45+1 minute #thetimeofthegame http://t.co/Q6sseBDuPh",
             "id": 488410638759104500,
-            "timeofgame": "1",
+            "timeofgame": "45",
             "location": "Chicago",
             "imageURL": "http://pbs.twimg.com/media/Bscu41TCAAMjUU5.jpg",
             "localURL": "/images/488410638759104500.jpg",
@@ -2643,7 +2643,7 @@
         {
             "status": "RT @edugela: Blackrose! Addis Ababa, Ethiopia #21:07 #thetimeofthegame http://t.co/auLpmxnmUr",
             "id": 488411944819654660,
-            "timeofgame": "07",
+            "timeofgame": "21",
             "location": "Ethiopia",
             "imageURL": "http://pbs.twimg.com/media/Bscn4ZoIQAA2r5l.jpg",
             "localURL": "/images/488411944819654660.jpg",
@@ -2660,7 +2660,7 @@
         {
             "status": "RT @tejucole: 33rd minute, ZÃ¼rich. #thetimeofthegame http://t.co/Xd9nIfmYJ2",
             "id": 488412587458310140,
-            "timeofgame": "9",
+            "timeofgame": "33",
             "imageURL": "http://pbs.twimg.com/media/BscrVvTIEAAHesd.jpg",
             "localURL": "/images/488412587458310140.jpg",
             "corners": "160,427,563,423,582,646,164,714"
@@ -2685,7 +2685,7 @@
         {
             "status": "@tejucole #thetimeofthegame Buenos Aires! http://t.co/Xv18uOxCOs",
             "id": 488412939628474400,
-            "timeofgame": "18",
+            "timeofgame": "45",
             "imageURL": "http://pbs.twimg.com/media/Bscw-pDIgAEypJj.jpg",
             "localURL": "/images/488412939628474400.jpg",
             "corners": "87,232,716,212,727,577,91,580"
@@ -2693,7 +2693,7 @@
         {
             "status": "@tejucole Uppsala, Sweden. 45+1 #thetimeofthegame http://t.co/EyCYsBMGcG",
             "id": 488412951867830300,
-            "timeofgame": "1",
+            "timeofgame": "45",
             "location": "Uppsala",
             "imageURL": "http://pbs.twimg.com/media/Bscw_btCIAAUZi9.jpg",
             "localURL": "/images/488412951867830300.jpg",
@@ -2711,7 +2711,7 @@
         {
             "status": "#thetimeofthegame start of 2nd half, VÃ¤sterÃ¥s Sweden http://t.co/lOP0nnZP5I",
             "id": 488413164279984100,
-            "timeofgame": "2",
+            "timeofgame": "45",
             "location": "Sweden",
             "imageURL": "http://pbs.twimg.com/media/BscxK3WIIAAvy9u.jpg",
             "localURL": "/images/488413164279984100.jpg",
@@ -2720,7 +2720,7 @@
         {
             "status": "@tejucole half time. Chicago #thetimeofthegame http://t.co/c4uOSSiUq1",
             "id": 488413254939451400,
-            "timeofgame": "4",
+            "timeofgame": "0",
             "location": "Chicago",
             "imageURL": "http://pbs.twimg.com/media/BscxRGOCQAA4rUG.jpg",
             "localURL": "/images/488413254939451400.jpg",
@@ -2738,7 +2738,7 @@
         {
             "status": "RT @MrLagbajaz: #thetimeofthegame Johannesburg 21.27 http://t.co/GIjZLN0zwY",
             "id": 488413667801956350,
-            "timeofgame": "27",
+            "timeofgame": "46",
             "imageURL": "http://pbs.twimg.com/media/BscpTYDCYAAFM9m.jpg",
             "localURL": "/images/488413667801956350.jpg",
             "corners": "119,220,577,226,556,560,128,545"
@@ -2746,7 +2746,7 @@
         {
             "status": "Father and son, halftime. Santa Monica, CA #thetimeofthegame http://t.co/RnXl2tq10x",
             "id": 488413679033909250,
-            "timeofgame": "2",
+            "timeofgame": "46",
             "imageURL": "http://pbs.twimg.com/media/BscxpwjCQAMSJTh.jpg",
             "localURL": "/images/488413679033909250.jpg",
             "corners": "348,222,490,213,492,296,356,309"
@@ -2754,7 +2754,7 @@
         {
             "status": "@tejucole #thetimeofthegame Bangalore India 45:39 http://t.co/sCEzWCsmxw",
             "id": 488413885691465700,
-            "timeofgame": "39",
+            "timeofgame": "45",
             "imageURL": "http://pbs.twimg.com/media/Bscx1wNCAAA9RCP.jpg",
             "localURL": "/images/488413885691465700.jpg",
             "corners": "248,239,535,242,527,401,254,399"
@@ -2833,7 +2833,7 @@
         {
             "status": "six standing rows deep, outside boca juniors in elmhurst, ny #queens #ARG #thetimeofthegame http://t.co/0t4rFK4t6D",
             "id": 488414081033191400,
-            "timeofgame": "0",
+            "timeofgame": "46",
             "location": "elmhurst",
             "imageURL": "http://pbs.twimg.com/media/BscyBGxIYAA-azG.jpg",
             "localURL": "/images/488414081033191400.jpg",
@@ -2868,7 +2868,7 @@
         {
             "status": "2nd Half, #Kisumu #thetimeofthegame #Kenya cc @tejucole http://t.co/xUVx804q8L",
             "id": 488414107717361660,
-            "timeofgame": "2",
+            "timeofgame": "46",
             "location": "Kenya",
             "imageURL": "http://pbs.twimg.com/media/BscyCwRIQAAtOMC.jpg",
             "localURL": "/images/488414107717361660.jpg",
@@ -2895,7 +2895,7 @@
         {
             "status": "46' San Diego, CA #thetimeofthegame http://t.co/YGcewug0nU",
             "id": 488414246854610940,
-            "timeofgame": "0",
+            "timeofgame": "46",
             "location": "San Diego",
             "imageURL": "http://pbs.twimg.com/media/BscyKxgCIAEnIJf.jpg",
             "localURL": "/images/488414246854610940.jpg",
@@ -2939,7 +2939,7 @@
         {
             "status": "#thetimeofthegame Minute 45, Flushing, New York http://t.co/Il3MLylWkM",
             "id": 488414299157565440,
-            "timeofgame": "3",
+            "timeofgame": "45",
             "imageURL": "http://pbs.twimg.com/media/BscyN1ACIAA1mJM.jpg",
             "localURL": "/images/488414299157565440.jpg",
             "corners": "229,42,623,29,610,266,235,265"
@@ -2964,7 +2964,7 @@
         {
             "status": "Just before the 2nd half #thetimeofthegame #brooklyn http://t.co/yUrRZSU9dW",
             "id": 488414359325257700,
-            "timeofgame": "2",
+            "timeofgame": "46",
             "imageURL": "http://pbs.twimg.com/media/BscyRZdIAAEVlvR.jpg",
             "localURL": "/images/488414359325257700.jpg",
             "corners": "301,236,658,220,656,425,307,426"
@@ -2990,7 +2990,7 @@
         {
             "status": "47.33 Dublin Ireland #thetimeofthegame http://t.co/bpEWr5XdQP",
             "id": 488414429009436700,
-            "timeofgame": "33",
+            "timeofgame": "47",
             "imageURL": "http://pbs.twimg.com/media/BscyVdJIcAAeqk3.jpg",
             "localURL": "/images/488414429009436700.jpg",
             "corners": "311,302,483,295,484,396,316,400"
@@ -3042,7 +3042,7 @@
         {
             "status": "Fuck it, I'll participate. 47:09 in Los Angeles #thetimeofthegame http://t.co/KjuoutOf74",
             "id": 488414498483494900,
-            "timeofgame": "09",
+            "timeofgame": "47",
             "location": "Los Angeles",
             "imageURL": "http://pbs.twimg.com/media/BscyZVjCQAAgNxT.jpg",
             "localURL": "/images/488414498483494900.jpg",
@@ -3077,7 +3077,7 @@
         {
             "status": "46' shelter island, ny #thetimeofthegame http://t.co/6CfX3h659K",
             "id": 488414571766771700,
-            "timeofgame": "3",
+            "timeofgame": "46",
             "imageURL": "http://pbs.twimg.com/media/BscydtxCcAAyB4s.jpg",
             "localURL": "/images/488414571766771700.jpg",
             "corners": "182,360,415,353,422,485,187,497"
@@ -3102,7 +3102,7 @@
         {
             "status": "Berlin-NeukÃ¶lln #thetimeofthegame http://t.co/GNGY9tzaeT",
             "id": 488414676137824260,
-            "timeofgame": "9",
+            "timeofgame": "48",
             "imageURL": "http://pbs.twimg.com/media/BscyiT8CcAE4ft3.jpg",
             "localURL": "/images/488414676137824260.jpg",
             "corners": "334,314,559,317,554,455,339,444"
@@ -3110,7 +3110,7 @@
         {
             "status": "Durham, NC, USA. Minute 47. #thetimeofthegame http://t.co/k3hlSJbW4o",
             "id": 488414714872225800,
-            "timeofgame": "3",
+            "timeofgame": "47",
             "location": "Durham",
             "imageURL": "http://pbs.twimg.com/media/BscymGQIEAAMqYp.jpg",
             "localURL": "/images/488414714872225800.jpg",
@@ -3190,7 +3190,7 @@
         {
             "status": "#thetimeofthegame #WorldCup2014 http://t.co/lPwpLZrsWC",
             "id": 488414847281799200,
-            "timeofgame": "014",
+            "timeofgame": "48",
             "imageURL": "http://pbs.twimg.com/media/Bscys3YCMAENvPR.jpg",
             "localURL": "/images/488414847281799200.jpg",
             "corners": "184,217,636,226,641,478,176,475"
@@ -3231,7 +3231,7 @@
         {
             "status": "47' - parents' living room, Antigonish, NS, while rest of family's at Highland Games #thetimeofthegame @tejucole http://t.co/a8Mewnd6xo",
             "id": 488414901439057900,
-            "timeofgame": "8",
+            "timeofgame": "47",
             "location": "Antigonish",
             "imageURL": "http://pbs.twimg.com/media/Bscyw9LIYAEODwd.jpg",
             "localURL": "/images/488414901439057900.jpg",
@@ -3310,7 +3310,7 @@
         {
             "status": "49.16 london uk #thetimeofthegame cc @tejucole http://t.co/l4mrsq8094",
             "id": 488415056062066700,
-            "timeofgame": "16",
+            "timeofgame": "49",
             "location": "london",
             "imageURL": "http://pbs.twimg.com/media/Bscy5srIQAA4Rqd.jpg",
             "localURL": "/images/488415056062066700.jpg",
@@ -3336,7 +3336,7 @@
         {
             "status": "@tejucole Ypsilanti, MI, USA. #thetimeofthegame http://t.co/gCoQOh1mgz",
             "id": 488415098872922100,
-            "timeofgame": "1",
+            "timeofgame": "49",
             "location": "Ypsilanti",
             "imageURL": "http://pbs.twimg.com/media/Bscy8cvCAAIAvZx.jpg",
             "localURL": "/images/488415098872922100.jpg",
@@ -3345,7 +3345,7 @@
         {
             "status": "Minute 49. Western Australia. #thetimeofthegame http://t.co/kn2edhBccy",
             "id": 488415115671134200,
-            "timeofgame": "2",
+            "timeofgame": "49",
             "location": "Australia.",
             "imageURL": "http://pbs.twimg.com/media/Bscy9bTCMAAvzyV.jpg",
             "localURL": "/images/488415115671134200.jpg",
@@ -3381,7 +3381,7 @@
         {
             "status": "@OtraV: @tejucole #thetimeofthegame Buenos Aires, 49.47 http://t.co/sSPi1FmOQU",
             "id": 488415147451752450,
-            "timeofgame": "47",
+            "timeofgame": "49",
             "location": "49.47 http://t.co/sSPi1FmOQU",
             "imageURL": "http://pbs.twimg.com/media/Bscy_MOIMAAtDGd.jpg",
             "localURL": "/images/488415147451752450.jpg",
@@ -3408,7 +3408,7 @@
         {
             "status": "Norwich, UK 49:50 #thetimeofthegame http://t.co/t5dDE0F6xZ",
             "id": 488415162295398400,
-            "timeofgame": "50",
+            "timeofgame": "49",
             "location": "Norwich",
             "imageURL": "http://pbs.twimg.com/media/BsczAIwIcAAi7HF.jpg",
             "localURL": "/images/488415162295398400.jpg",
@@ -3426,7 +3426,7 @@
         {
             "status": "50'. Jamaica, NY. #thetimeofthegame http://t.co/7n180P4XpI",
             "id": 488415173934608400,
-            "timeofgame": "7",
+            "timeofgame": "50",
             "location": "Jamaica",
             "imageURL": "http://pbs.twimg.com/media/BsczAwhCQAAI5sm.jpg",
             "localURL": "/images/488415173934608400.jpg",
@@ -3506,7 +3506,7 @@
         {
             "status": "@tejucole Dallas, Texas, US 51:37 #thetimeofthegame http://t.co/Oy57vNI92x",
             "id": 488415379882905600,
-            "timeofgame": "37",
+            "timeofgame": "51",
             "location": "Dallas",
             "imageURL": "http://pbs.twimg.com/media/BsczMrTCMAEN-Vt.jpg",
             "localURL": "/images/488415379882905600.jpg",
@@ -3532,7 +3532,7 @@
         {
             "status": "@tejucole 50:52 Dublin, Ireland #thetimeofthegame http://t.co/wi9InhlNeo",
             "id": 488415435516551200,
-            "timeofgame": "52",
+            "timeofgame": "50",
             "location": "Dublin",
             "imageURL": "http://pbs.twimg.com/media/BsczQCwIQAA6q2g.jpg",
             "localURL": "/images/488415435516551200.jpg",
@@ -3655,7 +3655,7 @@
         {
             "status": "@tejucole Singapore, 50:52 #thetimeofthegame http://t.co/tncGRN8jfi",
             "id": 488415596988473340,
-            "timeofgame": "52",
+            "timeofgame": "50",
             "location": "Singapore",
             "imageURL": "http://pbs.twimg.com/media/BsczZPyCMAA2YAW.jpg",
             "localURL": "/images/488415596988473340.jpg",
@@ -3689,7 +3689,7 @@
         {
             "status": "#thetimeofthegame 50:57 from Seattle, Washington http://t.co/20yMzWAa0x",
             "id": 488415662260252700,
-            "timeofgame": "57",
+            "timeofgame": "50",
             "location": "Seattle",
             "imageURL": "http://pbs.twimg.com/media/BsczdLrCUAEzMN3.jpg",
             "localURL": "/images/488415662260252700.jpg",
@@ -3706,7 +3706,7 @@
         {
             "status": "@tejucole #thetimeofthegame The Field pub, Cambridge, MA, USA '52:20 http://t.co/hvu2oMlW1t",
             "id": 488415742904524800,
-            "timeofgame": "20",
+            "timeofgame": "52",
             "location": "Cambridge",
             "imageURL": "http://pbs.twimg.com/media/Bsczh8DIEAAyWbd.jpg",
             "localURL": "/images/488415742904524800.jpg",
@@ -3733,7 +3733,7 @@
         {
             "status": "@tejucole #Lagos #thetimeofthegame #WorldCupFinal http://t.co/gp7M7lB6rE",
             "id": 488415831253323800,
-            "timeofgame": "7",
+            "timeofgame": "51",
             "imageURL": "http://pbs.twimg.com/media/Bsczm_pIQAA_udv.jpg",
             "localURL": "/images/488415831253323800.jpg",
             "corners": "103,254,644,252,650,489,98,496"
@@ -3750,7 +3750,7 @@
         {
             "status": "@tejucole #thetimeofthegame Szczebrzeszyn Poland 49:15 http://t.co/q6INumWyJY",
             "id": 488415845840728060,
-            "timeofgame": "15",
+            "timeofgame": "49",
             "imageURL": "http://pbs.twimg.com/media/Bsczn2sCQAA7iaj.jpg",
             "localURL": "/images/488415845840728060.jpg",
             "corners": "80,246,707,190,749,538,113,614"
@@ -3758,7 +3758,7 @@
         {
             "status": "#thetimeofthegame 51' Mumbai India http://t.co/Faj2hUTsoL",
             "id": 488415865390383100,
-            "timeofgame": "2",
+            "timeofgame": "51",
             "location": "Mumbai",
             "imageURL": "http://pbs.twimg.com/media/Bsczo12CIAAYsW-.jpg",
             "localURL": "/images/488415865390383100.jpg",
@@ -3775,7 +3775,7 @@
         {
             "status": "53rd minute, Manchester, UK #thetimeofthegame http://t.co/jb14munvHc",
             "id": 488415906662731800,
-            "timeofgame": "14",
+            "timeofgame": "53",
             "location": "Manchester",
             "imageURL": "http://pbs.twimg.com/media/BsczrStCIAE-oxu.jpg",
             "localURL": "/images/488415906662731800.jpg",
@@ -3784,7 +3784,7 @@
         {
             "status": "#thetimeofthegame 53' Secaucus, New Jersey http://t.co/j5iS9YpDwu",
             "id": 488415953299202050,
-            "timeofgame": "5",
+            "timeofgame": "53",
             "imageURL": "http://pbs.twimg.com/media/BsczuFACAAAxdBR.jpg",
             "localURL": "/images/488415953299202050.jpg",
             "corners": "421,383,493,382,495,447,422,441"
@@ -3854,7 +3854,7 @@
         {
             "status": "@tejucole  53.14 Dublin  #thetimeofthegame http://t.co/IEgzyoq1c1",
             "id": 488416153044529150,
-            "timeofgame": "14",
+            "timeofgame": "53",
             "imageURL": "http://pbs.twimg.com/media/Bscz5BPIEAAe-wW.jpg",
             "localURL": "/images/488416153044529150.jpg",
             "corners": "155,158,527,180,526,378,165,385"
@@ -3871,7 +3871,7 @@
         {
             "status": "@tejucole 52:14 Auckland, New Zealand #TheTimeOfTheGame http://t.co/oKQg30YUew",
             "id": 488416166713376800,
-            "timeofgame": "14",
+            "timeofgame": "52",
             "location": "Auckland",
             "imageURL": "http://pbs.twimg.com/media/Bscz6dECYAEM0Sm.jpg",
             "localURL": "/images/488416166713376800.jpg",
@@ -3896,7 +3896,7 @@
         {
             "status": "@tejucole 53rd minute. Oslo, Norway.#thetimeofthegame http://t.co/WC59i5saiq",
             "id": 488416217116708860,
-            "timeofgame": "59",
+            "timeofgame": "53",
             "location": "Oslo",
             "imageURL": "http://pbs.twimg.com/media/Bscz9iSIgAAlNJW.jpg",
             "localURL": "/images/488416217116708860.jpg",
@@ -3922,7 +3922,7 @@
         {
             "status": "@tejucole #thetimeofthegame 51:00 vashisht (manali), India (in a Korean restaurant in a little village) http://t.co/CasVxnFw6v",
             "id": 488416268785958900,
-            "timeofgame": "00",
+            "timeofgame": "51",
             "location": "India",
             "imageURL": "http://pbs.twimg.com/media/Bsc0AVrCQAADQhX.jpg",
             "localURL": "/images/488416268785958900.jpg",
@@ -3948,7 +3948,7 @@
         {
             "status": "@tejucole 51st minute, Buckinghamshire, England #thetimeofthegame http://t.co/kYwv3i0d7p",
             "id": 488416290747719700,
-            "timeofgame": "3",
+            "timeofgame": "51",
             "location": "Buckinghamshire",
             "imageURL": "http://pbs.twimg.com/media/Bsc0B0aIgAA_Ce7.jpg",
             "localURL": "/images/488416290747719700.jpg",
@@ -4001,7 +4001,7 @@
         {
             "status": "@tejucole Min 52, #Berkeley CA, USA #thetimeofthegame http://t.co/rO4ceXfZJB http://t.co/QklyK0no5j",
             "id": 488416381436571650,
-            "timeofgame": "0",
+            "timeofgame": "52",
             "location": "Berkeley",
             "imageURL": "http://pbs.twimg.com/media/Bsc0HAYCMAAAnJL.jpg",
             "localURL": "/images/488416381436571650.jpg",
@@ -4045,7 +4045,7 @@
         {
             "status": "Fifty-first minute. 51' Durham, NC. #thetimeofthegame #worldcup #christtheredeemee #dogs http://t.co/xKSgUHRhWg http://t.co/hdQ0jHTm3M",
             "id": 488416556263538700,
-            "timeofgame": "3",
+            "timeofgame": "51",
             "location": "Durham",
             "imageURL": "http://pbs.twimg.com/media/Bsc0RNACUAAYxgx.jpg",
             "localURL": "/images/488416556263538700.jpg",
@@ -4189,7 +4189,7 @@
         {
             "status": "RT @tejucole: 33rd minute, ZÃ¼rich. #thetimeofthegame http://t.co/Xd9nIfmYJ2",
             "id": 488417326727847940,
-            "timeofgame": "9",
+            "timeofgame": "33",
             "imageURL": "http://pbs.twimg.com/media/BscrVvTIEAAHesd.jpg",
             "localURL": "/images/488417326727847940.jpg",
             "corners": "163,430,561,424,580,647,166,699"
@@ -4345,7 +4345,7 @@
         {
             "status": "#thetimeofthegame Athens, Greece 61.28 http://t.co/a9h0zrLm3h",
             "id": 488417909098954750,
-            "timeofgame": "28",
+            "timeofgame": "61",
             "location": "Athens",
             "imageURL": "http://pbs.twimg.com/media/Bsc1f9uCAAA_u2L.jpg",
             "localURL": "/images/488417909098954750.jpg",
@@ -4354,7 +4354,7 @@
         {
             "status": "Toronto 61:03 #thetimeofthegame http://t.co/kYqYwyqwFq",
             "id": 488417917826891800,
-            "timeofgame": "03",
+            "timeofgame": "61",
             "location": "Toronto",
             "imageURL": "http://pbs.twimg.com/media/Bsc1gYGCUAEun_s.jpg",
             "localURL": "/images/488417917826891800.jpg",
@@ -4398,7 +4398,7 @@
         {
             "status": "@tejucole. Mexico City 48' #thetimeofthegame http://t.co/hGos5itwO6",
             "id": 488418038249562100,
-            "timeofgame": "5",
+            "timeofgame": "48",
             "location": "tejucole. Mexico City",
             "imageURL": "http://pbs.twimg.com/media/Bsc1neVCYAAT7Vt.jpg",
             "localURL": "/images/488418038249562100.jpg",
@@ -4424,7 +4424,7 @@
         {
             "status": "#thetimeofthegame 59:10 Lake Oswego, Oregon @tejucole http://t.co/F68VyZoR9F",
             "id": 488418108265074700,
-            "timeofgame": "10",
+            "timeofgame": "59",
             "imageURL": "http://pbs.twimg.com/media/Bsc1rnlCEAIMQzU.jpg",
             "localURL": "/images/488418108265074700.jpg",
             "corners": "35,178,782,173,787,590,43,598"
@@ -4440,7 +4440,7 @@
         {
             "status": "@TomasBohlin: @tejucole #thetimeofthegame MalmÃ¶ Sweden 60.30 (forgot the time) http://t.co/QFlbLWyLdW",
             "id": 488418153631080450,
-            "timeofgame": "30",
+            "timeofgame": "60",
             "imageURL": "http://pbs.twimg.com/media/Bsc1uLCCUAIQJZc.jpg",
             "localURL": "/images/488418153631080450.jpg",
             "corners": "149,183,667,204,664,489,153,487"
@@ -4475,7 +4475,7 @@
         {
             "status": "Seattle, Cascadia. 60' #thetimeofthegame http://t.co/2vPr6io2Sw",
             "id": 488418224254369800,
-            "timeofgame": "6",
+            "timeofgame": "60",
             "location": "Seattle",
             "imageURL": "http://pbs.twimg.com/media/Bsc1yLbCEAAn4xU.jpg",
             "localURL": "/images/488418224254369800.jpg",
@@ -4484,7 +4484,7 @@
         {
             "status": "@tejucole at sea between Italy and Croatia 62:30 #thetimeofthegame http://t.co/yFR4UKzTJG",
             "id": 488418310368022500,
-            "timeofgame": "30",
+            "timeofgame": "62",
             "location": "Croatia",
             "imageURL": "http://pbs.twimg.com/media/Bsc13K4CQAAarBK.jpg",
             "localURL": "/images/488418310368022500.jpg",
@@ -4502,7 +4502,7 @@
         {
             "status": "#thetimeofthegame 62' Rochester, NY USA http://t.co/f63SPd4hq6",
             "id": 488418399119093760,
-            "timeofgame": "4",
+            "timeofgame": "62",
             "location": "Rochester",
             "imageURL": "http://pbs.twimg.com/media/Bsc18B-IgAArzjx.jpg",
             "localURL": "/images/488418399119093760.jpg",
@@ -4529,7 +4529,7 @@
         {
             "status": "#thetimeofthegame 62' Cafe Argentino Brooklyn, NY http://t.co/dohZD5hMew",
             "id": 488418508540108800,
-            "timeofgame": "5",
+            "timeofgame": "62",
             "imageURL": "http://pbs.twimg.com/media/Bsc2C6RCcAEc8CU.jpg",
             "localURL": "/images/488418508540108800.jpg",
             "corners": "127,490,166,491,167,517,130,517"
@@ -4537,7 +4537,7 @@
         {
             "status": "63rd minute. Abuja, Nigeria. #Thetimeofthegame http://t.co/VJI042nnCI",
             "id": 488418554115420160,
-            "timeofgame": "042",
+            "timeofgame": "63",
             "location": "Abuja",
             "imageURL": "http://pbs.twimg.com/media/Bsc2FkPCEAEYbtf.jpg",
             "localURL": "/images/488418554115420160.jpg",
@@ -4564,7 +4564,7 @@
         {
             "status": "RT @marwahelal: six standing rows deep, outside boca juniors in elmhurst, ny #queens #ARG #thetimeofthegame http://t.co/0t4rFK4t6D",
             "id": 488418676618833900,
-            "timeofgame": "0",
+            "timeofgame": "62",
             "location": "elmhurst",
             "imageURL": "http://pbs.twimg.com/media/BscyBGxIYAA-azG.jpg",
             "localURL": "/images/488418676618833900.jpg",
@@ -4634,7 +4634,7 @@
         {
             "status": "63rd minute. Darlington. #thetimeofthegame http://t.co/ecGg3vTm8m",
             "id": 488418969469321200,
-            "timeofgame": "8",
+            "timeofgame": "63",
             "location": "Darlington.",
             "imageURL": "http://pbs.twimg.com/media/Bsc2daCIEAEs6Z3.jpg",
             "localURL": "/images/488418969469321200.jpg",
@@ -4677,7 +4677,7 @@
         {
             "status": "@tejucole 65' San Jose, California.  #thetimeofthegame http://t.co/0O8iT4W3Du",
             "id": 488419233261301760,
-            "timeofgame": "8",
+            "timeofgame": "65",
             "location": "San Jose",
             "imageURL": "http://pbs.twimg.com/media/Bsc2s-QCMAAIy60.jpg",
             "localURL": "/images/488419233261301760.jpg",
@@ -4704,7 +4704,7 @@
         {
             "status": "â€œ@chefjoseandres: watching @FIFAWorldCup final in Tokio 4 am http://t.co/gLn3gtnlvpâ€ #thetimeofthegame",
             "id": 488419327238869000,
-            "timeofgame": "4",
+            "timeofgame": "60",
             "location": "Tokio",
             "imageURL": "http://pbs.twimg.com/media/Bsc1DzrCAAEAWOy.jpg",
             "localURL": "/images/488419327238869000.jpg",
@@ -4767,7 +4767,7 @@
         {
             "status": "@tejucole Georgia USA 68.07 #thetimeofthegame http://t.co/Vi358udWq5",
             "id": 488419685881618400,
-            "timeofgame": "07",
+            "timeofgame": "68",
             "imageURL": "http://pbs.twimg.com/media/Bsc3GQLIIAI8EmF.jpg",
             "localURL": "/images/488419685881618400.jpg",
             "corners": "317,304,517,302,522,416,322,427"
@@ -4792,7 +4792,7 @@
         {
             "status": "Still 0-0 at 62', Germany takes to breakdancing to distract the opposition. San Jose #thetimeofthegame http://t.co/rjqOBwfmZ3",
             "id": 488419789627355140,
-            "timeofgame": "0",
+            "timeofgame": "62",
             "location": "San Jose",
             "imageURL": "http://pbs.twimg.com/media/Bsc3NdiCUAAWHo1.jpg",
             "localURL": "/images/488419789627355140.jpg",
@@ -4852,7 +4852,7 @@
         {
             "status": "Still 0-0 at 65', Germany takes to breakdancing to distract the opposition. San Jose #thetimeofthegame http://t.co/enwowjpQns",
             "id": 488420175490715650,
-            "timeofgame": "0",
+            "timeofgame": "65",
             "location": "San Jose",
             "imageURL": "http://pbs.twimg.com/media/Bsc3j6tCIAA8ANY.jpg",
             "localURL": "/images/488420175490715650.jpg",
@@ -4878,7 +4878,7 @@
         {
             "status": ".@tejucole By the East River, NYC 69:05 #thetimeofthegame http://t.co/kuwapbdpan",
             "id": 488420301152084000,
-            "timeofgame": "05",
+            "timeofgame": "69",
             "location": "NYC",
             "imageURL": "http://pbs.twimg.com/media/Bsc3rKcCEAAHQBN.jpg",
             "localURL": "/images/488420301152084000.jpg",
@@ -4914,7 +4914,7 @@
         {
             "status": "@tejucole 75. min. #Berlin-NeukÃ¶lln #thetimeofthegame http://t.co/ihNhzBZ1tD",
             "id": 488420494073675800,
-            "timeofgame": "1",
+            "timeofgame": "75",
             "imageURL": "http://pbs.twimg.com/media/Bsc30qrCQAA25KA.jpg",
             "localURL": "/images/488420494073675800.jpg",
             "corners": "185,372,620,382,598,662,191,634"
@@ -4930,7 +4930,7 @@
         {
             "status": "SorÃ¸, Denmark, 71:08 #thetimeofthegame http://t.co/0qsfu5AWuX",
             "id": 488420583752093700,
-            "timeofgame": "08",
+            "timeofgame": "71",
             "location": "Denmark",
             "imageURL": "http://pbs.twimg.com/media/Bsc358hCEAAFhwt.jpg",
             "localURL": "/images/488420583752093700.jpg",
@@ -4948,7 +4948,7 @@
         {
             "status": "71', Somerville,  MA. #thetimeofthegame http://t.co/NhNT0iqGQI",
             "id": 488420635593695200,
-            "timeofgame": "0",
+            "timeofgame": "71",
             "imageURL": "http://pbs.twimg.com/media/Bsc3-U3IMAAhgUp.jpg",
             "localURL": "/images/488420635593695200.jpg",
             "corners": "461,278,630,285,628,384,461,382"
@@ -4990,7 +4990,7 @@
         {
             "status": "#thetimeofthegame semiotics and kairos / Lansing, Michigan / 69:52 http://t.co/dSjqrioJpE",
             "id": 488420803461914600,
-            "timeofgame": "52",
+            "timeofgame": "69",
             "location": "Lansing",
             "imageURL": "http://pbs.twimg.com/media/Bsc4IeUCcAAslI9.jpg",
             "localURL": "/images/488420803461914600.jpg",
@@ -5059,7 +5059,7 @@
         {
             "status": "#thetimeofthegame @tejucole 71:51 mins\nBay Area/San Francisco http://t.co/h15dLdJgWE",
             "id": 488421465532805100,
-            "timeofgame": "51",
+            "timeofgame": "71",
             "imageURL": "http://pbs.twimg.com/media/Bsc4uIRCUAAVvpz.jpg",
             "localURL": "/images/488421465532805100.jpg",
             "corners": "97,96,713,199,721,566,91,606"
@@ -5102,7 +5102,7 @@
         {
             "status": "@tejucole 76Â´ thessaloniki greece #thetimeofthegame http://t.co/HcOH0mvG2U",
             "id": 488421728440582140,
-            "timeofgame": "0",
+            "timeofgame": "76",
             "imageURL": "http://pbs.twimg.com/media/Bsc4-EuIQAEa3eY.jpg",
             "localURL": "/images/488421728440582140.jpg",
             "corners": "389,386,658,383,665,544,391,534"
@@ -5110,7 +5110,7 @@
         {
             "status": "@tejucole 71:31 Perth Western Australia #thetimeofthegame http://t.co/AgO1YlBKBt",
             "id": 488421733133602800,
-            "timeofgame": "31",
+            "timeofgame": "71",
             "location": "Perth",
             "imageURL": "http://pbs.twimg.com/media/Bsc4-FaCUAAPSBV.jpg",
             "localURL": "/images/488421733133602800.jpg",
@@ -5265,7 +5265,7 @@
         {
             "status": "@tejucole minuto 77. El Ocotillo, MÃ©xico. #thetimeofthegame http://t.co/40XRzC0iHx",
             "id": 488422789657788400,
-            "timeofgame": "0",
+            "timeofgame": "77",
             "location": "El Ocotillo",
             "imageURL": "http://pbs.twimg.com/media/Bsc575DCUAA_rFh.jpg",
             "localURL": "/images/488422789657788400.jpg",
@@ -5274,7 +5274,7 @@
         {
             "status": "Mexcity, 79'. Mashe rules. #thetimeofthegame http://t.co/GqNY2M4Q8w",
             "id": 488422793885663200,
-            "timeofgame": "2",
+            "timeofgame": "79",
             "imageURL": "http://pbs.twimg.com/media/Bsc58R_CQAAMrtq.jpg",
             "localURL": "/images/488422793885663200.jpg",
             "corners": "151,329,586,305,590,575,165,644"
@@ -5308,7 +5308,7 @@
         {
             "status": "83rd minute.  Brill.  #thetimeofthegame http://t.co/c2iJ98Lhdv",
             "id": 488423128432128000,
-            "timeofgame": "2",
+            "timeofgame": "83",
             "imageURL": "http://pbs.twimg.com/media/Bsc6PtfIYAAOhit.jpg",
             "localURL": "/images/488423128432128000.jpg",
             "corners": "457,399,724,390,733,546,459,540"
@@ -5325,7 +5325,7 @@
         {
             "status": "@tejucole #thetimeofthegame 77' San Francisco http://t.co/tB9hBwst1Z",
             "id": 488423211558633500,
-            "timeofgame": "9",
+            "timeofgame": "77",
             "location": "San Francisco",
             "imageURL": "http://pbs.twimg.com/media/Bsc6Ug4CAAA4u8Q.jpg",
             "localURL": "/images/488423211558633500.jpg",
@@ -5369,7 +5369,7 @@
         {
             "status": "@tejucole #thetimeofthegame Athens, Greece 78:34 http://t.co/98ULkEpFPc",
             "id": 488423405222625300,
-            "timeofgame": "34",
+            "timeofgame": "78",
             "location": "Athens",
             "imageURL": "http://pbs.twimg.com/media/Bsc6eU0CMAABdYX.jpg",
             "localURL": "/images/488423405222625300.jpg",
@@ -5396,7 +5396,7 @@
         {
             "status": "Finally the game's got the 1 thing it was missing: a cat on my lap keeping me warm. #thetimeofthegame 82' Melbourne. http://t.co/a2XeaIsn1e",
             "id": 488423602128052200,
-            "timeofgame": "1",
+            "timeofgame": "82",
             "imageURL": "http://pbs.twimg.com/media/Bsc6rZtCMAAGuDB.jpg",
             "localURL": "/images/488423602128052200.jpg",
             "corners": "204,172,383,182,381,283,204,276"
@@ -5404,7 +5404,7 @@
         {
             "status": "Woooohoooooo!!!! #thetimeofthegame http://t.co/ttJsBiTv6u",
             "id": 488423612257271800,
-            "timeofgame": "6",
+            "timeofgame": "82",
             "imageURL": "http://pbs.twimg.com/media/Bsc6rYYCIAAdBiu.jpg",
             "localURL": "/images/488423612257271800.jpg",
             "corners": "112,238,675,235,670,543,129,556"
@@ -5457,7 +5457,7 @@
         {
             "status": "Uyo, Nigeria 77' #thetimeofthegame http://t.co/FAs3kq68tA",
             "id": 488424122465402900,
-            "timeofgame": "68",
+            "timeofgame": "77",
             "location": "Nigeria",
             "imageURL": "http://pbs.twimg.com/media/Bsc7Jr9IYAEXx6_.jpg",
             "localURL": "/images/488424122465402900.jpg",
@@ -5466,7 +5466,7 @@
         {
             "status": "Uyo, Nigeria 70' #thetimeofthegame http://t.co/p5Gx65MZSN",
             "id": 488424127871852540,
-            "timeofgame": "65",
+            "timeofgame": "70",
             "location": "Nigeria",
             "imageURL": "http://pbs.twimg.com/media/Bsc7KAjIAAIUQy3.jpg",
             "localURL": "/images/488424127871852540.jpg",
@@ -5484,7 +5484,7 @@
         {
             "status": "#thetimeofthegame 84' Venezuela http://t.co/QxpdDFv8tp",
             "id": 488424171027071000,
-            "timeofgame": "8",
+            "timeofgame": "84",
             "location": "Venezuela",
             "imageURL": "http://pbs.twimg.com/media/Bsc7Mg-IYAENzVU.jpg",
             "localURL": "/images/488424171027071000.jpg",
@@ -5528,7 +5528,7 @@
         {
             "status": "RT @sriknata: @tejucole #thetimeofthegame Bangalore India 45:39 http://t.co/sCEzWCsmxw",
             "id": 488424491270144000,
-            "timeofgame": "39",
+            "timeofgame": "45",
             "imageURL": "http://pbs.twimg.com/media/Bscx1wNCAAA9RCP.jpg",
             "localURL": "/images/488424491270144000.jpg",
             "corners": "247,236,535,241,529,403,254,399"
@@ -5553,7 +5553,7 @@
         {
             "status": "85â€² | Jamaica Plain, MA | 0-0 | Gago in and PÃ©rez out. #thetimeofthegame http://t.co/etCkquwPlY",
             "id": 488424991545757700,
-            "timeofgame": "0",
+            "timeofgame": "85",
             "location": "PÃ©rez",
             "imageURL": "http://pbs.twimg.com/media/Bsc78RzCQAAf2MV.jpg",
             "localURL": "/images/488424991545757700.jpg",
@@ -5571,7 +5571,7 @@
         {
             "status": "89' Houston #thetimeofthegame http://t.co/jxwU7k56h9",
             "id": 488425037288853500,
-            "timeofgame": "56",
+            "timeofgame": "89",
             "location": "Houston",
             "imageURL": "http://pbs.twimg.com/media/Bsc7-5wCAAAPV0M.jpg",
             "localURL": "/images/488425037288853500.jpg",
@@ -5685,7 +5685,7 @@
         {
             "status": "@tejucole 89:59 mins Epsom, England #thetimeofthegame http://t.co/K0sNH31kjX",
             "id": 488425630670012400,
-            "timeofgame": "59",
+            "timeofgame": "89",
             "imageURL": "http://pbs.twimg.com/media/Bsc8hZdIAAANHtL.jpg",
             "localURL": "/images/488425630670012400.jpg",
             "corners": "71,135,698,213,702,577,55,565"
@@ -5693,7 +5693,7 @@
         {
             "status": "Pics of #WorldCupFinal around the globe. I like this one: http://t.co/huZbFt3Mzf http://t.co/2idTvRKdZY v @murphykeane #thetimeofthegame",
             "id": 488425763171880960,
-            "timeofgame": "3",
+            "timeofgame": "89",
             "imageURL": "http://pbs.twimg.com/media/BscpvZSCcAAx1mS.jpg",
             "localURL": "/images/488425763171880960.jpg",
             "corners": "305,334,483,335,486,434,305,434"
@@ -5701,7 +5701,7 @@
         {
             "status": "#thetimeofthegame 88.44 Toronto-Canada @tejucole http://t.co/NVPMCiA2No",
             "id": 488425820340232200,
-            "timeofgame": "44",
+            "timeofgame": "88",
             "imageURL": "http://pbs.twimg.com/media/Bsc8sdQCcAAHI-s.jpg",
             "localURL": "/images/488425820340232200.jpg",
             "corners": "173,405,701,452,664,667,186,607"
@@ -5743,7 +5743,7 @@
         {
             "status": "\"@jamiefox1: Best photo of the day. Astronauts watching the #WorldCupFinal on the ISS. #GER #ARG http://t.co/us2mY291Uq\" #thetimeofthegame",
             "id": 488427003453132800,
-            "timeofgame": "2",
+            "timeofgame": "91",
             "imageURL": "http://pbs.twimg.com/media/Bsc3DQlCQAAhhaT.jpg",
             "localURL": "/images/488427003453132800.jpg",
             "corners": "501,179,524,144,554,193,526,222"
@@ -5759,7 +5759,7 @@
         {
             "status": "@tejucole Between the game and the rest of the game, Amsterdam, the Netherlands. #thetimeofthegame http://t.co/qB0mgZQNHr",
             "id": 488427217333268500,
-            "timeofgame": "0",
+            "timeofgame": "90",
             "location": "Amsterdam",
             "imageURL": "http://pbs.twimg.com/media/Bsc99wsIMAEqMO4.jpg",
             "localURL": "/images/488427217333268500.jpg",
@@ -5768,7 +5768,7 @@
         {
             "status": "@tejucole 90' Gaborone, Botswana #thetimeofthegame http://t.co/2pK58Z1Mwo",
             "id": 488427330550108160,
-            "timeofgame": "1",
+            "timeofgame": "90",
             "location": "Gaborone",
             "imageURL": "http://pbs.twimg.com/media/Bsc-DP4IEAAJZun.jpg",
             "localURL": "/images/488427330550108160.jpg",
@@ -5785,7 +5785,7 @@
         {
             "status": "#thetimeofthegame Berlin, full time, 1990 http://t.co/ArtjqIU5HZ",
             "id": 488427494878756860,
-            "timeofgame": "990",
+            "timeofgame": "90",
             "location": "Berlin",
             "imageURL": "http://pbs.twimg.com/media/Bsc-N5wIEAAQxFF.jpg",
             "localURL": "/images/488427494878756860.jpg",
@@ -5812,7 +5812,7 @@
         {
             "status": "91st minute in Agde, France. #thetimeofthegame http://t.co/E9eBPIHyc4",
             "id": 488427750982946800,
-            "timeofgame": "9",
+            "timeofgame": "91",
             "location": "Agde",
             "imageURL": "http://pbs.twimg.com/media/Bsc-c2DCMAACXqq.jpg",
             "localURL": "/images/488427750982946800.jpg",
@@ -5874,7 +5874,7 @@
         {
             "status": "30 extra minutes. #thetimeofthegame http://t.co/D9K4oN46wX",
             "id": 488427972546670600,
-            "timeofgame": "30",
+            "timeofgame": "90",
             "imageURL": "http://pbs.twimg.com/media/Bsc-ppECYAA8pnv.jpg",
             "localURL": "/images/488427972546670600.jpg",
             "corners": "54,169,756,163,746,562,67,559"
@@ -5882,7 +5882,7 @@
         {
             "status": "91:52 #thetimeofthegame elmhurst, ny http://t.co/9pQxRBVNXb",
             "id": 488427994357444600,
-            "timeofgame": "52",
+            "timeofgame": "91",
             "imageURL": "http://pbs.twimg.com/media/Bsc-q-QIYAA3sCY.jpg",
             "localURL": "/images/488427994357444600.jpg",
             "corners": "513,468,593,466,602,546,521,544"
@@ -5890,7 +5890,7 @@
         {
             "status": "Haringey, London #thetimeofthegame http://t.co/0nuLKaRLqN",
             "id": 488428007447887900,
-            "timeofgame": "0",
+            "timeofgame": "90",
             "imageURL": "http://pbs.twimg.com/media/Bsc-rC_IEAAJH9X.jpg",
             "localURL": "/images/488428007447887900.jpg",
             "corners": "369,329,435,330,435,367,369,367"
@@ -5898,7 +5898,7 @@
         {
             "status": "The playroom, Huntsville, AL, 91st minute. @tejucole #thetimeofthegame http://t.co/S5j3u6dZNs",
             "id": 488428053777760260,
-            "timeofgame": "3",
+            "timeofgame": "93",
             "location": "Huntsville",
             "imageURL": "http://pbs.twimg.com/media/Bsc-uO7CIAACNlp.jpg",
             "localURL": "/images/488428053777760260.jpg",
@@ -5907,7 +5907,7 @@
         {
             "status": "91st minute.  Wyoming, USA.  #thetimeofthegame http://t.co/88mN3VvXwq",
             "id": 488428054033604600,
-            "timeofgame": "88",
+            "timeofgame": "91",
             "imageURL": "http://pbs.twimg.com/media/Bsc-uKKCYAARktX.jpg",
             "localURL": "/images/488428054033604600.jpg",
             "corners": "257,113,575,126,577,269,261,270"
@@ -5923,7 +5923,7 @@
         {
             "status": "@tejucole extra time it is! Bermuda. #thetimeofthegame #WorldCup2014 http://t.co/cLwfH5wJnw",
             "id": 488428113148133400,
-            "timeofgame": "014",
+            "timeofgame": "92",
             "location": "Bermuda.",
             "imageURL": "http://pbs.twimg.com/media/Bsc-w22CUAA17mF.jpg",
             "localURL": "/images/488428113148133400.jpg",
@@ -5940,7 +5940,7 @@
         {
             "status": "@tejucole #thetimeofthegame 91st minute, watching from up in Michigan #WorldCupFinal http://t.co/G6vta25mEd",
             "id": 488428268509335550,
-            "timeofgame": "25",
+            "timeofgame": "91",
             "imageURL": "http://pbs.twimg.com/media/Bsc-6_KCUAAH_p6.jpg",
             "localURL": "/images/488428268509335550.jpg",
             "corners": "330,284,541,277,538,394,330,394"
@@ -5957,7 +5957,7 @@
         {
             "status": "Toronto Danforth Music Hall 91:34 #thetimeofthegame http://t.co/6xaADuT5m3",
             "id": 488428326068166660,
-            "timeofgame": "34",
+            "timeofgame": "91",
             "imageURL": "http://pbs.twimg.com/media/Bsc-85UIgAAIOeg.jpg",
             "localURL": "/images/488428326068166660.jpg",
             "corners": "276,211,601,165,612,357,292,383"
@@ -5983,7 +5983,7 @@
         {
             "status": "@tejucole 1min in Extra Time. Minehead, South West England #thetimeofthegame http://t.co/plesOfSumD",
             "id": 488428448265039900,
-            "timeofgame": "1",
+            "timeofgame": "91",
             "location": "Minehead",
             "imageURL": "http://pbs.twimg.com/media/Bsc_FcqIcAAA7mc.jpg",
             "localURL": "/images/488428448265039900.jpg",
@@ -5992,7 +5992,7 @@
         {
             "status": "ET 02:18, Buckinghamshire, England #thetimeofthegame @tejucole http://t.co/UbZdsk5eVr",
             "id": 488428463708459000,
-            "timeofgame": "5",
+            "timeofgame": "91",
             "imageURL": "http://pbs.twimg.com/media/Bsc_GYTIcAAnAU2.jpg",
             "localURL": "/images/488428463708459000.jpg",
             "corners": "111,204,681,204,654,510,135,509"
@@ -6000,7 +6000,7 @@
         {
             "status": "ET 00:01 sorting out some washing. Liverpool, uk #thetimeofthegame http://t.co/vPx9AmgbOo",
             "id": 488428495102804000,
-            "timeofgame": "01",
+            "timeofgame": "91",
             "location": "Liverpool",
             "imageURL": "http://pbs.twimg.com/media/Bsc_ILEIEAEVMQy.jpg",
             "localURL": "/images/488428495102804000.jpg",
@@ -6077,7 +6077,7 @@
         {
             "status": "@tejucole 3rd min of first half extra time Epsom UK. My dog relaxed about the chance of penalties #thetimeofthegame http://t.co/Q7eXXLYY1A",
             "id": 488429044766347260,
-            "timeofgame": "7",
+            "timeofgame": "93",
             "imageURL": "http://pbs.twimg.com/media/Bsc_oIJCcAAkTYy.jpg",
             "localURL": "/images/488429044766347260.jpg",
             "corners": "196,62,502,79,487,256,193,240"
@@ -6085,7 +6085,7 @@
         {
             "status": "My expression exactly. 5minute (extra time). Abuja, Nigeria. #thetimeofthegame http://t.co/ogjQkFC7vN",
             "id": 488429072507482100,
-            "timeofgame": "5",
+            "timeofgame": "95",
             "location": "Abuja",
             "imageURL": "http://pbs.twimg.com/media/Bsc_puOCAAExDri.jpg",
             "localURL": "/images/488429072507482100.jpg",
@@ -6112,7 +6112,7 @@
         {
             "status": "95â€² #thetimeofthegame http://t.co/IFU1Y5nASO",
             "id": 488429124726554600,
-            "timeofgame": "5",
+            "timeofgame": "95",
             "imageURL": "http://pbs.twimg.com/media/Bsc_sopCQAAc-Q1.jpg",
             "localURL": "/images/488429124726554600.jpg",
             "corners": "393,324,681,310,685,472,398,473"
@@ -6137,7 +6137,7 @@
         {
             "status": "#thetimeofthegame \n90:15, commencement of extra time\nNew Panvel, New Bombay\n#WorldCupFinal http://t.co/RfvM0epb4q",
             "id": 488429186214674400,
-            "timeofgame": "0",
+            "timeofgame": "90",
             "location": "New Bombay",
             "imageURL": "http://pbs.twimg.com/media/Bsc_tklCAAAsyuQ.jpg",
             "localURL": "/images/488429186214674400.jpg",
@@ -6208,7 +6208,7 @@
         {
             "status": "Delhi. 97' #thetimeofthegame http://t.co/X3D9uGJZuR",
             "id": 488429506013581300,
-            "timeofgame": "9",
+            "timeofgame": "97",
             "location": "Delhi.",
             "imageURL": "http://pbs.twimg.com/media/BsdACiFCIAAcI33.jpg",
             "localURL": "/images/488429506013581300.jpg",
@@ -6217,7 +6217,7 @@
         {
             "status": "ET 6mins, London #thetimeofthegame http://t.co/JcTtyePMFl",
             "id": 488429535978094600,
-            "timeofgame": "6",
+            "timeofgame": "96",
             "location": "London",
             "imageURL": "http://pbs.twimg.com/media/BsdAEuiIQAAc0t6.jpg",
             "localURL": "/images/488429535978094600.jpg",
@@ -6244,7 +6244,7 @@
         {
             "status": "#thetimeofthegame in Albany, Ca. CafÃ© Valparaiso. http://t.co/jZLfMiYT4m",
             "id": 488429631851073540,
-            "timeofgame": "4",
+            "timeofgame": "94",
             "location": "Valparaiso. http://t.co/jZLfMiYT4m",
             "imageURL": "http://pbs.twimg.com/media/BsdAKVLCMAAQ2lX.jpg",
             "localURL": "/images/488429631851073540.jpg",
@@ -6271,7 +6271,7 @@
         {
             "status": "ET  +3 mins Alkmaar, The Netherlands boo! #thetimeofthegame http://t.co/q78PVyM2Xc",
             "id": 488429703121100800,
-            "timeofgame": "3",
+            "timeofgame": "93",
             "location": "The Netherlands",
             "imageURL": "http://pbs.twimg.com/media/BsdAOAwCEAAKUj2.jpg",
             "localURL": "/images/488429703121100800.jpg",
@@ -6280,7 +6280,7 @@
         {
             "status": "7th minute into first half of xtra time.Johannesburg, South Africa #thetimeofthegame http://t.co/E0JsEWLcrl",
             "id": 488429718354792450,
-            "timeofgame": "7",
+            "timeofgame": "97",
             "location": "South Africa",
             "imageURL": "http://pbs.twimg.com/media/BsdAPalIcAAIFW-.jpg",
             "localURL": "/images/488429718354792450.jpg",
@@ -6341,7 +6341,7 @@
         {
             "status": "Minute 96&amp;something  #thetimeofthegame http://t.co/lqRSD8uXff",
             "id": 488430034160717800,
-            "timeofgame": "8",
+            "timeofgame": "96",
             "imageURL": "http://pbs.twimg.com/media/BsdAhk7IIAEaxWt.jpg",
             "localURL": "/images/488430034160717800.jpg",
             "corners": "226,255,707,240,721,534,234,548"
@@ -6403,7 +6403,7 @@
         {
             "status": "@tejucole Kingâ€™s Lynn, Norfolk, 8 mins of ET, you canâ€™t see but to the left there r bats outside. #thetimeofthegame http://t.co/P1xusZNzLr",
             "id": 488430487976038400,
-            "timeofgame": "8",
+            "timeofgame": "98",
             "location": "Norfolk",
             "imageURL": "http://pbs.twimg.com/media/BsdA8B7IYAAAy8w.jpg",
             "localURL": "/images/488430487976038400.jpg",
@@ -6420,7 +6420,7 @@
         {
             "status": "Wilmington, NC. 101st minute. @tejucole #thetimeofthegame http://t.co/UWmGqJMC3n",
             "id": 488430510318694400,
-            "timeofgame": "3",
+            "timeofgame": "101",
             "location": "Wilmington",
             "imageURL": "http://pbs.twimg.com/media/BsdA9gxCAAE8guV.jpg",
             "localURL": "/images/488430510318694400.jpg",
@@ -6438,7 +6438,7 @@
         {
             "status": "Hundred and second minute, Seattle (but full of Portlanders) #thetimeofthegame #RCTID http://t.co/e0hvhgtgtg",
             "id": 488430534603702300,
-            "timeofgame": "0",
+            "timeofgame": "102",
             "location": "Seattle",
             "imageURL": "http://pbs.twimg.com/media/BsdA-rhCMAAVs1r.jpg",
             "localURL": "/images/488430534603702300.jpg",
@@ -6474,7 +6474,7 @@
         {
             "status": "Et 12.53 london #thetimeofthegame @tejucole http://t.co/lFGHqMbN1i",
             "id": 488430813491785700,
-            "timeofgame": "53",
+            "timeofgame": "102",
             "imageURL": "http://pbs.twimg.com/media/BsdBPKNIcAAvbqN.jpg",
             "localURL": "/images/488430813491785700.jpg",
             "corners": "197,217,640,21,661,437,177,475"
@@ -6482,7 +6482,7 @@
         {
             "status": "Minute 96&amp;something. Valencia, Spain #thetimeofthegame http://t.co/0ih0zXyeEm",
             "id": 488430890662785000,
-            "timeofgame": "0",
+            "timeofgame": "96",
             "location": "Valencia",
             "imageURL": "http://pbs.twimg.com/media/BsdBTcCCAAAf_6t.jpg",
             "localURL": "/images/488430890662785000.jpg",
@@ -6518,7 +6518,7 @@
         {
             "status": "101' of extra time, zurich #thetimeofthegame http://t.co/sQBeMo9uXV",
             "id": 488431332713050100,
-            "timeofgame": "9",
+            "timeofgame": "101",
             "location": "zurich",
             "imageURL": "http://pbs.twimg.com/media/BsdBtTsIMAABAC8.jpg",
             "localURL": "/images/488431332713050100.jpg",
@@ -6527,7 +6527,7 @@
         {
             "status": "81'  London, England  @tejucole #ThereIsLight http://t.co/xckW0DhqL0 #thetimeofthegame",
             "id": 488431334826987500,
-            "timeofgame": "0",
+            "timeofgame": "81",
             "location": "London",
             "imageURL": "http://pbs.twimg.com/media/Bsc7CGRIMAAE5AX.jpg",
             "localURL": "/images/488431334826987500.jpg",
@@ -6571,7 +6571,7 @@
         {
             "status": "Oh. Yes. #thetimeofthegame http://t.co/Nl0Xyf0m80",
             "id": 488431744844967940,
-            "timeofgame": "0",
+            "timeofgame": "105",
             "imageURL": "http://pbs.twimg.com/media/BsdCFWtCcAAqShy.png",
             "localURL": "/images/488431744844967940.jpg",
             "corners": "257,433,357,433,357,490,257,489"
@@ -6597,7 +6597,7 @@
         {
             "status": "ET 13.58 , North Shields , #thetimeofthegame http://t.co/UlXAFcIn6D",
             "id": 488431961095307260,
-            "timeofgame": "58",
+            "timeofgame": "103",
             "imageURL": "http://pbs.twimg.com/media/BsdCR8vIgAEBEq2.jpg",
             "localURL": "/images/488431961095307260.jpg",
             "corners": "103,478,659,521,666,777,102,779"
@@ -6614,7 +6614,7 @@
         {
             "status": "@tejucole 104:02 Toronto - in bed #LazySunday #thetimeofthegame http://t.co/5tDtbpDTd2",
             "id": 488432046939729900,
-            "timeofgame": "02",
+            "timeofgame": "104",
             "location": "Toronto",
             "imageURL": "http://pbs.twimg.com/media/BsdCW1tCEAAf6Wp.jpg",
             "localURL": "/images/488432046939729900.jpg",
@@ -6720,7 +6720,7 @@
         {
             "status": "@tejucole 106:41 in Somerville MA US. Hottest room in the house. Everyone here. #thetimeofthegame http://t.co/egXNcFAppE",
             "id": 488432572557688800,
-            "timeofgame": "41",
+            "timeofgame": "106",
             "location": "Somerville",
             "imageURL": "http://pbs.twimg.com/media/BsdC0uPIAAASM0z.jpg",
             "localURL": "/images/488432572557688800.jpg",
@@ -6746,7 +6746,7 @@
         {
             "status": "15 mins to penalty shootout #thetimeofthegame #ARG vs GER  #FL http://t.co/DLVOCZstQD",
             "id": 488432601804197900,
-            "timeofgame": "15",
+            "timeofgame": "105",
             "imageURL": "http://pbs.twimg.com/media/BsdC2Q_CMAAUwQU.jpg",
             "localURL": "/images/488432601804197900.jpg",
             "corners": "225,238,572,248,569,445,221,440"
@@ -6852,7 +6852,7 @@
         {
             "status": "ET 16:54 #thetimeofthegame http://t.co/nRzcgBfG81",
             "id": 488433146200092700,
-            "timeofgame": "54",
+            "timeofgame": "106",
             "imageURL": "http://pbs.twimg.com/media/BsdDWx7IcAAiyPp.jpg",
             "localURL": "/images/488433146200092700.jpg",
             "corners": "92,199,738,218,726,565,116,714"
@@ -6912,7 +6912,7 @@
         {
             "status": "London ET 16:54 #thetimeofthegame http://t.co/5dr5blFN7e",
             "id": 488433536664629250,
-            "timeofgame": "54",
+            "timeofgame": "106",
             "location": "London",
             "imageURL": "http://pbs.twimg.com/media/BsdDtnmCIAI7ITk.jpg",
             "localURL": "/images/488433536664629250.jpg",
@@ -6930,7 +6930,7 @@
         {
             "status": "#thetimeofthegame RT @PeterKGeoghegan: The excitement is getting to some in this #ulanbaatar boozer #wc2014 http://t.co/SQdODoSjxM",
             "id": 488433615018393600,
-            "timeofgame": "014",
+            "timeofgame": "110",
             "imageURL": "http://pbs.twimg.com/media/BsdCvHICUAATH87.jpg",
             "localURL": "/images/488433615018393600.jpg",
             "corners": "11,19,571,130,593,509,4,547"
@@ -6947,7 +6947,7 @@
         {
             "status": "111th minute, San Francisco, CA #thetimeofthegame http://t.co/V5bL8M3EYj",
             "id": 488434045500399600,
-            "timeofgame": "120",
+            "timeofgame": "111",
             "location": "Vancouver",
             "imageURL": "http://pbs.twimg.com/media/BsdELRqCAAMWsIm.jpg",
             "localURL": "/images/488434045500399600.jpg",
@@ -7033,7 +7033,7 @@
         {
             "status": "#thetimeofthegame 1 - 0 #GERARG minute 113. Oudenaarde. Belgium. http://t.co/s3cuZzGeaU",
             "id": 488434394408177660,
-            "timeofgame": "1",
+            "timeofgame": "113",
             "location": "Belgium.",
             "imageURL": "http://pbs.twimg.com/media/BsdEfZeIIAIQdoC.jpg",
             "localURL": "/images/488434394408177660.jpg",
@@ -7086,7 +7086,7 @@
         {
             "status": "Blankets, brews and biscuits. Hopefully bed soon. #thetimeofthegame Lusaka #Zambia http://t.co/UBons7Z8eD",
             "id": 488434681093054460,
-            "timeofgame": "8",
+            "timeofgame": "114",
             "location": "Zambia",
             "imageURL": "http://pbs.twimg.com/media/BsdEwEMIAAAeY0I.jpg",
             "localURL": "/images/488434681093054460.jpg",
@@ -7104,7 +7104,7 @@
         {
             "status": "21 minutes extra time #inverness #scotland B&amp;B #CastleViewpoint #thetimeofthegame http://t.co/v28S1B756T",
             "id": 488434796566421500,
-            "timeofgame": "21",
+            "timeofgame": "111",
             "imageURL": "http://pbs.twimg.com/media/BsdE29ECcAAXZN7.jpg",
             "localURL": "/images/488434796566421500.jpg",
             "corners": "329,373,469,369,470,447,332,451"
@@ -7130,7 +7130,7 @@
         {
             "status": "#thetimeofthegame NÃ£o acaba, Copa! http://t.co/1MP9BE9lXL",
             "id": 488434939726401540,
-            "timeofgame": "1",
+            "timeofgame": "112",
             "imageURL": "http://pbs.twimg.com/media/BsdE_ShIQAAgJcM.jpg",
             "localURL": "/images/488434939726401540.jpg",
             "corners": "117,108,698,153,695,474,106,461"
@@ -7261,7 +7261,7 @@
         {
             "status": "Weltmeister. Ottawa, Canada. #thetimeofthegame @tejucole http://t.co/TDOfb87W4h",
             "id": 488437117639352300,
-            "timeofgame": "4",
+            "timeofgame": "114",
             "location": "Weltmeister. Ottawa",
             "imageURL": "http://pbs.twimg.com/media/BsdG-BXCYAAvDd4.jpg",
             "localURL": "/images/488437117639352300.jpg",
@@ -7278,7 +7278,7 @@
         {
             "status": "It's over! #thetimeofthegame Wellington NZ http://t.co/ivQ5MaugnI",
             "id": 488437443926827000,
-            "timeofgame": "5",
+            "timeofgame": "120",
             "location": "NZ",
             "imageURL": "http://pbs.twimg.com/media/BsdHRGqCEAA4lYu.jpg",
             "localURL": "/images/488437443926827000.jpg",
@@ -7287,7 +7287,7 @@
         {
             "status": "Congratulations Germany!  #GERARG #WorldCup2014 Full time.  #thetimeofthegame Orono Canada http://t.co/6kb01BDH3I",
             "id": 488437586419937300,
-            "timeofgame": "014",
+            "timeofgame": "120",
             "location": "Germany",
             "imageURL": "http://pbs.twimg.com/media/BsdHZLCCQAEkWER.jpg",
             "localURL": "/images/488437586419937300.jpg",
@@ -7296,7 +7296,7 @@
         {
             "status": "#thetimeofthegame http://t.co/P00RcITx9e",
             "id": 488437816582737900,
-            "timeofgame": "9",
+            "timeofgame": "120",
             "imageURL": "http://pbs.twimg.com/media/BsdHmr6IcAA7s_m.jpg",
             "localURL": "/images/488437816582737900.jpg",
             "corners": "72,322,381,314,387,487,73,500"
@@ -7304,7 +7304,7 @@
         {
             "status": "RT @jasonilagan: 30th minute @shillibeers North London\n#thetimeofthegame #GERARG @tejucole http://t.co/x3tpZB6D6F",
             "id": 488438210226577400,
-            "timeofgame": "30",
+            "timeofgame": "120",
             "location": "North London",
             "imageURL": "http://pbs.twimg.com/media/BscqzWrIIAEoMjB.jpg",
             "localURL": "/images/488438210226577400.jpg",
