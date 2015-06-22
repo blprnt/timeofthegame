@@ -1,0 +1,105 @@
+The Time of the Game - Instructions for running/setup
+
+STARTING
+Cinema computer:
+	[1] The fast way:  
+		Go to the desktop, double click the startup.bat
+		This will, in order, start the servers required, move the mouse, and open the web page in full screen mode
+	[2] The slow way:  
+		Start up the OSC bridge:
+			Open a command prompt and navigate to the bridge.js file:
+			cd C:\Users\OCR\Documents\GitHub\timeofthegame\sketches\osc-web-master\
+			Then run the bridge.js by typing:
+			node bridge.js
+		Start the main server for the web page
+			Open another command prompt and navigate to the dir:
+			cd C:\Users\OCR\Documents\GitHub\timeofthegame\NFM\
+			Then start the local server:
+			http-server -p 8000
+		Lastly open up the web page using chrome
+			Open a chrome browser, type into the location:
+			localhost:8000
+			press f11 to full screen it, then refresh the page
+		NOTE!!!!: the OSC bridge will likely error out because the of refresh of the web page
+			check by alt-tabbing to the command prompt with the OSC bridge,
+			 if it looks like it has stopped running then restart it [press up, then enter]
+			 and then refresh the webpage again.  
+			 Go back and forth with this until it seems like the OSC bridge is working
+			[to verify that it is working: in the webpage you can right click, ’inspect element’
+			 and look at the console, if it says it sent the OSC message then you’re good]
+		move the mouse away
+Audio computer:
+	Start up the Max patch.
+	If everything is working then the OSC messages should be displaying in the Max console
+	[Ask Mark for anything else]
+
+
+CLOSING
+Cinema computer: 
+	[1] The fast way:
+		Alt tab to the desktop
+		Double click the closeAll.bat
+		This will close the command prompts and the chrome browser
+	[2] The slow way:
+		Manually close the command prompts and the chrome browser
+Audio computer:
+	Quit Max: File > Quit
+
+
+
+The visual settings on the Cinema computer
+EYEFINITY
+	This is the software that merges the three screens into one large screen
+	If, for some reason, this needs to be reset:
+		Right click on the desktop, select AMD FirePro Control Center
+		In the new control panel that pops up, select ‘Create Eyefinity Group’
+		Verify that the screens are in the correct order with ‘Identify All’
+		Scroll down, click ‘Use current arrangement’
+		Click Next
+
+IMMERSAVIEW WARP
+	This is the software that does the warping and blending - should start upon computer boot
+	To adjust this:
+		Right click on the desktop, select Immersaview Warp, select Open
+		This might open up two panels - 
+			one with the control instructions
+			and one with the actual interface/options
+		Close the control instructions panel if that opened
+		To load a previously configured file, under ‘Advanced Setup’
+			select ‘Configuration Files’ 
+			open the correct file.  probably saved at:
+				C:\Users\OCR\Documents\Immersaview\
+		To do it from the start select Express Setup:
+			Note: press P to switch up the patterns for blending/warping
+			Press SPACE to switch between blend and warp modes
+			WARPING
+				Start with the overlap %, choose a percent that seems about right
+				Keep clicking apply to check until it fits
+				Then click the configure button to actually warp the screen
+					To add control points, mouse over the desired screen	
+					Press F1/F2 to remove/add horizontal control points
+					Press F3/F4 to remove/add horizontal control points
+				It’s probably best to make the overall moves first [eg with fewer control points]
+					And then add more control points as additional warping is required
+			BLENDING
+				Click and drag the hexagons to change the blending zone
+				Scroll up and down on the hexagons to change the gamma
+		When done, press Escape
+		In step 3, click Save, and also check ‘run on login’ so that it starts on login
+		Then click Save at the bottom	
+	Once that is done, save the config file to a location just in case
+		Click Advanced Setup > Configuration Files and click ‘Save as…’
+		Save it to:
+				C:\Users\OCR\Documents\Immersaview\
+
+					
+AUDIO SETTINGS
+	On the audio computer, find the preferences.txt file
+	Sub_Volume will adjust the volume of the sub
+	Min_Volume is the minimum volume for the audio track is not currently ‘highlighted’
+	Max_Volume is for the track that is	
+	The channel vars will reroute the different tracks to different channels	
+
+
+
+
