@@ -1,13 +1,19 @@
 {
-    "usable_width": 645,
+    "usable_width": 667,
     "usable_height": 360,
-    "vertical_shift": -250,
-    "listFaderRightPos": 100,
+    "vertical_shift": -331,
+    "listFaderRightPos": 800,
     "comment01":"the right edge of the ListFader divs",
+    "listFaderTopPos": 100,
+    "comment05":"the top padding of the ListFader divs",
     "panel_overlap": 45,
     "comment02":"the distance for overlap between panels",
     "panel_width": 1920,
     "comment03":"the width of each of the panels - pre-overlap",
     "gradient_width":288,
-    "comment04":"the width of the gradient divs"
+    "comment04":"the width of the gradient divs",
+    "clockLeftPos":800,
+    "comment06":"the left position for the clock div",
+    "clockTopPos":75,
+    "comment07":"the top position of the clock div"
 }

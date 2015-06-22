@@ -115,7 +115,12 @@ function ListFader(faderDivIn, animationTimeIn, screenWidthIn, screenHeightIn, t
 			// add this div to the overall div
 			faderDiv.append(listItemDiv);
 			// change the text in that new div.  use toTitleCase
-			listItemDiv.html(toTitleCase(name));
+			var newName = toTitleCase(name);
+			if (newName.length == 2) newName = newName.toUpperCase();
+			if (newName.toLowerCase() === 'nyc') newName = newName.toUpperCase();
+			
+			// if the name is only 2 letters assume it is an abbr, make all uppercase
+			listItemDiv.html(newName);
 			// make a new ListItem with the div
 			var position = new Object();
 			position.x = 0;

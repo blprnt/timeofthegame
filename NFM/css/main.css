@@ -13,6 +13,8 @@
  	border:0px;
  	padding:0px;
  	margin:0px;
+ 		cursor:none;
+
  }
 
 
@@ -20,7 +22,7 @@
  	/* positions of the left and right gradients set in js */
  	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
  	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
- 	background:linear-gradient(to right, transparent,#222);
+ 	background:linear-gradient(to right, transparent,#333);
 	position:absolute;
  	z-index:100;
  }
@@ -28,7 +30,7 @@
  .gradientRight {
  	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
  	/* NOTE: GRADIENT COLOR SHOULD MATCH BODY BG COLOR */
- 	background:linear-gradient(to left, transparent,#222);
+ 	background:linear-gradient(to left, transparent,#333);
  	position:absolute;
  	z-index:100;
  }
@@ -46,10 +48,10 @@
 
  .clock {
  	position: absolute;
- 	width: 300px;
+ 	width: 400px;
  	color: #fff;
- 	height: 100px;
- 	font-size: 72px;
+ 	height: 150px;
+ 	font-size: 110px;
  	opacity: 1;
  	text-align:center;
  }
@@ -57,27 +59,27 @@
  /* lettering stuff */
  .char1 {
  	float:left;
- 	width:45px;
+ 	width:65px;
  }
  .char2{
  	float:left;
- 	width:45px;
+ 	width:65px;
  }
  .char3{
  	float:left;
- 	width:45px;
+ 	width:65px;
  }
  .char4{
  	float:left;
- 	width:15px;
+ 	width:20px;
  }
  .char5{
  	float:left;
- 	width:45px;
+ 	width:65px;
  }
  .char6{
  	float:left;
- 	width:45px;
+ 	width:65px;
  }
 
 
@@ -94,8 +96,8 @@
 
  .FaderListItem {
  	color:#fff;
- 	font-size:16px;
- 	height:30px; /* note that this determines the spacing of these divs */
+ 	font-size:32px; /* base 16 */
+ 	height:50px; /* base 30 note that this determines the spacing of these divs */
  	overflow:hidden;
  	text-align:right;
  }
@@ -103,4 +105,12 @@
  #dummy {
  	display:none;
  	color:#3af;
+ }
+
+ .hash {
+ 	left:853px;
+ 	bottom:120px;
+ 	font-size:25px;
+ 	color:white;
+ 	position:absolute;
  }

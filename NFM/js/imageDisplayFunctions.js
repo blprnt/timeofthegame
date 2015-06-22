@@ -6,10 +6,10 @@
 // toggles the display between city mode and ! city mode
 // shifts the clock and city description back and forth
 function toggleCityMode(showCity) {
-	//if (showCity) {
+	if (showCity) {
 		// always kill off the previous city's list
 		listFader.killAllListItems();
-	//}
+	}
 
 	if (showCity && !inCityMode) {
 		toggleClock(true);
@@ -78,7 +78,8 @@ function setClockDivText() {
 	$('.clock').empty();
 	var textForClockTimer = "";
 	if (gameMinuteTracker < 100)  textForClockTimer += '&nbsp;';
-	if (gameMinuteTracker < 10) textForClockTimer += '&nbsp;';
+	//if (gameMinuteTracker < 10) textForClockTimer += '&nbsp;';
+	if (gameMinuteTracker < 10) textForClockTimer += '0';
 	textForClockTimer += gameMinuteTracker;
 	textForClockTimer += ":"
 	if (secondTracker < 10)  textForClockTimer += '0';

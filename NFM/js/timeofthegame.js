@@ -65,7 +65,7 @@ var gradientWidth = 288; // set in plamentPreferences.json
 
 // placement vars
 // clock positioning
-var clockLeftPos = 90;
+var clockLeftPos = 90; // set in placementPrefrences.json
 var clockTopPos = 30;
 
 // listFader positioning. 
@@ -166,11 +166,6 @@ $().ready(function() {
 		width : 200 + "px",
 	})
 
-	// set the clock placement
-	$('.clock').css({
-		top : clockTopPos + "px",
-		left : clockLeftPos + "px",
-	})
 
 
 
@@ -236,6 +231,24 @@ $().ready(function() {
 		listFaderRightPos = data.listFaderRightPos;
 		if (listFaderRightPos == undefined)
 			listFaderRightPos = 100;
+		listFaderTopPos = data.listFaderTopPos;
+		if (listFaderTopPos == undefined)
+			listFaderTopPos = 100;
+
+		// clock positioning
+		clockLeftPos = data.clockLeftPos;
+		if (clockLeftPos == undefined)
+			clockLeftPos = 90;
+		clockTopPos = data.clockTopPos;
+		if (clockTopPos == undefined)
+			clockTopPos = 30;
+
+		// set the clock placement
+		$('.clock').css({
+			top : clockTopPos + "px",
+			left : clockLeftPos + "px",
+		})		
+
 		// variables for shifting
 		panelWidth = data.panel_width;
 		if (panelWidth == undefined) 
@@ -420,8 +433,8 @@ $().ready(function() {
 	}, 1000);
 */
 
-	// initialize clock text
-	// set the clock
+	// initialize clock text and positioning
+	// set the clock text
 	setClockDivText();
 
 
@@ -743,8 +756,10 @@ function gameTimer(doIncrement) {
 	if (doIncrement) gameMinuteTracker++; // set to false for very first run, otherwise true for interval
 	// ****** set the maximum time here.  note that we will go through minute 123 since that's when the exiting stuff happens
 	//if (gameMinuteTracker > 120)
-	if (gameMinuteTracker > 123)
+	if (gameMinuteTracker > 123) {
 		gameMinuteTracker = 0;
+		oscCount = 0;
+	}
 
 	// reset the  second time
 	// stop the second timer interval
